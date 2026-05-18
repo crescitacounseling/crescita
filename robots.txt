@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+
+# Staging environment - do not index.
+# Before DNS cutover to crescitacounseling.com:
+#   1. Rename this file to robots.production.txt
+#   2. Rename robots.production.txt to robots.txt
+#   3. Add CNAME file pointing to crescitacounseling.com
