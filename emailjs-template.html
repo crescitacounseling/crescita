@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Georgia', serif; background: #F8F4EE; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header { background: #3A2E24; color: #F8F4EE; padding: 30px 20px; text-align: center; }
+        .logo { font-size: 28px; font-weight: bold; margin-bottom: 5px; }
+        .content { padding: 30px 20px; color: #3A2E24; }
+        .field { margin-bottom: 20px; border-bottom: 1px solid #f0f0f0; padding-bottom: 15px; }
+        .label { font-weight: bold; color: #C8967A; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+        .value { margin-top: 5px; line-height: 1.6; font-size: 14px; }
+        .footer { background: #F8F4EE; padding: 20px; text-align: center; font-size: 12px; color: #7A9B8A; border-top: 1px solid #e0e0e0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Crescita</div>
+            <div class="tagline">Counseling</div>
+        </div>
+        <div class="content">
+            <div class="field">
+                <div class="label">Name</div>
+                <div class="value">{{first_name}} {{last_name}}</div>
+            </div>
+            <div class="field">
+                <div class="label">Email</div>
+                <div class="value">{{email}}</div>
+            </div>
+            <div class="field">
+                <div class="label">Phone</div>
+                <div class="value">{{phone}}</div>
+            </div>
+            <div class="field">
+                <div class="label">Therapy is for</div>
+                <div class="value">{{therapy_for}}</div>
+            </div>
+            <div class="field">
+                <div class="label">Preferred Format</div>
+                <div class="value">{{preferred_format}}</div>
+            </div>
+            <div class="field">
+                <div class="label">What you're curious about</div>
+                <div class="value">{{curious_about}}</div>
+            </div>
+            <div class="field">
+                <div class="label">What's loud right now?</div>
+                <div class="value">{{whats_loud}}</div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2026 Crescita Counseling · Colorado Springs, CO<br>(719) 286-0011</p>
+        </div>
+    </div>
+</body>
+</html>
