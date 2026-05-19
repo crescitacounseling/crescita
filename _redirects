@@ -1,2 +1,120 @@
+# Crescita Counseling: Cloudflare Pages Redirects
+# 301 Permanent Redirects from Squarespace URLs to Static Site
+# Redirects preserve SEO value and prevent 404s for old links
+
+# ============================================
+# SERVICE PAGES (Major URL Changes)
+# ============================================
+
+# Individual Counseling: /individual-counseling-colorado-springs → /services/individual-therapy.html
+/individual-counseling-colorado-springs  /services/individual-therapy.html  301
+/individual-counseling-colorado-springs/  /services/individual-therapy.html  301
+
+# EMDR Therapy: /emdr-therapy-colorado-springs → /services/emdr-therapy.html
+/emdr-therapy-colorado-springs  /services/emdr-therapy.html  301
+/emdr-therapy-colorado-springs/  /services/emdr-therapy.html  301
+
+# Child & Teen Therapy: /child-therapy-colorado-springs → /services/child-and-teen-therapy.html
+/child-therapy-colorado-springs  /services/child-and-teen-therapy.html  301
+/child-therapy-colorado-springs/  /services/child-and-teen-therapy.html  301
+
+# ============================================
+# MAIN PAGES (Minor Changes or Same)
+# ============================================
+
+# About page (same path structure, but may have different slug handling)
+/about/  /about.html  301
+
+# Rates/Investment page: /therapy-investment → /investment.html
+/therapy-investment  /investment.html  301
+/therapy-investment/  /investment.html  301
+
+# FAQ page (same path structure, but may have different slug handling)
+/faq/  /faq.html  301
+
+# Contact page (same path structure, but may have different slug handling)
+/contact/  /contact.html  301
+
+# ============================================
+# NAVIGATION FOLDERS (Squarespace specific)
+# ============================================
+
+# Services folder (was a container, redirect to primary service page)
+/specialties  /services/individual-therapy.html  301
+/specialties/  /services/individual-therapy.html  301
+
+# Info folder (was a container, redirect to home)
+/info  /  301
+/info/  /  301
+
+# ============================================
+# BLOG (No longer exists in static site)
+# ============================================
+
+# Old blog index: redirect to home
+/blog  /  301
+/blog/  /  301
+
+# Blog posts (catch-all for any old blog URLs)
+# Redirects any /blog/post-name to home
+/blog/*  /  301
+
+# ============================================
+# TEAM/THERAPIST PAGES
+# ============================================
+
+# Katie name change (if old URL still indexed)
 /team/katie-pasqualetto.html  /team/katie-fortunato.html  301
-/team/katie-pasqualetto.html  /team/katie-fortunato.html  301
+/team/katie-pasqualetto  /team/katie-fortunato.html  301
+
+# ============================================
+# CART/CHECKOUT (Squarespace specific)
+# ============================================
+
+# Squarespace cart page (not applicable, redirect to home)
+/cart  /  301
+/cart/  /  301
+
+# ============================================
+# COMMON VARIATIONS & TRAILING SLASHES
+# ============================================
+
+# Home page variations
+/index.html  /  301
+
+# Catch trailing slashes on HTML files (optional, Cloudflare can handle this)
+# If you want explicit handling:
+# *.html/  /*.html  301
+
+# ============================================
+# 404 HANDLING
+# ============================================
+
+# Serve custom 404 page for unmatched routes
+/* /404.html 404
+
+# ============================================
+# NOTES
+# ============================================
+
+# Format: oldpath  newpath  statuscode
+# 301 = Permanent redirect (preserves SEO)
+# 404 = File not found (serves 404.html)
+
+# URLs that stayed the same (no redirect needed):
+# /about.html
+# /faq.html  
+# /contact.html
+
+# Squarespace vs Static differences:
+# - Squarespace: /about vs Static: /about.html
+#   (Cloudflare will handle .html extension automatically)
+# - Squarespace services: /individual-counseling-colorado-springs
+#   vs Static: /services/individual-therapy.html
+# - Squarespace blog: /blog/* vs Static: (no blog, redirect to home)
+
+# To test redirects locally (before going live):
+# 1. Commit this file to GitHub
+# 2. Cloudflare auto-deploys _redirects on pages
+# 3. Test by visiting old URLs
+# 4. Should see 301 status code + redirect to new URL

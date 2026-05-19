@@ -397,4 +397,29 @@ ol.emdr-phases li {
 ol.emdr-phases li strong {
   color: var(--cream);
   text-shadow: 0 0 6px rgba(244,239,231,0.18);
+}/* Mobile List Spacing - Add to end of styles.css */
+
+/* Pill list mobile padding */
+.pill-list {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* General list mobile padding */
+ul, ol {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* On desktop, lists can have tighter spacing */
+@media (min-width: 768px) {
+  .pill-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  ul, ol {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
 }
