@@ -64,7 +64,7 @@ a{transition:color .2s}
   background-repeat:no-repeat;
 }
 @media(hover:none),(max-width:900px){.parallax{background-attachment:scroll}}
-.parallax::before{content:"";position:absolute;inset:0;z-index:-1}
+.parallax::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
 .parallax>*{position:relative;z-index:1}
 .parallax--gods{background-image:url('../assets/images/garden-gods-panoramic.jpg')}
 .parallax--gods::before{background:rgba(37,43,47,.68)}
