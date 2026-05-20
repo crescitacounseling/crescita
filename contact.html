@@ -1,422 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact Crescita Counseling | Colorado Springs Therapy</title>
-<meta name="description" content="Get in touch with Crescita Counseling to schedule a free 20-minute consult or ask anything about therapy, EMDR, or child & teen work.">
-<link rel="canonical" href="https://www.crescitacounseling.com/contact.html">
-<meta name="robots" content="index,follow,max-image-preview:large">
-<meta name="theme-color" content="#A37580">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.crescitacounseling.com/contact.html">
-<meta property="og:title" content="Contact Crescita Counseling | Colorado Springs Therapy">
-<meta property="og:description" content="Get in touch with Crescita Counseling to schedule a free 20-minute consult or ask anything about therapy, EMDR, or child & teen work.">
-<meta property="og:site_name" content="Crescita Counseling">
-<meta property="og:image" content="https://www.crescitacounseling.com/assets/images/meadow-flowers.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" type="image/png" sizes="64x64" href="assets/images/crescita-logo-sm.png">
-<link rel="apple-touch-icon" href="assets/images/crescita-logo-md.png">
-<link rel="stylesheet" href="css/styles.css">
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "ContactPage", "url": "https://www.crescitacounseling.com/contact.html", "mainEntity": {"@type": "LocalBusiness", "name": "Crescita Counseling", "telephone": "+1-719-286-0011", "email": "info@crescitacounseling.com", "address": {"@type": "PostalAddress", "streetAddress": "627 N Weber St, Ste 6", "addressLocality": "Colorado Springs", "addressRegion": "CO", "postalCode": "80903", "addressCountry": "US"}}}
-</script>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Crescita Counseling | Colorado Springs Therapy</title>
+  <meta name="description" content="Get in touch with Crescita Counseling to schedule a free 20-minute consult or ask anything about therapy, EMDR, or child and teen work." />
+
+  <style>
+    :root {
+      --bg: #F8F4EE;
+      --ink: #3A2E24;
+      --rose: #C8967A;
+      --sage: #7A9B8A;
+      --cream: #F8F4EE;
+      --line: #E7E0D8;
+      --white: #fff;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius: 16px;
+      --max: 980px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 0;
+    }
+    .skip-link:focus {
+      left: 1rem;
+      top: 1rem;
+      background: #fff;
+      padding: .75rem 1rem;
+      border-radius: 10px;
+      z-index: 1000;
+    }
+
+    .container {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(248,244,238,.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .site-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 0;
+    }
+
+    .brand {
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: .02em;
+      font-size: 1.1rem;
+    }
+
+    .branddot { color: var(--rose); }
+
+    .nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      font-size: .95rem;
+      opacity: .9;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: .9rem 1.2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid transparent;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    .btn-primary {
+      background: var(--ink);
+      color: var(--cream);
+    }
+
+    .page-hero {
+      padding: 4.5rem 0 3rem;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .78rem;
+      color: var(--rose);
+      margin-bottom: .75rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.3rem, 4vw, 4rem);
+      line-height: 1.1;
+    }
+
+    .lead {
+      max-width: 60ch;
+      margin: 1rem 0 0;
+      font-size: 1.08rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 2rem;
+      padding: 1rem 0 4rem;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .contact-item {
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .contact-item strong {
+      display: block;
+      margin-bottom: .2rem;
+    }
+
+    form {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    label {
+      display: block;
+      font-size: .92rem;
+      margin-bottom: .4rem;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: .9rem 1rem;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    textarea { min-height: 160px; resize: vertical; }
+
+    .checkbox {
+      display: flex;
+      gap: .7rem;
+      align-items: flex-start;
+      font-size: .92rem;
+    }
+
+    .checkbox input {
+      width: auto;
+      margin-top: .25rem;
+    }
+
+    .status {
+      min-height: 1.5rem;
+      font-size: .95rem;
+    }
+
+    .status[data-state="loading"] { color: #8a6a3d; }
+    .status[data-state="success"] { color: #507864; }
+    .status[data-state="error"] { color: #9d4d4d; }
+
+    .map {
+      margin: 0 0 4rem;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 420px;
+      border: 0;
+    }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      padding: 2rem 0;
+      font-size: .95rem;
+      color: rgba(58,46,36,.8);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: .6rem .8rem;
+      font: inherit;
+    }
+
+    @media (max-width: 840px) {
+      .grid, .row { grid-template-columns: 1fr; }
+      .nav { display: none; }
+      .mobile-toggle { display: inline-flex; }
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
-<a href="#main" class="skip-link">Skip to content</a>
-<header class="site-header">
-  <div class="container">
-    <div class="site-header__inner">
-      <a href="index.html" class="brand" aria-label="Crescita Counseling">
-        <span>Crescita</span><span class="brand__dot" aria-hidden="true"></span>
-        <span class="brand__sub">counseling</span>
-      </a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="brand" href="index.html">Crescita<span class="branddot">.</span> Counseling</a>
       <nav class="nav" aria-label="Primary">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About</a>
-        <div class="nav-item">
-          <button class="nav-link" aria-haspopup="true">Services <span class="nav-link__caret">▾</span></button>
-          <div class="nav-dropdown">
-            <a href="services/individual-therapy.html" class="nav-dropdown__link">Individual Therapy</a>
-            <a href="services/emdr-therapy.html" class="nav-dropdown__link">EMDR Therapy</a>
-            <a href="services/child-and-teen-therapy.html" class="nav-dropdown__link">Child &amp; Teen Therapy</a>
-          </div>
-        </div>
-        <a href="investment.html" class="nav-link">Rates</a>
-        <a href="faq.html" class="nav-link">FAQ</a>
-        <a href="contact.html" class="nav-link" aria-current="page">Contact</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="investment.html">Rates</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
+        <a class="nav-link" href="contact.html" aria-current="page">Contact</a>
       </nav>
-      <div class="header-cta">
-        <a href="contact.html" class="btn btn-primary">Book a call</a>
-        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
+      <a class="btn btn-primary" href="#contact-form">Book a free call</a>
     </div>
-  </div>
-</header>
-<div class="mobile-nav" id="mobileNav" data-mobile-nav data-open="false" aria-hidden="true">
-  <div class="mobile-nav__group">
-    <p class="mobile-nav__heading">Pages</p>
-    <a href="index.html" class="mobile-nav__link">Home</a>
-    <a href="about.html" class="mobile-nav__link">About</a>
-    <a href="investment.html" class="mobile-nav__link">Rates &amp; Insurance</a>
-    <a href="faq.html" class="mobile-nav__link">FAQ</a>
-    <a href="contact.html" class="mobile-nav__link" aria-current="page">Contact</a>
-  </div>
-  <div class="mobile-nav__group">
-    <p class="mobile-nav__heading">Services</p>
-    <a href="services/individual-therapy.html" class="mobile-nav__link">Individual Therapy</a>
-    <a href="services/emdr-therapy.html" class="mobile-nav__link">EMDR Therapy</a>
-    <a href="services/child-and-teen-therapy.html" class="mobile-nav__link">Child &amp; Teen Therapy</a>
-  </div>
-  <a href="contact.html" class="btn btn-primary mobile-nav__cta">Book a free call</a>
-</div>
-<main id="main">
+  </header>
 
-  <section class="page-hero page-hero--dark" style="min-height:380px;display:flex;align-items:flex-end">
-    <div class="page-hero__img"><img src="assets/images/garden-gods-panoramic.jpg" alt="" loading="eager"></div>
-    <div class="container" style="padding-bottom:3rem">
-      <div class="page-hero__content">
-        <nav class="breadcrumbs reveal"><a href="index.html">Home</a><span>/</span><strong>Contact</strong></nav>
-        <span class="eyebrow eyebrow--light reveal">Reach out</span>
-        <h1 class="page-hero__title reveal">A twenty-minute call. <em>No pressure.</em></h1>
-        <p class="page-hero__lead reveal" style="color:rgba(244,238,229,.82)">Fill out the form, email, or call. We read every message and write back within one business day — usually faster.</p>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Reach out</div>
+        <h1>A twenty-minute call. No pressure.</h1>
+        <p class="lead">Fill out the form, email, or call. We read every message and write back within one business day — usually faster.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section bg-white">
-    <div class="container">
-      <div class="two-col">
-        <div class="reveal">
-          <span class="eyebrow">Other ways to say hi</span>
-          <h2 style="margin:1rem 0 1.5rem">Direct lines</h2>
-          <div style="display:flex;flex-direction:column;gap:1.1rem">
-    <a href="mailto:info@crescitacounseling.com" style="display:flex;align-items:flex-start;gap:.85rem;color:var(--ink)">
-      <span style="width:42px;height:42px;border-radius:50%;background:var(--blush-s);color:var(--rose-d);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
-      <span><strong>Email</strong><br><span style="color:var(--slate)">info@crescitacounseling.com</span></span>
-    </a>
-    <a href="tel:+17192860011" style="display:flex;align-items:flex-start;gap:.85rem;color:var(--ink)">
-      <span style="width:42px;height:42px;border-radius:50%;background:var(--blush-s);color:var(--rose-d);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
-      <span><strong>Phone</strong><br><span style="color:var(--slate)">(719) 286-0011</span></span>
-    </a>
-    <a href="https://maps.google.com/?q=627+N+Weber+St+Suite+6+Colorado+Springs+CO+80903" target="_blank" rel="noopener" style="display:flex;align-items:flex-start;gap:.85rem;color:var(--ink)">
-      <span style="width:42px;height:42px;border-radius:50%;background:var(--blush-s);color:var(--rose-d);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-      <span><strong>Office</strong><br><span style="color:var(--slate)">627 N Weber St, Ste 6<br>Colorado Springs, CO 80903</span></span>
-    </a>
-  </div>
-          <div style="margin-top:2rem;padding:1.25rem;background:var(--blush-s);border-radius:12px;border-left:3px solid var(--rose)">
-            <p style="margin:0;font-size:0.95rem;color:var(--slate)"><strong>Questions before we connect?</strong> Check the <a href="faq.html" style="color:var(--rose)">FAQ page</a>.</p>
+    <section class="container grid">
+      <div>
+        <div class="card">
+          <h2>Direct lines</h2>
+          <div class="contact-list">
+            <div class="contact-item">
+              <strong>Email</strong>
+              <a href="mailto:info@crescitacounseling.com">info@crescitacounseling.com</a>
+            </div>
+            <div class="contact-item">
+              <strong>Phone</strong>
+              <a href="tel:+17192860011">(719) 286-0011</a>
+            </div>
+            <div class="contact-item">
+              <strong>Office</strong>
+              <span>627 N Weber St, Ste 6<br />Colorado Springs, CO 80903</span>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="form-card reveal">
-          <form id="contact-form" novalidate>
-            <div class="form-row form-row--2">
-              <div class="form-group"><label for="fn">First name <span class="req">*</span></label><input type="text" id="fn" name="firstName" required autocomplete="given-name"></div>
-              <div class="form-group"><label for="ln">Last name <span class="req">*</span></label><input type="text" id="ln" name="lastName" required autocomplete="family-name"></div>
+      <div class="card">
+        <h2>Send a message</h2>
+        <form id="contact-form" novalidate>
+          <div class="row">
+            <div>
+              <label for="fn">First name *</label>
+              <input type="text" id="fn" name="firstName" required autocomplete="given-name" />
             </div>
-            <div class="form-row form-row--2">
-              <div class="form-group"><label for="em">Email <span class="req">*</span></label><input type="email" id="em" name="email" required autocomplete="email"></div>
-              <div class="form-group"><label for="ph">Phone</label><input type="tel" id="ph" name="phone" autocomplete="tel"></div>
+            <div>
+              <label for="ln">Last name *</label>
+              <input type="text" id="ln" name="lastName" required autocomplete="family-name" />
             </div>
-            <div class="form-row form-row--2">
-              <div class="form-group"><label for="who">Therapy is for</label><select id="who" name="who"><option value="myself">Myself</option><option value="my-child-teen">My child or teen</option><option value="myself-and-child">Myself and my child/teen</option><option value="someone-else">Someone else</option></select></div>
-              <div class="form-group"><label for="fmt">Preferred format</label><select id="fmt" name="format"><option value="no-preference">No preference</option><option value="in-person">In-person (Colorado Springs)</option><option value="virtual">Virtual</option></select></div>
+          </div>
+
+          <div class="row">
+            <div>
+              <label for="em">Email *</label>
+              <input type="email" id="em" name="email" required autocomplete="email" />
             </div>
-            <div class="form-group" style="margin-bottom:1rem"><label for="svc">What you're curious about</label><select id="svc" name="interest"><option value="not-sure">Not sure yet</option><option value="individual">Individual therapy</option><option value="emdr">EMDR therapy</option><option value="child-teen">Child &amp; teen therapy</option></select></div>
-            <div class="form-group" style="margin-bottom:1rem"><label for="msg">What's loud right now? <span class="req">*</span></label><textarea id="msg" name="message" required placeholder="A few sentences is plenty. We'll follow up to talk more."></textarea></div>
-            <label class="form-checkbox" style="margin-bottom:1.25rem"><input type="checkbox" name="consent" required><span>I understand my submission will be reviewed by Crescita Counseling and that I shouldn't share detailed medical information through this form.</span></label>
-            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px">
-            <button type="submit" class="btn btn-rose" style="width:100%">Send message</button>
-            <div class="form-status" data-form-status role="status" aria-live="polite"></div>
-          </form>
-        </div>
+            <div>
+              <label for="ph">Phone</label>
+              <input type="tel" id="ph" name="phone" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <label for="who">Therapy is for</label>
+              <select id="who" name="who">
+                <option value="Myself">Myself</option>
+                <option value="My child or teen">My child or teen</option>
+                <option value="Myself and my child/teen">Myself and my child/teen</option>
+                <option value="Someone else">Someone else</option>
+              </select>
+            </div>
+            <div>
+              <label for="fmt">Preferred format</label>
+              <select id="fmt" name="format">
+                <option value="No preference">No preference</option>
+                <option value="In-person Colorado Springs">In-person Colorado Springs</option>
+                <option value="Virtual">Virtual</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="svc">What you're curious about</label>
+            <select id="svc" name="interest">
+              <option value="Not sure yet">Not sure yet</option>
+              <option value="Individual therapy">Individual therapy</option>
+              <option value="EMDR therapy">EMDR therapy</option>
+              <option value="Child and teen therapy">Child and teen therapy</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="msg">What's loud right now? *</label>
+            <textarea id="msg" name="message" required placeholder="A few sentences is plenty. We'll follow up to talk more."></textarea>
+          </div>
+
+          <label class="checkbox">
+            <input type="checkbox" name="consent" required />
+            <span>I understand my submission will be reviewed by Crescita Counseling and that I shouldn't share detailed medical information through this form.</span>
+          </label>
+
+          <input type="text" name="gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" />
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <div class="status" data-form-status role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="container map">
+      <iframe
+        src="https://www.google.com/maps?q=627+N+Weber+St+Suite+6+Colorado+Springs+CO+80903&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Crescita Counseling location"></iframe>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span data-year>2026</span> Crescita Counseling, Colorado Springs, CO</div>
+      <div>
+        <a href="mailto:info@crescitacounseling.com">info@crescitacounseling.com</a> ·
+        <a href="tel:+17192860011">(719) 286-0011</a>
       </div>
     </div>
-  </section>
+  </footer>
 
-  <section class="section bg-cream">
-    <div class="container">
-      <div class="section-head section-head--center reveal">
-        <span class="eyebrow eyebrow--rose" style="justify-content:center">Where we are</span>
-        <h2>Downtown Colorado Springs</h2>
-        <p>Easy access from across the Pikes Peak region. Virtual everywhere else in Colorado.</p>
-      </div>
-      <div style="max-width:1080px;margin:0 auto;border-radius:20px;overflow:hidden;border:1px solid var(--line)" class="reveal">
-        <iframe src="https://www.google.com/maps?q=627+N+Weber+St+Suite+6+Colorado+Springs+CO+80903&output=embed" width="100%" height="400" style="border:0;display:block" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Crescita Counseling location"></iframe>
-      </div>
-    </div>
-  </section>
+  <script>
+    (function () {
+      "use strict";
 
-</main>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__grid">
-      <div>
-        <div class="footer__brand">
-          <a href="index.html" class="footer__logo" aria-label="Crescita Counseling">
-            <img src="assets/images/crescita-logo-md.png" alt="Crescita Counseling logo" width="80" height="80">
-          </a>
-          <span class="footer__wordmark">Crescita<span class="brand__dot" aria-hidden="true"></span></span>
-        </div>
-        <p class="footer__about">Trauma-informed therapy in Colorado Springs and online across Colorado. Quiet rooms, real conversations, slow work that holds.</p>
-        <div class="footer__social">
-          <a href="https://www.instagram.com/crescitameansgrowth/" aria-label="Instagram" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg>
-          </a>
-          <a href="https://www.facebook.com/people/Crescita-Counseling/61565442007671/" aria-label="Facebook" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-          </a>
-        </div>
-      </div>
-      <div>
-        <p class="footer__heading">Services</p>
-        <ul class="footer__list">
-          <li><a href="services/individual-therapy.html">Individual Therapy</a></li>
-          <li><a href="services/emdr-therapy.html">EMDR Therapy</a></li>
-          <li><a href="services/child-and-teen-therapy.html">Child &amp; Teen Therapy</a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="footer__heading">About</p>
-        <ul class="footer__list">
-          <li><a href="about.html">The practice</a></li>
-          <li><a href="team/katie-fortunato.html">Katie Fortunato</a></li>
-          <li><a href="team/alissa-brown.html">Alissa Brown</a></li>
-          <li><a href="investment.html">Rates &amp; insurance</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="footer__heading">Reach us</p>
-        <div class="footer__contact">
-          <a href="mailto:info@crescitacounseling.com">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            info@crescitacounseling.com
-          </a>
-          <a href="tel:+17192860011">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            (719) 286-0011
-          </a>
-          <a href="https://maps.google.com/?q=627+N+Weber+St+Suite+6+Colorado+Springs+CO+80903" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            627 N Weber St, Ste 6<br>Colorado Springs, CO 80903
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <span>© <span data-year>2026</span> Crescita Counseling · Colorado Springs, CO</span>
-      <div class="footer__legal">
-        <a href="https://app.getterms.io/view/M4VkD/privacy/en-us" target="_blank" rel="noopener">Privacy</a>
-        <a href="https://app.getterms.io/view/M4VkD/tos/en-us" target="_blank" rel="noopener">Terms</a>
-        <a href="https://www.cms.gov/nosurprises" target="_blank" rel="noopener">No Surprises Act</a>
-      </div>
-    </div>
-  </div>
-</footer>
+      const EMAILJS_PUBLIC_KEY = "rAYM7Iyd1ffURMuy";
+      const EMAILJS_SERVICE_ID = "servicezrkwriq";
+      const EMAILJS_TEMPLATE_ID = "template4ho9sxo";
 
-
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
-<!-- EmailJS Library -->
-
-<script>
-(function(){
-  'use strict';
-
-  // Initialize EmailJS with your Public Key
-  // Get your Public Key from: emailjs.com → Account → API Keys
-  const EMAILJS_PUBLIC_KEY = 'rA_YM7Iyd1ffURMuy';
-  const EMAILJS_SERVICE_ID = 'service_zrkwriq'; // Gmail service
-  const EMAILJS_TEMPLATE_ID = 'template_4ho9sxo'; // Your email template
-
-  // Only initialize if keys are configured
-  if (EMAILJS_PUBLIC_KEY) {
-  if (typeof emailjs !== "undefined") {
-    emailjs.init(EMAILJS_PUBLIC_KEY);
-  }
-
-  /* ----- Mobile nav toggle ----- */
-  const navToggle = document.querySelector('[data-nav-toggle]');
-  const mobileNav = document.querySelector('[data-mobile-nav]');
-  if(navToggle && mobileNav){
-    navToggle.addEventListener('click', () => {
-      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
-      navToggle.setAttribute('aria-expanded', String(!isOpen));
-      mobileNav.setAttribute('data-open', String(!isOpen));
-      document.body.style.overflow = !isOpen ? 'hidden' : '';
-    });
-
-    mobileNav.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navToggle.setAttribute('aria-expanded', 'false');
-        mobileNav.setAttribute('data-open', 'false');
-        document.body.style.overflow = '';
-      });
-    });
-
-    document.addEventListener('keydown', e => {
-      if(e.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true'){
-        navToggle.click();
+      if (typeof emailjs !== "undefined") {
+        emailjs.init(EMAILJS_PUBLIC_KEY);
       }
-    });
-  }
 
-  /* ----- Reveal on scroll ----- */
-  if('IntersectionObserver' in window){
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, {threshold:.12, rootMargin:'0px 0px -8% 0px'});
+      const yearEl = document.querySelector("[data-year]");
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-  } else {
-    document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
-  }
+      const form = document.querySelector("#contact-form");
+      if (!form) return;
 
-  /* ----- Footer year ----- */
-  const yearEl = document.querySelector('[data-year]');
-  if(yearEl) yearEl.textContent = new Date().getFullYear();
+      const status = form.querySelector("[data-form-status]");
+      const submitBtn = form.querySelector('button[type="submit"]');
 
-  /* ----- Contact form (EmailJS) ----- */
-  const form = document.querySelector('#contact-form');
-  if(form){
-    const status = form.querySelector('[data-form-status]');
-    const submitBtn = form.querySelector('[type="submit"]');
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
+        const hp = form.querySelector('input[name="gotcha"]');
+        if (hp && hp.value) return;
 
-      // Honeypot check
-      const hp = form.querySelector('[name="_gotcha"]');
-      if(hp && hp.value) return;
-
-      if(status){
-        status.setAttribute('data-state', 'loading');
-        status.textContent = 'Sending your message…';
-      }
-      if(submitBtn) submitBtn.disabled = true;
-
-      try{
-        // Prepare template parameters
-        const params = {
-          from_name: form.firstName.value + ' ' + form.lastName.value,
-          from_email: form.email.value,
-          phone: form.phone.value || '(not provided)',
-          who: form.who.value,
-          format: form.format.value,
-          interest: form.interest.value,
-          message: form.message.value,
-          to_email: 'info@crescitacounseling.com'
-        };
-
-        // Send via EmailJS
-        const response = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-
-        if(response.status === 200){
-          if(status){
-            status.setAttribute('data-state','success');
-            status.innerHTML = `
-              <div style="line-height: 1.6;">
-                <strong>✨ Thank you for reaching out!</strong>
-                <p style="margin-top: 0.75rem; margin-bottom: 0.5rem;">We got your message and we're excited to connect with you.</p>
-                <p style="margin: 0.5rem 0;">We'll respond within 48 hours (our technology, while fancy, occasionally needs a coffee break).</p>
-                <p style="margin: 0.5rem 0; font-size: 0.95rem; color: #7a9b8a;">
-                  <strong>If you don't hear from us:</strong> Reach out directly at 
-                  <a href="mailto:info@crescitacounseling.com" style="color: var(--rose); text-decoration: none; font-weight: 600;">info@crescitacounseling.com</a> 
-                  or <a href="tel:+17192860011" style="color: var(--rose); text-decoration: none; font-weight: 600;">(719) 286-0011</a>
-                </p>
-              </div>
-            `;
+        const consent = form.querySelector('input[name="consent"]');
+        if (consent && !consent.checked) {
+          if (status) {
+            status.setAttribute("data-state", "error");
+            status.textContent = "Please confirm the consent checkbox before sending.";
           }
-          form.reset();
-        } else {
-          throw new Error('EmailJS submission failed');
+          return;
         }
-      } catch(err){
-        if(status){
-          status.setAttribute('data-state','error');
-          status.innerHTML = `
-            <div style="line-height: 1.6;">
-              <strong>Oops, something hiccupped.</strong>
-              <p style="margin-top: 0.75rem;">Please try again, or reach out directly:</p>
-              <p style="margin: 0.5rem 0;">
-                Email: <a href="mailto:info@crescitacounseling.com" style="color: var(--rose); text-decoration: none; font-weight: 600;">info@crescitacounseling.com</a><br>
-                Phone: <a href="tel:+17192860011" style="color: var(--rose); text-decoration: none; font-weight: 600;">(719) 286-0011</a>
-              </p>
-            </div>
-          `;
+
+        if (status) {
+          status.setAttribute("data-state", "loading");
+          status.textContent = "Sending your message...";
         }
-        console.error('Form submission error:', err);
-      } finally {
-        if(submitBtn) submitBtn.disabled = false;
-      }
-    });
-  }
+        if (submitBtn) submitBtn.disabled = true;
 
-  }
+        try {
+          const params = {
+            first_name: form.firstName.value.trim(),
+            last_name: form.lastName.value.trim(),
+            email: form.email.value.trim(),
+            phone: form.phone.value.trim() || "",
+            therapy_for: form.who.value,
+            preferred_format: form.format.value,
+            curious_about: form.interest.value,
+            whats_loud: form.message.value.trim(),
+          };
 
-  /* ----- Smooth-scroll for in-page anchors ----- */
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', e => {
-      const id = a.getAttribute('href');
-      if(id && id.length > 1){
-        const target = document.querySelector(id);
-        if(target){
-          e.preventDefault();
-          const headerH = document.querySelector('.site-header')?.offsetHeight || 0;
-          const y = target.getBoundingClientRect().top + window.scrollY - headerH - 16;
-          window.scrollTo({top:y, behavior:'smooth'});
+          const response = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
+
+          if (response.status === 200) {
+            if (status) {
+              status.setAttribute("data-state", "success");
+              status.innerHTML = "<strong>Thank you for reaching out!</strong> We got your message and we'll reply as soon as we can.";
+            }
+            form.reset();
+          } else {
+            throw new Error("EmailJS returned a non-200 status");
+          }
+        } catch (err) {
+          console.error("Form submission error:", err);
+          if (status) {
+            status.setAttribute("data-state", "error");
+            status.innerHTML = "<strong>Oops, something hiccupped.</strong> Please try again, or email <a href='mailto:info@crescitacounseling.com'>info@crescitacounseling.com</a>.";
+          }
+        } finally {
+          if (submitBtn) submitBtn.disabled = false;
         }
-      }
-    });
-  });
-
-})();
-</script>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
-<script>
-emailjs.init('rA_YM7Iyd1ffURMuy');
-var form = document.querySelector('#contact-form');
-if(form) {
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    var status = form.querySelector('[data-form-status]');
-    var submitBtn = form.querySelector('[type="submit"]');
-    if(status) { status.setAttribute('data-state', 'loading'); status.textContent = 'Sending...'; }
-    if(submitBtn) submitBtn.disabled = true;
-    try {
-      var params = {
-        first_name: form.firstName.value,
-        last_name: form.lastName.value,
-        email: form.email.value,
-        phone: form.phone.value || '(not provided)',
-        therapy_for: form.who.value,
-        preferred_format: form.format.value,
-        curious_about: form.interest.value,
-        whats_loud: form.message.value
-      };
-      var response = await emailjs.send('service_zrkwriq', 'template_4ho9sxo', params);
-      if(response.status === 200) {
-        if(status) { status.setAttribute('data-state','success'); status.innerHTML = '<strong>Thank you!</strong> We got your message.'; }
-        form.reset();
-      }
-    } catch(err) {
-      if(status) { status.setAttribute('data-state','error'); status.textContent = 'Error. Email info@crescitacounseling.com'; }
-      console.error(err);
-    } finally {
-      if(submitBtn) submitBtn.disabled = false;
-    }
-  });
-}
-</script>
+      });
+    })();
+  </script>
 </body>
 </html>
