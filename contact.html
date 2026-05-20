@@ -221,7 +221,7 @@
 </footer>
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
 <!-- EmailJS Library -->
 
 <script>
@@ -382,22 +382,22 @@
 
 })();
 </script>
+</body>
+</html>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
 <script>
-window.addEventListener('load', () => {
+window.addEventListener('load', function() {
   emailjs.init('rA_YM7Iyd1ffURMuy');
-  const form = document.querySelector('#contact-form');
-  if(form){
-    const status = form.querySelector('[data-form-status]');
-    const submitBtn = form.querySelector('[type="submit"]');
-    form.addEventListener('submit', async (e) => {
+  var form = document.querySelector('#contact-form');
+  if(form) {
+    form.addEventListener('submit', async function(e) {
       e.preventDefault();
-      const hp = form.querySelector('[name="_gotcha"]');
-      if(hp && hp.value) return;
-      if(status){status.setAttribute('data-state', 'loading');status.textContent = 'Sending...';}
+      var status = form.querySelector('[data-form-status]');
+      var submitBtn = form.querySelector('[type="submit"]');
+      if(status) { status.setAttribute('data-state', 'loading'); status.textContent = 'Sending...'; }
       if(submitBtn) submitBtn.disabled = true;
-      try{
-        const params = {
+      try {
+        var params = {
           from_name: form.firstName.value + ' ' + form.lastName.value,
           from_email: form.email.value,
           phone: form.phone.value || '(not provided)',
@@ -407,14 +407,13 @@ window.addEventListener('load', () => {
           message: form.message.value,
           to_email: 'chad.m.moravec@gmail.com'
         };
-        const response = await emailjs.send('service_zrkwriq', 'template_4ho9sxo', params);
-        if(response.status === 200){
-          if(status){status.setAttribute('data-state','success');status.textContent = '✨ Message sent! We'll be in touch.';}
+        var response = await emailjs.send('service_zrkwriq', 'template_4ho9sxo', params);
+        if(response.status === 200) {
+          if(status) { status.setAttribute('data-state','success'); status.innerHTML = '<strong>Thank you! Message sent.</strong>'; }
           form.reset();
         }
-      } catch(err){
-        if(status){status.setAttribute('data-state','error');status.textContent = 'Error. Email info@crescitacounseling.com';}
-        console.error(err);
+      } catch(err) {
+        if(status) { status.setAttribute('data-state','error'); status.textContent = 'Error sending. Email info@crescitacounseling.com'; }
       } finally {
         if(submitBtn) submitBtn.disabled = false;
       }
@@ -422,6 +421,3 @@ window.addEventListener('load', () => {
   }
 });
 </script>
-
-</body>
-</html>
