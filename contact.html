@@ -398,22 +398,23 @@ window.addEventListener('load', function() {
       if(submitBtn) submitBtn.disabled = true;
       try {
         var params = {
-          from_name: form.firstName.value + ' ' + form.lastName.value,
-          from_email: form.email.value,
+          first_name: form.firstName.value,
+          last_name: form.lastName.value,
+          email: form.email.value,
           phone: form.phone.value || '(not provided)',
-          who: form.who.value,
-          format: form.format.value,
-          interest: form.interest.value,
-          message: form.message.value,
-          to_email: 'chad.m.moravec@gmail.com'
+          therapy_for: form.who.value,
+          preferred_format: form.format.value,
+          curious_about: form.interest.value,
+          whats_loud: form.message.value
         };
         var response = await emailjs.send('service_zrkwriq', 'template_4ho9sxo', params);
         if(response.status === 200) {
-          if(status) { status.setAttribute('data-state','success'); status.innerHTML = '<strong>Thank you! Message sent.</strong>'; }
+          if(status) { status.setAttribute('data-state','success'); status.innerHTML = '<strong>Thank you!</strong> We got your message.'; }
           form.reset();
         }
       } catch(err) {
-        if(status) { status.setAttribute('data-state','error'); status.textContent = 'Error sending. Email info@crescitacounseling.com'; }
+        if(status) { status.setAttribute('data-state','error'); status.textContent = 'Error. Email info@crescitacounseling.com'; }
+        console.error(err);
       } finally {
         if(submitBtn) submitBtn.disabled = false;
       }
