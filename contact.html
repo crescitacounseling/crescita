@@ -234,6 +234,7 @@
 
   // Only initialize if keys are configured
   if (EMAILJS_PUBLIC_KEY) {
+  if (typeof emailjs !== "undefined") {
     emailjs.init(EMAILJS_PUBLIC_KEY);
   }
 
@@ -357,6 +358,8 @@
         if(submitBtn) submitBtn.disabled = false;
       }
     });
+  }
+
   }
 
   /* ----- Smooth-scroll for in-page anchors ----- */
