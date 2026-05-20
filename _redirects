@@ -92,6 +92,8 @@
 
 # Serve custom 404 page for unmatched routes
 
+/*  /404.html  404
+
 # ============================================
 # NOTES
 # ============================================
@@ -117,3 +119,5 @@
 # 2. Cloudflare auto-deploys _redirects on pages
 # 3. Test by visiting old URLs
 # 4. Should see 301 status code + redirect to new URL
+
+https://www.crescitacounseling.com/*  https://crescitacounseling.com/:splat  301!
