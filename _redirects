@@ -1,0 +1,99 @@
+# Crescita Counseling — Netlify/Cloudflare _redirects
+# Updated June 2026
+
+# ============================================
+# www canonicalization
+# NOTE: existing rule at bottom was www → non-www (WRONG per canonical tags)
+# Canonical tags say www., so we redirect non-www TO www
+# ============================================
+https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301!
+
+# ============================================
+# TEAM PARENT PAGE
+# /team and /team/ serve team/index.html (new file — no redirect needed if file exists)
+# But belt-and-suspenders for any edge cases:
+/team  /team/  301
+# ============================================
+
+# ============================================
+# SERVICE PAGES — legacy Squarespace URLs
+# ============================================
+/individual-counseling-colorado-springs  /services/individual-therapy.html  301
+/individual-counseling-colorado-springs/  /services/individual-therapy.html  301
+/emdr-therapy-colorado-springs  /services/emdr-therapy.html  301
+/emdr-therapy-colorado-springs/  /services/emdr-therapy.html  301
+/child-therapy-colorado-springs  /services/child-and-teen-therapy.html  301
+/child-therapy-colorado-springs/  /services/child-and-teen-therapy.html  301
+
+# ============================================
+# MAIN PAGES — trailing slash / clean URL variants
+# ============================================
+/about/  /about.html  301
+/therapy-investment  /investment.html  301
+/therapy-investment/  /investment.html  301
+/faq/  /faq.html  301
+/contact/  /contact.html  301
+
+# ============================================
+# ADDITIONAL ALIASES (new — intuitive URL guards)
+# ============================================
+/emdr  /services/emdr-therapy.html  301
+/emdr-therapy  /services/emdr-therapy.html  301
+/individual  /services/individual-therapy.html  301
+/child-therapy  /services/child-and-teen-therapy.html  301
+/teen-therapy  /services/child-and-teen-therapy.html  301
+/rates  /investment.html  301
+/fees  /investment.html  301
+/pricing  /investment.html  301
+/insurance  /investment.html  301
+/therapists  /team/  301
+/our-team  /team/  301
+/staff  /team/  301
+/counselors  /team/  301
+/meet-the-team  /team/  301
+/katie  /team/katie-fortunato.html  301
+/alissa  /team/alissa-brown.html  301
+
+# ============================================
+# NAVIGATION FOLDERS — Squarespace artifacts
+# ============================================
+/specialties  /services/individual-therapy.html  301
+/specialties/  /services/individual-therapy.html  301
+/info  /  301
+/info/  /  301
+
+# ============================================
+# BLOG — no longer exists
+# ============================================
+/blog  /  301
+/blog/  /  301
+/blog/*  /  301
+
+# ============================================
+# TEAM — name change redirects
+# ============================================
+/team/katie-pasqualetto.html  /team/katie-fortunato.html  301
+/team/katie-pasqualetto  /team/katie-fortunato.html  301
+/team/katie-pasqualleto.html  /team/katie-fortunato.html  301
+/team/katie-pasqualleto  /team/katie-fortunato.html  301
+
+# ============================================
+# CART — Squarespace artifact
+# ============================================
+/cart  /  301
+/cart/  /  301
+
+# ============================================
+# HOME
+# ============================================
+/index.html  /  301
+/home  /  301
+
+# ============================================
+# 404 — must be last
+# ============================================
+/*  /404.html  404
+
+# Services index aliases
+/services  /services/  301
+/therapy  /services/  301

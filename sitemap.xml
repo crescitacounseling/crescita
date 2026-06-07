@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://www.crescitacounseling.com/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.crescitacounseling.com/assets/images/meadow-flowers.jpg</image:loc>
+      <image:title>Crescita Counseling — Trauma-Informed Therapy in Colorado Springs</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/about.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+  <url>
+    <loc>https://www.crescitacounseling.com/services/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.crescitacounseling.com/team/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/team/katie-fortunato.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.crescitacounseling.com/assets/images/Katie%20About%20Card%20-%20Headshot.jpg</image:loc>
+      <image:title>Katie Fortunato, LPC — EMDR &amp; Trauma Therapist in Colorado Springs</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/team/alissa-brown.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.crescitacounseling.com/assets/images/alissa-brown.jpg</image:loc>
+      <image:title>Alissa Brown, LPCC — Child, Teen &amp; Military Family Therapist in Colorado Springs</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/services/individual-therapy.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/services/emdr-therapy.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/services/child-and-teen-therapy.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/investment.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/faq.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/contact.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
