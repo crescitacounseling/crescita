@@ -29,7 +29,7 @@
   </url>
   <url>
     <loc>https://www.crescitacounseling.com/team/</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -53,6 +53,17 @@
     <image:image>
       <image:loc>https://www.crescitacounseling.com/assets/images/alissa-brown.jpg</image:loc>
       <image:title>Alissa Brown, LPCC — Child, Teen &amp; Military Family Therapist in Colorado Springs</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/team/ebony-trotter.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.crescitacounseling.com/assets/images/ebony-trotter.jpg</image:loc>
+      <image:title>Ebony Trotter, LPC — Anxiety, Trauma, Grief &amp; ADHD Therapist in Colorado Springs</image:title>
     </image:image>
   </url>
 
