@@ -18,48 +18,48 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 # ============================================
 # SERVICE PAGES — legacy Squarespace URLs
 # ============================================
-/individual-counseling-colorado-springs  /services/individual-therapy.html  301
-/individual-counseling-colorado-springs/  /services/individual-therapy.html  301
-/emdr-therapy-colorado-springs  /services/emdr-therapy.html  301
-/emdr-therapy-colorado-springs/  /services/emdr-therapy.html  301
-/child-therapy-colorado-springs  /services/child-and-teen-therapy.html  301
-/child-therapy-colorado-springs/  /services/child-and-teen-therapy.html  301
+/individual-counseling-colorado-springs  /services/individual-therapy  301
+/individual-counseling-colorado-springs/  /services/individual-therapy  301
+/emdr-therapy-colorado-springs  /services/emdr-therapy  301
+/emdr-therapy-colorado-springs/  /services/emdr-therapy  301
+/child-therapy-colorado-springs  /services/child-and-teen-therapy  301
+/child-therapy-colorado-springs/  /services/child-and-teen-therapy  301
 
 # ============================================
 # MAIN PAGES — trailing slash / clean URL variants
 # ============================================
-/about/  /about.html  301
-/therapy-investment  /investment.html  301
-/therapy-investment/  /investment.html  301
-/faq/  /faq.html  301
-/contact/  /contact.html  301
+/about/  /about  301
+/therapy-investment  /investment  301
+/therapy-investment/  /investment  301
+/faq/  /faq  301
+/contact/  /contact  301
 
 # ============================================
 # ADDITIONAL ALIASES (new — intuitive URL guards)
 # ============================================
-/emdr  /services/emdr-therapy.html  301
-/emdr-therapy  /services/emdr-therapy.html  301
-/individual  /services/individual-therapy.html  301
-/child-therapy  /services/child-and-teen-therapy.html  301
-/teen-therapy  /services/child-and-teen-therapy.html  301
-/rates  /investment.html  301
-/fees  /investment.html  301
-/pricing  /investment.html  301
-/insurance  /investment.html  301
+/emdr  /services/emdr-therapy  301
+/emdr-therapy  /services/emdr-therapy  301
+/individual  /services/individual-therapy  301
+/child-therapy  /services/child-and-teen-therapy  301
+/teen-therapy  /services/child-and-teen-therapy  301
+/rates  /investment  301
+/fees  /investment  301
+/pricing  /investment  301
+/insurance  /investment  301
 /therapists  /team/  301
 /our-team  /team/  301
 /staff  /team/  301
 /counselors  /team/  301
 /meet-the-team  /team/  301
-/katie  /team/katie-fortunato.html  301
-/alissa  /team/alissa-brown.html  301
-/ebony  /team/ebony-trotter.html  301
+/katie  /team/katie-fortunato  301
+/alissa  /team/alissa-brown  301
+/ebony  /team/ebony-trotter  301
 
 # ============================================
 # NAVIGATION FOLDERS — Squarespace artifacts
 # ============================================
-/specialties  /services/individual-therapy.html  301
-/specialties/  /services/individual-therapy.html  301
+/specialties  /services/individual-therapy  301
+/specialties/  /services/individual-therapy  301
 /info  /  301
 /info/  /  301
 
@@ -73,10 +73,10 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 # ============================================
 # TEAM — name change redirects
 # ============================================
-/team/katie-pasqualetto.html  /team/katie-fortunato.html  301
-/team/katie-pasqualetto  /team/katie-fortunato.html  301
-/team/katie-pasqualleto.html  /team/katie-fortunato.html  301
-/team/katie-pasqualleto  /team/katie-fortunato.html  301
+/team/katie-pasqualetto.html  /team/katie-fortunato  301
+/team/katie-pasqualetto  /team/katie-fortunato  301
+/team/katie-pasqualleto.html  /team/katie-fortunato  301
+/team/katie-pasqualleto  /team/katie-fortunato  301
 
 # ============================================
 # CART — Squarespace artifact
@@ -99,12 +99,12 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 # ============================================
 # GSC-FLAGGED 404s — exact old URLs not caught by existing rules
 # ============================================
-/emdrtherapy                /services/emdr-therapy.html      301
-/individual-therapy         /services/individual-therapy.html  301
-/anxiety-ridden-people      /services/individual-therapy.html  301
-/contact-alissa             /contact.html                    301
-/contact-katie              /contact.html                    301
-/katie-pasqualetto          /team/katie-fortunato.html       301
+/emdrtherapy                /services/emdr-therapy      301
+/individual-therapy         /services/individual-therapy  301
+/anxiety-ridden-people      /services/individual-therapy  301
+/contact-alissa             /contact                    301
+/contact-katie              /contact                    301
+/katie-pasqualetto          /team/katie-fortunato       301
 
 # ============================================
 # 404 — must be last
