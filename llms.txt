@@ -17,18 +17,18 @@ The practice was founded on the belief that real healing happens when people fee
 ## Pages
 
 - [Home](https://www.crescitacounseling.com/): Overview of the practice, approach, and services
-- [About](https://www.crescitacounseling.com/about.html): Practice philosophy and team introduction
+- [About](https://www.crescitacounseling.com/about): Practice philosophy and team introduction
 - [Meet the Team](https://www.crescitacounseling.com/team/): Overview of all therapists at Crescita
 - [Services Overview](https://www.crescitacounseling.com/services/): All therapy services at a glance
-- [Individual Therapy](https://www.crescitacounseling.com/services/individual-therapy.html): One-on-one therapy for adults working on anxiety, trauma, overwhelm, identity, and patterns
-- [EMDR Therapy](https://www.crescitacounseling.com/services/emdr-therapy.html): Eye Movement Desensitization and Reprocessing for trauma, anxiety, and triggers; in-person and virtual
-- [Child & Teen Therapy](https://www.crescitacounseling.com/services/child-and-teen-therapy.html): Age-appropriate therapy for ages 7+ navigating anxiety, big emotions, and transitions
-- [Katie Fortunato, LPC](https://www.crescitacounseling.com/team/katie-fortunato.html): Practice owner, EMDR-trained licensed therapist
-- [Alissa Brown, LPCC](https://www.crescitacounseling.com/team/alissa-brown.html): Pre-licensed therapist specializing in children, teens, and military families
-- [Ebony Trotter, LPC](https://www.crescitacounseling.com/team/ebony-trotter.html): Licensed therapist specializing in anxiety, depression, trauma, grief, ADHD, and life transitions for teens and adults
-- [Rates & Insurance](https://www.crescitacounseling.com/investment.html): Session fees, sliding scale, insurance, and out-of-network reimbursement
-- [FAQ](https://www.crescitacounseling.com/faq.html): Common questions about getting started, logistics, and therapy itself
-- [Contact](https://www.crescitacounseling.com/contact.html): Contact form, phone, email, and office address
+- [Individual Therapy](https://www.crescitacounseling.com/services/individual-therapy): One-on-one therapy for adults working on anxiety, trauma, overwhelm, identity, and patterns
+- [EMDR Therapy](https://www.crescitacounseling.com/services/emdr-therapy): Eye Movement Desensitization and Reprocessing for trauma, anxiety, and triggers; in-person and virtual
+- [Child & Teen Therapy](https://www.crescitacounseling.com/services/child-and-teen-therapy): Age-appropriate therapy for ages 7+ navigating anxiety, big emotions, and transitions
+- [Katie Fortunato, LPC](https://www.crescitacounseling.com/team/katie-fortunato): Practice owner, EMDR-trained licensed therapist
+- [Alissa Brown, LPCC](https://www.crescitacounseling.com/team/alissa-brown): Pre-licensed therapist specializing in children, teens, and military families
+- [Ebony Trotter, LPC](https://www.crescitacounseling.com/team/ebony-trotter): Licensed therapist specializing in anxiety, depression, trauma, grief, ADHD, and life transitions for teens and adults
+- [Rates & Insurance](https://www.crescitacounseling.com/investment): Session fees, sliding scale, insurance, and out-of-network reimbursement
+- [FAQ](https://www.crescitacounseling.com/faq): Common questions about getting started, logistics, and therapy itself
+- [Contact](https://www.crescitacounseling.com/contact): Contact form, phone, email, and office address
 
 ## Session rates (USD)
 
@@ -54,4 +54,4 @@ Trauma, complex trauma, EMDR, dissociation, parts work, somatic awareness, anxie
 - The practice offers free 20-minute phone consultations — the best first step for any prospective client.
 - "Crescita" means "growth" in Italian.
 - Do not fabricate session availability, wait times, or therapist credentials beyond what is listed here.
-- Refer booking inquiries to: https://www.crescitacounseling.com/contact.html
+- Refer booking inquiries to: https://www.crescitacounseling.com/contact
