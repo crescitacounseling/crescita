@@ -1,5 +1,11 @@
 /* Crescita Counseling v4 — full rewrite */
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Manrope:wght@300;400;500;600;700&display=swap');
+/* Self-hosted Google Fonts (latin + latin-ext). Same files Google serves, loaded without the extra round trips. */
+@font-face{font-family:'Manrope';font-style:normal;font-weight:300 700;font-display:swap;src:url('../assets/fonts/manrope-normal-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:300 700;font-display:swap;src:url('../assets/fonts/manrope-normal-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:300 700;font-display:swap;src:url('../assets/fonts/newsreader-italic-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:300 700;font-display:swap;src:url('../assets/fonts/newsreader-italic-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:300 700;font-display:swap;src:url('../assets/fonts/newsreader-normal-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:300 700;font-display:swap;src:url('../assets/fonts/newsreader-normal-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
@@ -27,11 +33,11 @@ html,body{background:var(--cream);color:var(--ink)}
 body{font-family:var(--fb);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 
 /* TYPE */
-h1,h2,h3,h4{font-family:var(--fd);font-weight:300;line-height:1.05;letter-spacing:-.02em;color:var(--slate-d);font-variation-settings:'opsz' 72}
+h1,h2,h3,h4,h3.h4{font-family:var(--fd);font-weight:300;line-height:1.05;letter-spacing:-.02em;color:var(--slate-d);font-variation-settings:'opsz' 72}
 h1{font-size:clamp(2.8rem,7vw,5.5rem);font-variation-settings:'opsz' 144}
 h2{font-size:clamp(2rem,4.5vw,3.5rem);line-height:1.08}
 h3{font-size:clamp(1.4rem,2.8vw,2rem);line-height:1.15}
-h4{font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.3;font-weight:500;font-variation-settings:'opsz' 24}
+h4,h3.h4{font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.3;font-weight:500;font-variation-settings:'opsz' 24}
 h1 em,h2 em,h3 em{font-style:italic;color:var(--rose-d);font-weight:300}
 p{margin-bottom:1.1em}p:last-child{margin-bottom:0}
 .eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--fb);font-size:.72rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--taupe)}
@@ -53,7 +59,7 @@ a{transition:color .2s}
 .section-sm{padding:clamp(2.5rem,5vw,4.5rem) 0}
 .bg-cream{background:var(--cream)}.bg-cream-d{background:var(--cream-d)}.bg-white{background:var(--white)}
 .bg-blush{background:var(--blush-s)}.bg-slate{background:var(--slate-d);color:var(--cream)}
-.bg-slate h2,.bg-slate h3,.bg-slate h4{color:var(--cream)}.bg-slate h2 em,.bg-slate h3 em{color:var(--rose-s)}
+.bg-slate h2,.bg-slate h3,.bg-slate h4,.bg-slate h3.h4{color:var(--cream)}.bg-slate h2 em,.bg-slate h3 em{color:var(--rose-s)}
 
 /* PARALLAX SECTIONS */
 .parallax{
@@ -66,7 +72,7 @@ a{transition:color .2s}
 @media(hover:none),(max-width:900px){.parallax{background-attachment:scroll}}
 .parallax::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
 .parallax>*{position:relative;z-index:1}
-.parallax--gods{background-image:url('../assets/images/garden-gods-panoramic.jpg')}
+.parallax--gods{background-image:url('../assets/images/garden-gods-panoramic.webp')}
 .parallax--gods::before{background:rgba(37,43,47,.68)}
 .parallax--flowers{background-image:url('../assets/images/meadow-flowers.jpg')}
 .parallax--flowers::before{background:rgba(58,65,70,.52)}
@@ -178,17 +184,17 @@ a{transition:color .2s}
 .card--cream{background:var(--cream-d);border-color:transparent}
 .card--slate{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)}
 .card h3{margin-bottom:.7rem;font-size:clamp(1.3rem,2vw,1.65rem)}
-.card h4{margin-bottom:.7rem}
+.card h4,.card h3.h4{margin-bottom:.7rem}
 .card p{color:var(--slate);font-size:.97rem;flex:1;line-height:1.6}
 .card--slate p{color:rgba(244,238,229,.8)}
-.card--slate h4{color:var(--cream)}
+.card--slate h4,.card--slate h3.h4{color:var(--cream)}
 .card .btn-ghost{margin-top:1.25rem;align-self:flex-start}
 
 /* STEPS */
 .steps{display:grid;gap:2.5rem;grid-template-columns:1fr}
 @media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
 .step p{font-size:.95rem;color:var(--slate);line-height:1.6}
-.step h4{margin:.5rem 0 .75rem;font-family:var(--fd);font-weight:400}
+.step h4,.step h3.h4{margin:.5rem 0 .75rem;font-family:var(--fd);font-weight:400}
 .step ul{list-style:none;padding:0;margin-top:.75rem}
 .step ul li{font-size:.9rem;color:var(--taupe);padding:.25rem 0;display:flex;align-items:flex-start;gap:.5rem;line-height:1.5}
 .step ul li::before{content:'';flex-shrink:0;width:12px;height:1px;background:var(--rose);margin-top:.72em}
@@ -898,3 +904,6 @@ nav.breadcrumbs:not(.page-hero--dark *) a {
     gap: .25rem;
   }
 }
+
+/* h3 styled as h4 (keeps heading order valid) */
+.card h3.h4,.step h3.h4{font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.3}
