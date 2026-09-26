@@ -10,6 +10,8 @@
       const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
       navToggle.setAttribute('aria-expanded', String(!isOpen));
       mobileNav.setAttribute('data-open', String(!isOpen));
+      mobileNav.setAttribute('aria-hidden', String(isOpen));
+      mobileNav.inert = isOpen;
       document.body.style.overflow = !isOpen ? 'hidden' : '';
     });
 
@@ -18,6 +20,8 @@
       link.addEventListener('click', () => {
         navToggle.setAttribute('aria-expanded', 'false');
         mobileNav.setAttribute('data-open', 'false');
+        mobileNav.setAttribute('aria-hidden', 'true');
+        mobileNav.inert = true;
         document.body.style.overflow = '';
       });
     });
