@@ -157,7 +157,7 @@
     </a>
   </div>
           <div style="margin-top:2rem;padding:1.25rem;background:var(--blush-s);border-radius:12px;border-left:3px solid var(--rose)">
-            <p style="margin:0;font-size:0.95rem;color:var(--slate)"><strong>Questions before we connect?</strong> Check the <a href="/faq" style="color:var(--rose)">FAQ page</a>.</p>
+            <p style="margin:0;font-size:0.95rem;color:var(--slate)"><strong>Questions before we connect?</strong> Check the <a href="/faq" style="color:#815761;text-decoration:underline;text-underline-offset:2px">FAQ page</a>.</p>
           </div>
         </div>
 
@@ -178,7 +178,7 @@
             <div class="form-group" style="margin-bottom:1rem"><label for="svc">What you're curious about</label><select id="svc" name="interest"><option value="not-sure">Not sure yet</option><option value="individual">Individual therapy</option><option value="emdr">EMDR therapy</option><option value="child-teen">Child &amp; teen therapy</option></select></div>
             <div class="form-group" style="margin-bottom:1rem"><label for="msg">What's loud right now? <span class="req">*</span></label><textarea id="msg" name="message" required placeholder="A few sentences is plenty. We'll follow up to talk more."></textarea></div>
             <label class="form-checkbox" style="margin-bottom:1.25rem"><input type="checkbox" name="consent" required><span>I understand my submission will be reviewed by Crescita Counseling and that I shouldn't share detailed medical information through this form.</span></label>
-            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px">
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" aria-label="Leave this field empty" style="position:absolute;left:-9999px">
             <button type="submit" class="btn btn-rose" style="width:100%">Send message</button>
             <div class="form-status" data-form-status role="status" aria-live="polite"></div>
           </form>
