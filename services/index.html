@@ -16,11 +16,11 @@
 <meta property="og:image:width" content="1800">
 <meta property="og:image:height" content="1191">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="icon" type="image/png" sizes="64x64" href="../assets/images/crescita-logo-sm.png">
 <link rel="apple-touch-icon" href="../assets/images/crescita-logo-md.png">
+<link rel="preload" href="/assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../css/styles.css">
 <link rel="preload" as="image" href="../assets/images/soft-botanicals.webp" type="image/webp" fetchpriority="high">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JX8Z7JHLS"></script>
@@ -104,7 +104,7 @@
     </div>
   </div>
 </header>
-<div class="mobile-nav" id="mobileNav" data-mobile-nav data-open="false" aria-hidden="true">
+<div class="mobile-nav" id="mobileNav" data-mobile-nav data-open="false" aria-hidden="true" inert>
   <div class="mobile-nav__group">
     <p class="mobile-nav__heading">Pages</p>
     <a href="/" class="mobile-nav__link">Home</a>
