@@ -107,6 +107,16 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /katie-pasqualetto          /team/katie-fortunato       301
 
 # ============================================
+# NEW SPECIALTY PAGES — short aliases
+# ============================================
+/trauma  /services/trauma-therapy  301
+/trauma-therapy  /services/trauma-therapy  301
+/anxiety  /services/anxiety-therapy  301
+/anxiety-therapy  /services/anxiety-therapy  301
+/military  /services/military-family-therapy  301
+/military-families  /services/military-family-therapy  301
+
+# ============================================
 # 404 — must be last
 # ============================================
 /*  /404.html  404
