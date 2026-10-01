@@ -116,6 +116,13 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /anxiety-therapy  /services/anxiety-therapy  301
 /military  /services/military-family-therapy  301
 /military-families  /services/military-family-therapy  301
+/online  /services/online-therapy-colorado  301
+/online-therapy  /services/online-therapy-colorado  301
+/virtual  /services/online-therapy-colorado  301
+/telehealth  /services/online-therapy-colorado  301
+/grief  /services/grief-counseling  301
+/parts-work  /services/parts-work-therapy  301
+/dissociation  /services/parts-work-therapy  301
 
 # ============================================
 # 404 — must be last
