@@ -1030,3 +1030,11 @@ details,.faq-item{border-color:var(--line)}
 .article__author p{font-size:.95rem;color:var(--slate)}
 .office-grid--single{grid-template-columns:1fr !important}
 .office-grid--single .office-photo img,.office-grid--single .office-photo__empty{aspect-ratio:16/9}
+
+/* One header size for every inner page */
+.page-hero--uniform{min-height:600px;display:flex;align-items:flex-end;padding-top:0;padding-bottom:0}
+.page-hero--uniform .page-hero__content{max-width:900px}
+.page-hero--uniform .page-hero__title{font-size:clamp(2.3rem,4.6vw,4rem);line-height:1.06}
+.page-hero--uniform .page-hero__lead{max-width:640px}
+@media(max-width:899px){.page-hero--uniform{min-height:500px}}
+.nav-dropdown__link--all{font-weight:600;border-bottom:1px solid var(--line);margin-bottom:.25rem}

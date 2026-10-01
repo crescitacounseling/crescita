@@ -84,8 +84,9 @@
         <a href="/" class="nav-link">Home</a>
         <a href="/about" class="nav-link">About</a>
         <div class="nav-item">
-          <button class="nav-link" aria-haspopup="true" aria-current="page">Services <span class="nav-link__caret">▾</span></button>
+          <a href="/services/" class="nav-link" aria-haspopup="true" aria-current="page">Services <span class="nav-link__caret" aria-hidden="true">▾</span></a>
           <div class="nav-dropdown">
+            <a href="/services/" class="nav-dropdown__link nav-dropdown__link--all">All services</a>
             <a href="/services/individual-therapy" class="nav-dropdown__link">Individual Therapy</a>
             <a href="/services/emdr-therapy" class="nav-dropdown__link">EMDR Therapy</a>
             <a href="/services/child-and-teen-therapy" class="nav-dropdown__link">Child &amp; Teen Therapy</a>
@@ -135,14 +136,14 @@
 <main id="main">
 
   <!-- HERO -->
-  <section class="page-hero page-hero--dark" style="min-height:440px;display:flex;align-items:flex-end">
+  <section class="page-hero page-hero--dark page-hero--uniform">
     <div class="page-hero__img">
       <picture>
         <source srcset="../assets/images/garden-gods-panoramic.webp" type="image/webp">
         <img src="../assets/images/garden-gods-panoramic.jpg" alt="" loading="eager" width="1600" height="912" fetchpriority="high">
       </picture>
     </div>
-    <div class="container" style="padding-bottom:3.5rem">
+    <div class="container" style="padding-bottom:3rem">
       <div class="page-hero__content">
         <nav class="breadcrumbs reveal"><a href="/">Home</a><span>/</span><strong>Services</strong></nav>
         <span class="eyebrow eyebrow--light reveal">What we offer</span>
