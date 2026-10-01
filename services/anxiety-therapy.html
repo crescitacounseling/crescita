@@ -109,7 +109,16 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="/" class="nav-link">Home</a>
-        <a href="/about" class="nav-link">About</a>
+        <div class="nav-item">
+          <a href="/about" class="nav-link" aria-haspopup="true">About <span class="nav-link__caret" aria-hidden="true">▾</span></a>
+          <div class="nav-dropdown">
+            <a href="/about" class="nav-dropdown__link">The practice</a>
+            <a href="/team/" class="nav-dropdown__link">Meet the team</a>
+            <a href="/team/katie-fortunato" class="nav-dropdown__link">Katie Fortunato, LPC</a>
+            <a href="/team/alissa-brown" class="nav-dropdown__link">Alissa Brown, LPCC</a>
+            <a href="/team/ebony-trotter" class="nav-dropdown__link">Ebony Trotter, LPC</a>
+          </div>
+        </div>
         <div class="nav-item">
           <a href="/services/" class="nav-link" aria-haspopup="true">Services <span class="nav-link__caret" aria-hidden="true">▾</span></a>
           <div class="nav-dropdown">
