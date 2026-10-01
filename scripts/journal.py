@@ -134,6 +134,32 @@ def build_post(shell, p):
     if p.get('service'):
         service = (f'\n    <p class="article__related container-t">Related: <a href="{p["service"]}" class="text-link">'
                    f'{html.escape(p.get("service_name", "our services"))}</a></p>')
+    from urllib.parse import quote
+    u, t = quote(url, safe=''), quote(p['title'], safe='')
+    share = f'''
+    <div class="share container-t" data-share data-url="{url}" data-title="{html.escape(p['title'])}">
+      <span class="share__label">Share this post</span>
+      <button type="button" class="share__btn share__native" data-share-native hidden>Share&hellip;</button>
+      <a class="share__btn" href="https://www.facebook.com/sharer/sharer.php?u={u}" target="_blank" rel="noopener">Facebook</a>
+      <a class="share__btn" href="https://www.linkedin.com/sharing/share-offsite/?url={u}" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="share__btn" href="https://twitter.com/intent/tweet?url={u}&amp;text={t}" target="_blank" rel="noopener">X</a>
+      <a class="share__btn" href="mailto:?subject={t}&amp;body={u}">Email</a>
+      <button type="button" class="share__btn" data-share-copy>Copy link</button>
+    </div>
+    <script>
+    (function(){{
+      var box=document.querySelector('[data-share]'); if(!box) return;
+      var url=box.getAttribute('data-url'), title=box.getAttribute('data-title');
+      var nat=box.querySelector('[data-share-native]');
+      if(navigator.share){{ nat.hidden=false; nat.addEventListener('click',function(){{ navigator.share({{title:title,url:url}}).catch(function(){{}}); }}); }}
+      var cp=box.querySelector('[data-share-copy]');
+      cp.addEventListener('click',function(){{
+        var done=function(){{ cp.textContent='Link copied'; setTimeout(function(){{cp.textContent='Copy link';}},2000); }};
+        if(navigator.clipboard){{ navigator.clipboard.writeText(url).then(done,function(){{window.prompt('Copy this link:',url);}}); }}
+        else {{ window.prompt('Copy this link:',url); }}
+      }});
+    }})();
+    </script>'''
     main = f'''
   <article class="article">
     <header class="article__header container-t">
@@ -149,7 +175,7 @@ def build_post(shell, p):
 
     <div class="article__body container-t prose">
       {md_to_html(p['body'])}
-    </div>{service}
+    </div>{share}{service}
 
     <aside class="article__author container-t">
       <img src="../assets/images/{headshot}" alt="{html.escape(name)}" width="96" height="96" loading="lazy">

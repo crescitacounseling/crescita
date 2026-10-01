@@ -191,6 +191,29 @@
       <h2>Is it right for you?</h2>
       <p>EMDR tends to help with trauma, anxiety, and reactions that feel bigger than the moment calls for. It isn't the right first step for everyone, and that's something we can figure out together on a free 20-minute call.</p>
     </div>
+    <div class="share container-t" data-share data-url="https://www.crescitacounseling.com/journal/what-an-emdr-session-feels-like" data-title="What an EMDR Session Actually Feels Like">
+      <span class="share__label">Share this post</span>
+      <button type="button" class="share__btn share__native" data-share-native hidden>Share&hellip;</button>
+      <a class="share__btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.crescitacounseling.com%2Fjournal%2Fwhat-an-emdr-session-feels-like" target="_blank" rel="noopener">Facebook</a>
+      <a class="share__btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.crescitacounseling.com%2Fjournal%2Fwhat-an-emdr-session-feels-like" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="share__btn" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.crescitacounseling.com%2Fjournal%2Fwhat-an-emdr-session-feels-like&amp;text=What%20an%20EMDR%20Session%20Actually%20Feels%20Like" target="_blank" rel="noopener">X</a>
+      <a class="share__btn" href="mailto:?subject=What%20an%20EMDR%20Session%20Actually%20Feels%20Like&amp;body=https%3A%2F%2Fwww.crescitacounseling.com%2Fjournal%2Fwhat-an-emdr-session-feels-like">Email</a>
+      <button type="button" class="share__btn" data-share-copy>Copy link</button>
+    </div>
+    <script>
+    (function(){
+      var box=document.querySelector('[data-share]'); if(!box) return;
+      var url=box.getAttribute('data-url'), title=box.getAttribute('data-title');
+      var nat=box.querySelector('[data-share-native]');
+      if(navigator.share){ nat.hidden=false; nat.addEventListener('click',function(){ navigator.share({title:title,url:url}).catch(function(){}); }); }
+      var cp=box.querySelector('[data-share-copy]');
+      cp.addEventListener('click',function(){
+        var done=function(){ cp.textContent='Link copied'; setTimeout(function(){cp.textContent='Copy link';},2000); };
+        if(navigator.clipboard){ navigator.clipboard.writeText(url).then(done,function(){window.prompt('Copy this link:',url);}); }
+        else { window.prompt('Copy this link:',url); }
+      });
+    })();
+    </script>
     <p class="article__related container-t">Related: <a href="/services/emdr-therapy" class="text-link">EMDR therapy in Colorado Springs</a></p>
 
     <aside class="article__author container-t">

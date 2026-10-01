@@ -1131,3 +1131,10 @@ details,.faq-item{border-color:var(--line)}
 .form-check input{width:18px;height:18px;accent-color:var(--rose-d)}
 .form-hint{font-size:.85rem;color:var(--slate);margin-top:.45rem}
 .form-group .form-check{text-transform:none;letter-spacing:0;font-weight:400;font-size:.95rem;color:var(--slate)}
+
+/* Journal: share row under each post */
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;padding-top:1.75rem;margin-top:.5rem;margin-bottom:1.75rem;border-top:1px solid var(--line)}
+.share__label{font-size:.72rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--slate);margin-right:.5rem}
+.share__btn{display:inline-flex;align-items:center;padding:.5rem .9rem;border:1px solid var(--line);background:transparent;color:var(--slate-d);font:inherit;font-size:.85rem;cursor:pointer;text-decoration:none;transition:border-color .2s,color .2s}
+.share__btn:hover,.share__btn:focus-visible{border-color:var(--rose-d);color:var(--rose-d)}
+.share__btn[hidden]{display:none}
