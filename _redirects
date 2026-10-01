@@ -64,11 +64,12 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /info/  /  301
 
 # ============================================
-# BLOG — no longer exists
+# BLOG — old Squarespace posts go to the new Journal
 # ============================================
-/blog  /  301
-/blog/  /  301
-/blog/*  /  301
+/blog  /journal/  301
+/blog/  /journal/  301
+/blog/*  /journal/  301
+/journal  /journal/  301
 
 # ============================================
 # TEAM — name change redirects
