@@ -1043,3 +1043,16 @@ details,.faq-item{border-color:var(--line)}
 .page-hero__actions{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.75rem;margin-top:1.75rem}
 .page-hero--dark .page-hero__content p.page-hero__trust{margin:0;font-size:.8rem;letter-spacing:.04em;color:rgba(244,238,229,.88) !important;max-width:420px;line-height:1.55}
 .page-hero__lead{margin-bottom:0}
+
+/* Journal header: solid blush instead of a photo */
+.page-hero--journal{background:var(--blush-s);border-bottom:1px solid var(--line)}
+.page-hero--journal .page-hero__title{color:var(--slate-d)}
+.page-hero--journal .page-hero__title em{color:var(--rose-d)}
+.page-hero--journal .page-hero__lead{color:var(--slate)}
+.page-hero--journal .breadcrumbs,.page-hero--journal .breadcrumbs a,.page-hero--journal .breadcrumbs strong{color:var(--slate)}
+.page-hero--journal .breadcrumbs a,.page-hero--journal .breadcrumbs span{color:var(--slate-d) !important}
+.page-hero--journal .eyebrow--rose{color:#734853}.page-hero--journal .eyebrow--rose::before{background:#734853}
+.page-hero--journal .page-hero__title,.page-hero--journal .page-hero__title em{text-shadow:none}
+.page-hero--journal .container{position:relative}
+.journal-mark{position:absolute;right:1.5rem;bottom:3rem;width:clamp(180px,22vw,300px);height:auto;mix-blend-mode:multiply;opacity:.85;pointer-events:none}
+@media(max-width:899px){.journal-mark{width:110px;top:-6.5rem;bottom:auto;right:1.5rem;opacity:.7}}
