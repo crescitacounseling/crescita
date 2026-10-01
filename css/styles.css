@@ -1076,3 +1076,27 @@ details,.faq-item{border-color:var(--line)}
 .more-services a{color:var(--slate-d);text-decoration:underline;text-decoration-color:var(--rose-s);text-underline-offset:4px}
 .more-services a:hover{color:var(--rose-d)}
 .more-services__all{font-weight:600}
+
+/* Homepage hero: fit headline, buttons, and photo on the first screen */
+.hero{padding:clamp(1.75rem,4.5vh,3.5rem) 0 clamp(2rem,5vh,3.5rem)}
+@media(min-width:900px){
+  .hero{min-height:calc(100svh - 78px);display:flex;align-items:center}
+  .hero>.container{width:100%}
+  .hero__grid{grid-template-columns:1.2fr .8fr;gap:clamp(2rem,4vw,4.5rem)}
+  .hero__title{font-size:clamp(2.4rem,min(4.6vw,7.4vh),4.6rem);line-height:1.04;margin:.9rem 0 1.1rem}
+  .hero__lead{font-size:clamp(1.02rem,min(1.35vw,2.2vh),1.25rem);margin-bottom:clamp(1.1rem,2.6vh,1.75rem);max-width:540px}
+  .hero__ctas{margin-bottom:0}
+  .hero__trust{margin-top:clamp(1rem,2.6vh,1.75rem);padding-top:clamp(.75rem,1.8vh,1.1rem)}
+  .hero__visual{max-width:none;display:flex;flex-direction:column;align-items:flex-end}
+  .hero__img-wrap{width:auto}
+  .hero__img-wrap img{height:clamp(300px,calc(100svh - 78px - 9rem),620px);width:auto;aspect-ratio:4/5}
+  .hero__caption{margin-top:1.4rem;font-size:.66rem}
+}
+@media(max-width:899px){
+  .hero__title{font-size:clamp(2.1rem,9vw,2.9rem);line-height:1.06;margin:.75rem 0 1rem}
+  .hero__lead{font-size:1.05rem;margin-bottom:1.4rem}
+  .hero__ctas{margin-bottom:0;gap:.6rem}
+  .hero__ctas .btn{padding:.9rem 1.4rem}
+  .hero__trust{margin-top:1.25rem;padding-top:1rem;font-size:.76rem}
+  .hero__img-wrap img{max-height:70vh}
+}
