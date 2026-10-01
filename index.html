@@ -39,6 +39,12 @@
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
 <header class="site-header">
+<div class="announce" data-announce hidden>
+  <div class="container announce__inner">
+    <p><strong>Now accepting new clients.</strong> <span class="announce__long">In-network with Aetna, UnitedHealthcare (Optum), and Health First Colorado (Medicaid). </span><span class="announce__short">Aetna, UnitedHealthcare, and Medicaid accepted. </span><a href="/investment#insurance">Insurance details</a></p>
+    <button type="button" class="announce__close" data-announce-close aria-label="Dismiss announcement">&times;</button>
+  </div>
+</div>
   <div class="container">
     <div class="site-header__inner">
       <a href="/" class="brand" aria-label="Crescita Counseling">
@@ -375,6 +381,7 @@
           <li><a href="/investment">Rates &amp; insurance</a></li>
           <li><a href="/faq">FAQ</a></li>
           <li><a href="/journal/">Journal</a></li>
+          <li><a href="/careers">Careers</a></li>
         </ul>
       </div>
       <div>
@@ -407,5 +414,20 @@
   </div>
 </footer>
 <script src="js/main.js"></script>
+<script>
+(function(){
+  var key='crescita-announce-2026-10';
+  var bar=document.querySelector('[data-announce]');
+  if(!bar) return;
+  var dismissed=false;
+  try{dismissed=localStorage.getItem(key)==='1';}catch(e){}
+  if(!dismissed) bar.hidden=false;
+  var btn=bar.querySelector('[data-announce-close]');
+  btn.addEventListener('click',function(){
+    bar.hidden=true;
+    try{localStorage.setItem(key,'1');}catch(e){}
+  });
+})();
+</script>
 </body>
 </html>

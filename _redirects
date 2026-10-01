@@ -122,6 +122,9 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /telehealth  /services/online-therapy-colorado  301
 /grief  /services/grief-counseling  301
 /parts-work  /services/parts-work-therapy  301
+/jobs  /careers  301
+/hiring  /careers  301
+/careers/  /careers  301
 /dissociation  /services/parts-work-therapy  301
 
 # ============================================
