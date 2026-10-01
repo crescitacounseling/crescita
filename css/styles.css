@@ -907,3 +907,66 @@ nav.breadcrumbs:not(.page-hero--dark *) a {
 
 /* h3 styled as h4 (keeps heading order valid) */
 .card h3.h4,.step h3.h4{font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.3}
+
+/* =========================================================
+   2026 REFRESH: square edges, hairline rules, quieter surfaces
+   Layered last so it overrides the rules above.
+   ========================================================= */
+
+/* Square corners everywhere, then restore the few true circles */
+*,*::before,*::after{border-radius:0 !important}
+.brand__dot,.nav-link[aria-current="page"]::after,.footer__social a{border-radius:50% !important}
+
+/* No lift-and-shadow hover; a hairline does the work */
+.card:hover,.service-card:hover,.price-card:hover{transform:none !important;box-shadow:none !important}
+.nav-dropdown{box-shadow:none;border:1px solid var(--line)}
+
+/* Header sits on a single rule */
+.site-header{border-bottom:1px solid var(--line)}
+
+/* Buttons: square, small caps, tracked out */
+.btn{padding:1rem 1.7rem;font-size:.74rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;border-width:1px}
+.btn:hover{transform:none}
+.btn-primary{background:var(--slate-d);color:var(--cream)}
+.btn-primary:hover{background:var(--rose-d);color:#fff}
+.btn-secondary{background:transparent;color:var(--slate-d);border-color:var(--slate-d)}
+.btn-secondary:hover{background:var(--slate-d);color:var(--cream)}
+.btn-rose{background:var(--cream);color:var(--slate-d)}
+.btn-rose:hover{background:#fff}
+.header-cta .btn{padding:.75rem 1.2rem}
+
+/* Tags: outlined, not pills */
+.pill-list li,.tag-list li{background:transparent;border:1px solid var(--line);font-size:.8rem;letter-spacing:.02em}
+
+/* Cards read as editorial columns: a top rule, no box */
+.card--blush,.card--cream{background:transparent;border:0;border-top:1px solid var(--slate-d);padding:1.75rem 0 0}
+.card--slate{background:transparent;border:0;border-top:1px solid rgba(244,238,229,.35);padding:1.75rem 0 0}
+.card .roman--lg{opacity:.55}
+
+/* Service cards: image over text, no frame */
+.service-card{background:transparent;border:0}
+.service-card__body{padding-left:0;padding-right:0}
+
+/* Photos: square-cut with a thin offset frame on the big ones */
+.hero__img-wrap{aspect-ratio:auto;overflow:visible;background:none;margin:0;position:relative}
+.hero__img-wrap img{aspect-ratio:4/5;width:100%;height:auto;object-fit:cover;object-position:center 20%;position:relative;z-index:1}
+.hero__img-wrap picture{display:block;position:relative}
+.hero__img-wrap picture::before{content:'';position:absolute;top:1.1rem;left:1.1rem;right:-1.1rem;bottom:-1.1rem;border:1px solid var(--rose);z-index:0}
+@media(max-width:899px){.hero__img-wrap picture::before{right:-.6rem;bottom:-.6rem;top:.6rem;left:.6rem}}
+.hero__caption{margin-top:1.8rem;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--taupe)}
+.two-col__media{background:none}
+
+/* Trust line under the homepage buttons */
+.hero__trust{margin-top:2.25rem;padding-top:1.25rem;border-top:1px solid var(--line);font-size:.8rem;letter-spacing:.04em;color:var(--taupe);max-width:520px}
+
+/* Readable accent words on dark photo heroes */
+.page-hero--dark h1 em,.page-hero--dark .page-hero__title em{color:var(--rose-s)}
+
+/* Drop the faint flower texture behind the logo moment */
+.brand-moment::before{display:none}
+
+/* Form fields: square with a visible edge */
+.form-group input,.form-group select,.form-group textarea{border:1px solid var(--line);background:#fff}
+
+/* FAQ rows and dividers get the same hairline */
+details,.faq-item{border-color:var(--line)}
