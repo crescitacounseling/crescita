@@ -1104,3 +1104,5 @@ details,.faq-item{border-color:var(--line)}
 /* Katie's page: pointer to her separate coaching practice */
 .coaching-note{margin-top:2.25rem;padding-top:1.5rem;border-top:1px solid var(--line)}
 .coaching-note p{font-size:.95rem;color:var(--slate);margin-top:.6rem}
+.article__header .breadcrumbs,.article__header .breadcrumbs a,.article__header .breadcrumbs strong{color:var(--slate)}
+.article__related{font-size:.95rem;color:var(--slate);margin-bottom:1.5rem}

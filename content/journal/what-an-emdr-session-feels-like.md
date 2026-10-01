@@ -1,17 +1,19 @@
 ---
 title: "What an EMDR Session Actually Feels Like"
+date: 2026-10-01
 description: "A plain walkthrough of an EMDR session at Crescita Counseling in Colorado Springs: what happens, what you might feel, and how it ends."
-date: 2026-09-24
+tag: EMDR
 author: katie-fortunato
-tags: [EMDR]
-heroImage: /assets/images/garden-gods-pine.jpg
-heroImageAlt: "A pine tree growing out of red rock at Garden of the Gods"
-draft: true
+image: garden-gods-pine
+image_alt: "A pine tree growing out of red rock at Garden of the Gods"
+service: /services/emdr-therapy
+service_name: EMDR therapy in Colorado Springs
+gbp: "New on the Crescita Journal: What an EMDR session actually feels like. If you've wondered what happens in the room (eye movements, tapping, what you might notice in your body), this walkthrough covers it, start to finish. In person in Colorado Springs or online across Colorado."
 ---
 
 People who are curious about EMDR usually have the same question, even if they phrase it differently: *what am I actually going to be doing in there?*
 
-Fair question. EMDR has an unusual name and a reputation for being a little mysterious. Here's what a session tends to look like at our office on North Weber, and what clients tell us it feels like.
+Fair question. EMDR has an unusual name and a reputation for being a little mysterious. Here's what a session tends to look like at our office on North Weber, and what it often feels like from the inside.
 
 ## Before you ever touch a memory
 

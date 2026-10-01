@@ -125,6 +125,13 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /dissociation  /services/parts-work-therapy  301
 
 # ============================================
+# INTERNAL FOLDERS — not part of the public site
+# ============================================
+/content/*  /404.html  404
+/scripts/*  /404.html  404
+/ops/*  /404.html  404
+
+# ============================================
 # 404 — must be last
 # ============================================
 /*  /404.html  404

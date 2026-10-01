@@ -151,4 +151,20 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- journal:start -->
+  <url>
+    <loc>https://www.crescitacounseling.com/journal/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/journal/what-an-emdr-session-feels-like</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- journal:end -->
+
 </urlset>
