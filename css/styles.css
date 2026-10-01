@@ -1036,5 +1036,10 @@ details,.faq-item{border-color:var(--line)}
 .page-hero--uniform .page-hero__content{max-width:900px}
 .page-hero--uniform .page-hero__title{font-size:clamp(2.3rem,4.6vw,4rem);line-height:1.06}
 .page-hero--uniform .page-hero__lead{max-width:640px}
-@media(max-width:899px){.page-hero--uniform{min-height:500px}}
+@media(max-width:899px){.page-hero--uniform{min-height:560px}}
 .nav-dropdown__link--all{font-weight:600;border-bottom:1px solid var(--line);margin-bottom:.25rem}
+
+/* Service header: booking button + trust line */
+.page-hero__actions{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.75rem;margin-top:1.75rem}
+.page-hero--dark .page-hero__content p.page-hero__trust{margin:0;font-size:.8rem;letter-spacing:.04em;color:rgba(244,238,229,.88) !important;max-width:420px;line-height:1.55}
+.page-hero__lead{margin-bottom:0}
