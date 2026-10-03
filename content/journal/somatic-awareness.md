@@ -4,8 +4,8 @@ date: 2027-08-15
 description: "Trauma isn't only stored as a story. It shows up in your body. What somatic awareness means in therapy and why paying attention to your body can help you heal."
 tag: Trauma
 author: katie-fortunato
-image: soft-botanicals
-image_alt: "Dried botanicals in soft rose and cream tones"
+image: red-rock-canyon-quarry
+image_alt: "Terraced sandstone walls of the old quarry at Red Rock Canyon Open Space."
 service: /services/trauma-therapy
 service_name: Trauma therapy in Colorado Springs
 gbp: "Trauma isn't only stored as a story. It shows up in your body: tight shoulders, a jumpy startle, a stomach that knows before you do. Our new Journal post explains somatic awareness in therapy. Trauma therapy in Colorado Springs and online."

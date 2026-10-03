@@ -4,8 +4,8 @@ date: 2026-12-01
 description: "Finals, social pressure, and too much screen time can make winter break harder for teens than it looks. Signs to watch for and simple ways parents can help."
 tag: Child & Teen
 author: katie-fortunato
-image: mountain-peaks
-image_alt: "Snow-covered mountain peaks at dusk"
+image: garden-gods-snow-sun
+image_alt: "Red rock walls and frosted shrubs at Garden of the Gods on a bright winter day."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "Winter break is supposed to be restful, but plenty of teens come into it running on empty. Our latest Journal post covers signs your teen is struggling and simple ways to help over the break. Child and teen therapy in Colorado Springs and online."

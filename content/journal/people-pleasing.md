@@ -4,8 +4,8 @@ date: 2027-01-15
 description: "If you say yes when you mean no and feel responsible for everyone's mood, people-pleasing may be a survival strategy, not a personality. Here's where it comes from."
 tag: Anxiety
 author: katie-fortunato
-image: wildflowers
-image_alt: "Pink and white wildflowers in soft focus"
+image: pikes-peak-overlook
+image_alt: "A view over pine-covered foothills from a granite ledge on Pikes Peak."
 service: /services/anxiety-therapy
 service_name: Anxiety therapy in Colorado Springs
 gbp: "Saying yes when you mean no? Feeling responsible for everyone's mood? Our newest Journal post explains why people-pleasing is often a survival strategy, not a personality trait, and how therapy can help. Crescita Counseling, Colorado Springs."

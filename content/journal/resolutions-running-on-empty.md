@@ -4,8 +4,8 @@ date: 2026-12-15
 description: "If your resolutions keep fizzling by February, the problem may not be willpower. A different way to think about change when you're already worn out."
 tag: Individual Therapy
 author: katie-fortunato
-image: meadow-flowers
-image_alt: "Wildflowers in a high meadow in soft morning light"
+image: garden-gods-first-snow
+image_alt: "A light snow over red rocks and juniper at Garden of the Gods."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
 gbp: "If your New Year's resolutions keep fizzling by February, it may not be a willpower problem. Our new Journal post looks at why change is so hard when you're already running on empty, and what to try instead. Crescita Counseling, Colorado Springs."

@@ -4,8 +4,8 @@ date: 2027-07-01
 description: "You can grieve someone who hasn't died: a parent with dementia, an estranged sibling, a partner who changed. What anticipatory and ambiguous grief feel like, and how to care for yourself."
 tag: Grief
 author: katie-fortunato
-image: clouds-rose
-image_alt: "Rose-tinted clouds over a quiet evening sky"
+image: red-rock-canyon-sunrise
+image_alt: "Early sun on the foothills above Red Rock Canyon Open Space on a December morning."
 service: /services/grief-counseling
 service_name: Grief counseling in Colorado Springs
 gbp: "You can grieve someone who's still here: a parent with dementia, an estranged family member, a relationship that changed. Our latest Journal post explores this kind of grief and how to care for yourself through it. Grief counseling in Colorado Springs."

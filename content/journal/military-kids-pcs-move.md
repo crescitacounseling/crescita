@@ -4,8 +4,8 @@ date: 2027-02-15
 description: "PCS moves ask a lot of military kids: new schools, new friends, new everything. Practical ways to help them through it, before, during, and after the move."
 tag: Military Families
 author: katie-fortunato
-image: garden-of-the-gods
-image_alt: "Garden of the Gods with Pikes Peak in the background"
+image: pikes-peak-highway-snow
+image_alt: "The Pikes Peak Highway winding through snow and pine forest."
 service: /services/military-family-therapy
 service_name: Counseling for military families in Colorado Springs
 gbp: "New orders? Our latest Journal post shares practical ways to help military kids through a PCS move, before, during, and after. Whether you're arriving in Colorado Springs or heading out, we're here for military families."

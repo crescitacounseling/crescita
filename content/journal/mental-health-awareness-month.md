@@ -4,8 +4,8 @@ date: 2027-05-01
 description: "May is Mental Health Awareness Month. Instead of big overhauls, here are small, realistic steps that actually support your mental health, plus when to get more help."
 tag: Individual Therapy
 author: katie-fortunato
-image: wildflower-scatter
-image_alt: "Scattered wildflowers in pale pink and white"
+image: pikes-peak-meadow
+image_alt: "A green spring meadow with Pikes Peak rising in the blue distance."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
 gbp: "May is Mental Health Awareness Month. Our latest Journal post skips the big overhauls and shares small, realistic steps that actually support your mental health, and when it might be time for more help. Crescita Counseling, Colorado Springs."

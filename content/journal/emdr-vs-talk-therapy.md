@@ -4,8 +4,8 @@ date: 2027-04-01
 description: "EMDR and talk therapy work differently and help with different things. A clear comparison to help you decide what might fit, and why many people use both."
 tag: EMDR
 author: katie-fortunato
-image: river-stones
-image_alt: "Smooth river stones in soft grey, rose, and cream"
+image: garden-gods-formation
+image_alt: "A tall red sandstone formation at Garden of the Gods above juniper and scrub."
 service: /services/emdr-therapy
 service_name: EMDR therapy in Colorado Springs
 gbp: "EMDR or talk therapy? They work differently and help with different things. Our latest Journal post compares them side by side to help you decide what might fit. EMDR available in person in Colorado Springs and online across Colorado."

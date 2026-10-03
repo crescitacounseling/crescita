@@ -4,8 +4,8 @@ date: 2027-06-15
 description: "Summer break can be hard for anxious kids who rely on routine. Practical ways to keep them steady through the long, unstructured weeks, without overscheduling."
 tag: Child & Teen
 author: katie-fortunato
-image: meadow-flowers
-image_alt: "Wildflowers in a sunny high meadow"
+image: manitou-deer-crossing
+image_alt: "Two young mule deer crossing a quiet road in Manitou Springs."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "Summer break can be surprisingly hard for anxious kids who rely on routine. Our new Journal post shares simple ways to keep them steady through the long, unstructured weeks. Child and teen therapy in Colorado Springs and online."

@@ -4,8 +4,8 @@ date: 2026-11-01
 description: "Going home for the holidays can bring back old roles and old reactions fast. Why it happens, and a few ways to protect your peace this season."
 tag: Trauma
 author: katie-fortunato
-image: soft-botanicals
-image_alt: "Soft dried botanicals in muted rose and cream tones"
+image: pikes-peak-moonrise-city
+image_alt: "Lights of Colorado Springs homes at dusk below a snowy Pikes Peak."
 service: /services/trauma-therapy
 service_name: Trauma therapy in Colorado Springs
 gbp: "Ever notice you turn 15 again the minute you walk into your parents' house? Our latest Journal post explains why the holidays stir up old family patterns, and offers a few ways to protect your peace this season. Crescita Counseling, Colorado Springs."

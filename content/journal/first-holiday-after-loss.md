@@ -4,8 +4,8 @@ date: 2026-11-15
 description: "The first holidays after a death are often the hardest. Practical, gentle ideas for getting through them, and permission to do it your own way."
 tag: Grief
 author: katie-fortunato
-image: clouds-rose
-image_alt: "Soft rose-colored clouds across an evening sky"
+image: garden-gods-winter-fence
+image_alt: "A snow-dusted fence and evergreens with Pikes Peak in the distance."
 service: /services/grief-counseling
 service_name: Grief counseling in Colorado Springs
 gbp: "The first holiday season after a loss can feel impossible. Our new Journal post offers gentle, practical ideas for getting through it, and permission to do it your own way. Grief counseling for teens and adults in Colorado Springs and online."

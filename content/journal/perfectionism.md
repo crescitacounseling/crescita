@@ -4,8 +4,8 @@ date: 2027-09-15
 description: "Perfectionism often looks like high standards, but underneath it is usually fear. Where it comes from, what it costs, and how to loosen its grip without losing your drive."
 tag: Anxiety
 author: katie-fortunato
-image: wildflowers
-image_alt: "Pink and white wildflowers in a soft-focus meadow"
+image: balanced-rock-snow
+image_alt: "Balanced Rock at Garden of the Gods with snow on the red sandstone."
 service: /services/anxiety-therapy
 service_name: Anxiety therapy in Colorado Springs
 gbp: "Perfectionism often looks like high standards. Underneath, it's usually fear. Our new Journal post explores where perfectionism comes from, what it costs, and how to loosen its grip without losing your drive. Crescita Counseling, Colorado Springs."

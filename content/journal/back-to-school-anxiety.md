@@ -4,8 +4,8 @@ date: 2027-08-01
 description: "Stomachaches, sleepless nights, and endless what-ifs. How to help your child with back-to-school anxiety, and signs it might be more than first-day nerves."
 tag: Child & Teen
 author: katie-fortunato
-image: creek-stream
-image_alt: "A clear creek running over rocks in a Colorado canyon"
+image: downtown-colorado-springs
+image_alt: "Downtown Colorado Springs from above, with Pikes Peak on the horizon."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "Stomachaches, sleepless nights, endless what-ifs. Our latest Journal post is a parent's guide to back-to-school anxiety, including signs it might be more than first-day nerves. Child and teen therapy for ages 7 and up in Colorado Springs."

@@ -4,8 +4,8 @@ date: 2027-06-01
 description: "Homecoming is joyful, and it can also be surprisingly hard. What reintegration after deployment often looks like for service members, spouses, and kids, and what helps."
 tag: Military Families
 author: katie-fortunato
-image: mountain-peaks
-image_alt: "Snow-covered peaks above the foothills at dusk"
+image: pikes-peak-reservoir
+image_alt: "A quiet reservoir in a valley on Pikes Peak under gathering storm clouds."
 service: /services/military-family-therapy
 service_name: Counseling for military families in Colorado Springs
 gbp: "Homecoming is joyful, and the weeks after can be surprisingly hard for the whole family. Our latest Journal post covers what reintegration after deployment often looks like and what helps. Military family counseling in Colorado Springs."

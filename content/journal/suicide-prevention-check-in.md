@@ -4,8 +4,8 @@ date: 2027-09-01
 description: "September is Suicide Prevention Month. Warning signs to watch for, what to say (and what not to), and how to connect someone with help, including the 988 Lifeline."
 tag: Mental Health
 author: katie-fortunato
-image: water-ripples
-image_alt: "Calm water at dusk in slate blue and cream"
+image: garden-gods-evening-light
+image_alt: "Warm evening light on the red rock fins of Garden of the Gods."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
 gbp: "September is Suicide Prevention Month. Our latest Journal post covers warning signs, what to say to someone you're worried about, and how to connect them with help. If you or someone you know is in crisis, call or text 988 any time."

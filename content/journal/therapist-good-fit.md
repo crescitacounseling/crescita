@@ -4,8 +4,8 @@ date: 2027-07-15
 description: "The relationship with your therapist matters more than almost anything else. What a good fit feels like, questions to ask, and when it's okay to switch."
 tag: Individual Therapy
 author: katie-fortunato
-image: mountains-wide
-image_alt: "Wide view of the Front Range mountains under a clear sky"
+image: manitou-incline-boulder
+image_alt: "A trail passing big granite boulders and pines near the Manitou Incline."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
 gbp: "Research shows the relationship with your therapist matters more than almost anything else. Our new Journal post covers what a good fit feels like, questions to ask, and when it's okay to switch. Free 20-minute consults at Crescita Counseling."

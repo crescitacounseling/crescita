@@ -4,8 +4,8 @@ date: 2027-02-01
 description: "Part of you wants to change and part of you digs in its heels. Parts work takes that seriously. A plain-language introduction to how it works in therapy."
 tag: Parts Work
 author: katie-fortunato
-image: water-ripples
-image_alt: "Still water with soft ripples in slate blue and cream"
+image: garden-gods-rock-spires
+image_alt: "A cluster of separate red rock spires at Garden of the Gods."
 service: /services/parts-work-therapy
 service_name: Parts work and dissociation therapy in Colorado Springs
 gbp: "\"Part of me wants to change, and part of me won't budge.\" Sound familiar? Our new Journal post explains parts work in plain English: what it is, how it connects to IFS, and how it helps. Crescita Counseling, Colorado Springs and online."

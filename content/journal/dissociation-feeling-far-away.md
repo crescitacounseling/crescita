@@ -4,8 +4,8 @@ date: 2027-03-15
 description: "Losing time, feeling unreal, watching yourself from outside. What dissociation is, why it happens after trauma, and how therapy helps you come back gently."
 tag: Dissociation
 author: katie-fortunato
-image: clouds-pink
-image_alt: "Pale pink clouds drifting across a soft sky"
+image: pikes-peak-haze
+image_alt: "Hazy blue ridgelines seen from the rocky upper slopes of Pikes Peak."
 service: /services/parts-work-therapy
 service_name: Parts work and dissociation therapy in Colorado Springs
 gbp: "Ever feel far away from your own life, like you're watching from behind glass? Our new Journal post explains dissociation, why it happens after trauma, and how therapy helps you come back gently. Crescita Counseling, Colorado Springs and online."

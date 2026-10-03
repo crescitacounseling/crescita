@@ -4,8 +4,8 @@ date: 2027-04-15
 description: "A racing heart, shortness of breath, the sense you might die. What's actually happening in your body during a panic attack, and what helps in the moment and long term."
 tag: Anxiety
 author: katie-fortunato
-image: creek-forest
-image_alt: "A creek winding through pine forest in the Colorado foothills"
+image: manitou-creek-bridge
+image_alt: "Fast water rushing past mossy rocks under a stone bridge in Manitou Springs."
 service: /services/anxiety-therapy
 service_name: Anxiety therapy in Colorado Springs
 gbp: "A racing heart, shaky hands, the sense that something terrible is about to happen. Our new Journal post explains what's actually happening in your body during a panic attack and what helps. Anxiety therapy in Colorado Springs and online."
