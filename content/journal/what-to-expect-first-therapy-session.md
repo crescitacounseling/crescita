@@ -21,7 +21,7 @@ You'll fill out some paperwork, either online beforehand or in the waiting room,
 
 ## What actually happens in the room
 
-We'll spend most of the hour getting to know each other: what's bringing you in right now, a bit of relevant background, and what you're hoping is different on the other side of therapy. I'll ask questions, but you're never required to answer more than feels okay in the moment. If a topic feels too big for week one, we'll go around it and come back when you're ready. Trauma-informed care means the pace is yours to set, not mine.
+We'll spend most of that first session getting to know each other: what's bringing you in right now, a bit of relevant background, and what you're hoping is different on the other side of therapy. I'll ask questions, but you're never required to answer more than feels okay in the moment. If a topic feels too big for week one, we'll go around it and come back when you're ready. Trauma-informed care means the pace is yours to set, not mine.
 
 ## What we won't do in session one
 
@@ -29,7 +29,7 @@ You won't be asked to relive a hard memory in detail, pushed toward a label or d
 
 ## How to know if it's the right fit
 
-A good fit matters as much as credentials. Notice how you feel leaving the room: a little lighter, a little more understood, cautiously hopeful? Or unsure and hard to place? Either reaction is useful information, and it's always okay to try a session or two before deciding. If you're still choosing someone, these [questions to ask on a consultation call](/journal/questions-to-ask-therapist-consultation) can help.
+A good fit matters as much as credentials. Notice how you feel leaving the room: a little lighter, a little more understood, cautiously hopeful? Or unsure and hard to place? Either reaction is useful information, and it's always okay to try a session or two before deciding. If you're still choosing someone, a short list of questions to ask on a consultation call can help. That's coming to the Journal in a couple of weeks.
 
 ## Common questions
 
@@ -43,7 +43,7 @@ All of that happens regularly and is nothing to prepare for or prevent. Crying, 
 
 ### How long is the first session, and what happens after?
 
-A first session usually runs about 50 to 55 minutes. Afterward, we'll talk about a loose plan: how often to meet, what approach might fit ([EMDR](/services/emdr-therapy), somatic work, [parts work](/services/parts-work-therapy), or a blend), and what you'd like to focus on next.
+A first session (the intake) runs up to 75 minutes. Afterward, we'll talk about a loose plan: how often to meet, what approach might fit ([EMDR](/services/emdr-therapy), somatic work, [parts work](/services/parts-work-therapy), or a blend), and what you'd like to focus on next.
 
 ### Will I get a diagnosis right away?
 

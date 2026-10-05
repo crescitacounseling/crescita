@@ -1,60 +1,46 @@
 ---
 title: "How to Know If a Therapist Is a Good Fit"
 date: 2027-03-08
-description: "The relationship with your therapist matters more than almost anything else. What a good fit feels like, questions to ask, and when it's okay to switch."
+description: "How to find a therapist who's a good fit: seven signs the relationship is working, signs it isn't, and why switching therapists is normal and not rude."
 tag: Individual Therapy
 author: katie-fortunato
 image: manitou-incline-boulder
 image_alt: "A trail passing big granite boulders and pines near the Manitou Incline."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
-gbp: "Research shows the relationship with your therapist matters more than almost anything else. Our new Journal post covers what a good fit feels like, questions to ask, and when it's okay to switch. Free 20-minute consults at Crescita Counseling."
+gbp: "How do you know a therapist is the right fit? Our new Journal post covers what a good fit feels like, questions to ask, and when it's okay to switch. Free 20-minute consults at Crescita Counseling."
 ---
 
-There's a lot of focus on which type of therapy is best. EMDR, CBT, parts work, something else. Those choices matter. But research has pointed to something even more consistent: the relationship between you and your therapist is one of the strongest predictors of whether therapy helps.
+Most advice on how to find a therapist starts with the type of therapy. EMDR, CBT, parts work, something else. Those choices matter. But one of the most consistent findings in therapy research is plainer than any method: the relationship between you and your therapist is one of the strongest predictors of whether therapy helps.
 
-So how do you know if a therapist is a good fit?
+So the real question is whether this particular person is a good fit for you. Most people can tell within three or four sessions, if they know what to look for.
 
-## What a good fit tends to feel like
+A word first about what fit doesn't mean. It doesn't always mean instant comfort. Good therapy gets uncomfortable at times, because you're talking about the exact things you usually avoid. A therapist who never says anything that makes you squirm may be pleasant company without being much help.
 
-It's not always instant comfort. Therapy can be uncomfortable sometimes, and that's okay. But over the first few sessions, you'll often notice:
+## Signs you've found a good fit
 
-- You feel listened to, not lectured
-- You can be honest, including about things you're embarrassed by
-- Your therapist is curious about you, not just your symptoms
-- You leave sessions feeling a little clearer or lighter, even after hard conversations
-- Your pace is respected
+1. **You can tell the truth.** Including the embarrassing parts: that you skipped the thing you said you'd try, that you're annoyed with them, that you almost canceled today.
+2. **You feel listened to.** They reflect back what you said accurately enough that you think, yes, that's it exactly.
+3. **They're curious about you as a person.** Your job, your kids, the Mount Cutler hike you did last weekend. Your whole life, beyond the list of symptoms.
+4. **Your pace is respected.** When you say you're not ready to go there, they believe you.
+5. **They handle it well when you push back.** Tell them a suggestion didn't land. A good therapist gets curious, not defensive.
+6. **You leave a little clearer.** Not happy every week, and sometimes wrung out. But with a sense that the work is going somewhere.
+7. **You can say what you're working on.** If someone asked "What are you doing in there?" you could answer in a sentence or two.
 
-## Questions worth asking
+You won't see all seven after one session. Watch the trend over a month or so.
 
-Many people don't realize they can interview a therapist. A free consultation call is a great time to ask:
+> You're allowed to choose a therapist the way you'd choose anyone you trust with something important.
 
-- How do you usually work with what I'm dealing with?
-- What would the first few sessions look like?
-- What training do you have in this area?
-- How will we know if therapy is helping?
-- What happens if I feel like it's not working?
+The consult call is the best place to start sorting this out. Most therapists offer a free one, and every new client at Crescita starts with a 20-minute call. Ask how they'd work with what you're dealing with, what the first few sessions would look like, and what happens if it isn't working. Keep this list of [questions to ask on a therapist consultation call](/journal/questions-to-ask-therapist-consultation) open on your screen while you talk.
 
-There are no wrong questions. A good therapist will welcome them.
+## When the fit is off
 
-> You're allowed to choose your therapist the way you'd choose anyone you trust with something important.
+Most therapists are thoughtful and ethical. Still, trust your gut if you feel judged or rushed, or if you dread sessions for reasons that have nothing to do with the hard material. Other things to watch for: a therapist who talks about themselves a lot, pressure to share more than you're ready to, boundaries that feel blurry, or months of feeling worse with no sense of direction.
 
-## Red flags
+Sometimes nothing is wrong at all. The chemistry just isn't there. Or it was there two years ago and your needs have changed. You came in for anxiety, and now you've realized there's older trauma underneath it, and you'd like someone trained in [EMDR](/services/emdr-therapy) or [parts work](/services/parts-work-therapy).
 
-Most therapists are thoughtful and ethical. Still, trust your gut if you notice:
+You can raise this with your current therapist. "I'm wondering if this is still the right fit" is a perfectly good sentence to say in session, and the conversation that follows is often useful in itself. Sometimes it changes the direction of the work. Sometimes it ends in a referral. A good therapist can hear it either way.
 
-- Feeling judged, dismissed, or rushed
-- Your therapist talking about themselves a lot
-- Pressure to share more than you're ready to
-- Boundaries that feel blurry
-- Feeling worse over time with no sense of direction
+On our free call, we'll tell you honestly which of our therapists looks like the best match, or whether someone outside our practice would serve you better. If you'd like to put faces to names first, you can [meet our team](/team/).
 
-## When it's okay to switch
-
-It's okay to switch therapists. It's not rude, and a good therapist won't take it personally. Sometimes the fit just isn't there, or your needs change. You can even tell your current therapist you're thinking about it. That conversation can be helpful in itself.
-
-## How we approach fit at Crescita
-
-Every new client starts with a free 20-minute call. We'll listen to what's going on and tell you honestly which of our therapists might be the best match, or if someone outside our practice would serve you better.
-
-If you're looking for [individual therapy](/services/individual-therapy) in Colorado Springs or online, you're welcome to [meet our team](/team/) first.
+Switching therapists is normal. People do it all the time, and good therapists expect it.

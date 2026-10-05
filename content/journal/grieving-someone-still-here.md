@@ -1,7 +1,7 @@
 ---
 title: "Grieving Someone Who's Still Here"
 date: 2027-02-22
-description: "You can grieve someone who hasn't died: a parent with dementia, an estranged sibling, a partner who changed. What anticipatory and ambiguous grief feel like, and how to care for yourself."
+description: "Ambiguous grief is grief for someone still alive: a parent with dementia, an estranged sibling, a partner who changed. Why it hurts and how people carry it."
 tag: Grief
 author: katie-fortunato
 image: red-rock-canyon-sunrise
@@ -11,34 +11,36 @@ service_name: Grief counseling in Colorado Springs
 gbp: "You can grieve someone who's still here: a parent with dementia, an estranged family member, a relationship that changed. Our latest Journal post explores this kind of grief and how to care for yourself through it. Grief counseling in Colorado Springs."
 ---
 
-Most people think of grief as something that happens after a death. But many people are grieving someone who's still alive.
+Your dad still calls every Sunday. Lately he asks the same question three times in twenty minutes, and last week he called you by your mother's name. He's right there on the phone. And you miss him.
 
-A parent with dementia who no longer recognizes you. A sibling lost to addiction. An estranged family member. A partner after a serious injury or illness. A child who's pulled away. These losses are real, even when there's no funeral.
+That ache has a name. Ambiguous grief is grief for someone who is still alive but no longer present the way they used to be. It is real grief, even with no funeral, no casseroles on the porch, and no sympathy card in the mailbox.
 
-## Two kinds of grief that often go unnamed
+It turns up in more places than people expect. A parent with dementia. A brother lost to addiction, who surfaces every few months and then disappears again. A grown daughter who stopped speaking to you. A spouse who came home from a deployment, or out of the hospital after a brain injury, quieter and harder to reach. A best friend who drifted off without any fight to point to. The person is alive. The relationship you had is gone, or going.
 
-**Anticipatory grief** happens before a loss. You're watching someone decline and grieving what's coming while they're still here. You may feel sadness, dread, guilt, and sometimes a quiet wish for it to be over, followed by more guilt for feeling that.
+Researchers who study this call it ambiguous loss, and the ambiguity is the hard part. When someone dies, everyone agrees that something ended. Here, nothing ends. You can't hold a memorial for someone who will be at Easter. So you keep showing up, and the grief keeps showing up with you, in small doses, over and over.
 
-**Ambiguous loss** happens when someone is physically present but psychologically absent, or physically gone but emotionally present. There's no clear ending, which makes it hard to grieve and hard for others to understand.
+A related kind deserves its own name. Anticipatory grief is the grief you feel before a death you can see coming: sitting with a parent in hospice, or a partner through a terminal illness, and mourning them while they're still in the room. Plenty of caregivers carry both at once.
 
-## Why it's so hard
+People in this spot often decide they don't have the right to feel it. *At least she's still alive. Other people have it worse.* Friends may say the same thing, more gently. So the grief goes underground, and it tends to come out sideways. Irritability with the person you're caring for. Numbness. A 2 a.m. guilt spiral. A quiet wish that it would just be over, followed by shame for wishing it.
 
-This kind of grief often isn't recognized. People may not know what to say, or they may assume you should feel grateful the person is still alive. You might feel like you don't have the right to grieve.
+That wish is common.
 
-It also doesn't end neatly. You may grieve again and again as things change.
+It doesn't make you a bad son or wife or friend. Usually it means you're exhausted, and you love them.
 
-> Grief doesn't need permission. If you've lost something important, it counts.
+> Grief doesn't need a death certificate. If you've lost something that mattered, it counts.
 
-## Ways to care for yourself
+Another true and hard thing: you can grieve someone and be angry with them in the same week. A sister who keeps relapsing can be someone you miss terribly and someone whose calls you let go to voicemail. Both feelings are honest, and you don't have to pick.
 
-- **Name it.** Simply calling it grief can bring relief.
-- **Let both things be true.** You can love someone and feel exhausted by them. You can be grateful they're here and heartbroken about who they're not anymore.
-- **Find people who get it.** Caregiver support groups, others who've walked a similar road, or a trusted friend who can listen without fixing.
-- **Make space for small rituals.** Writing them a letter, revisiting old photos, or marking important dates in your own way.
-- **Get practical help.** If you're caregiving, respite care, family meetings, and local resources can lighten the load.
+Ambiguous grief also doesn't finish on a schedule. You may grieve your mother when she forgets your birthday, again when she forgets your name, and again the day she moves into memory care across town. Each new loss can feel like starting over. It's the same grief, coming back for the next piece.
 
-## When to reach out for support
+## Living alongside ambiguous grief
 
-Ongoing grief can wear down even the steadiest people. It might be time for support if you're feeling numb or hopeless, struggling to sleep or function, carrying heavy guilt or anger, or isolating from people who care about you.
+You won't get over this kind of loss while the person is still here. What people find instead is a way to carry it that doesn't flatten them.
 
-[Grief counseling](/services/grief-counseling) offers a place to say the things you can't say at home and to make sense of a loss that doesn't fit the usual script. Ebony Trotter, LPC, works with grief and loss for teens and adults, in person in Colorado Springs or online.
+Calling it grief is often the first relief. A lot of people describe something loosening the first time they say out loud, "I'm grieving my dad, and he's still alive."
+
+It helps to find people who understand without needing it explained. That could be an Alzheimer's Association caregiver group, an Al-Anon meeting, or one friend who has lived something similar and won't try to fix it. Small rituals help some people: a letter to the person they used to know, a photo from before kept out on the counter, a date only they remember marked quietly. If you're the caregiver, practical help counts as self-care. Respite care. A family meeting about who covers what. A neighbor who takes the Tuesday shift.
+
+And therapy can be the place for what you can't say at the kitchen table. [Grief counseling](/services/grief-counseling) at Crescita is built for losses that don't fit the usual script. [Ebony Trotter, LPC](/team/ebony-trotter), works with grief and loss for teens and adults, in person in Colorado Springs or online anywhere in Colorado.
+
+Your dad will probably call again on Sunday. You can be glad to hear his voice and miss him at the same time, in the same call.

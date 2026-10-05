@@ -1,7 +1,7 @@
 ---
-title: "Questions to Ask on a Therapist Consultation Call: A Simple Checklist"
+title: "Questions to Ask a Therapist Before You Book"
 date: 2026-10-22
-description: "Not sure what to ask a therapist before booking? Here's a simple checklist for your consultation call in Colorado Springs, from approach and fit to cost and insurance."
+description: "Not sure what to ask a therapist before booking? A simple checklist for your consultation call in Colorado Springs: approach, fit, cost and insurance."
 tag: Individual Therapy
 author: katie-fortunato
 image: foothills-pine-ridge

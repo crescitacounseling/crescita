@@ -1,7 +1,7 @@
 ---
-title: "Why New Year's Resolutions Fail When You're Running on Empty"
+title: "New Year's Resolutions When You're Running on Empty"
 date: 2026-12-15
-description: "If your resolutions keep fizzling by February, the problem may not be willpower. A different way to think about change when you're already worn out."
+description: "If your New Year's resolutions keep fizzling by February, the problem may not be willpower. A kinder way to think about change when you're already worn out."
 tag: Individual Therapy
 author: katie-fortunato
 image: garden-gods-first-snow
@@ -11,41 +11,37 @@ service_name: Individual therapy in Colorado Springs
 gbp: "If your New Year's resolutions keep fizzling by February, it may not be a willpower problem. Our new Journal post looks at why change is so hard when you're already running on empty, and what to try instead. Crescita Counseling, Colorado Springs."
 ---
 
-Every January, a lot of people make the same promise to themselves: this is the year I finally get it together. More exercise, less phone, better boundaries, a cleaner house.
+Every January the gyms on Powers fill up, the meal-prep containers come out, and a lot of people make the same promise: this is the year I get it together.
 
-By February, most of those plans have quietly disappeared. And the usual conclusion is harsh: I just don't have enough discipline.
+By the second week of February, most New Year's resolutions have quietly disappeared. And the conclusion people draw is harsh. I just don't have the discipline.
 
-We'd like to offer a different explanation.
+I'd like to offer a different explanation.
 
-## Willpower is a limited resource
+## Why New Year's resolutions fizzle by February
 
-When you're already stretched thin, every bit of energy is spoken for. Work, kids, aging parents, a relationship that needs attention, your own unspoken worries. Adding a big new goal on top of that is like trying to run a marathon on no sleep.
+Think about what December actually asked of you. Travel, or hosting. Gifts and the money for them. Kids home from school for two weeks. Maybe a first holiday without someone. By January 1 a lot of people aren't starting fresh. They're starting depleted.
 
-The resolution doesn't fail because you're weak. It fails because there's nothing left in the tank to fuel it.
+Then we stack a big new goal on top. Lose twenty pounds, wake up at five, finally organize the garage. It's like trying to train for the Pikes Peak Ascent on four hours of sleep. There's nothing left in the tank to run the plan on, and no amount of grit changes that math.
 
-## Some goals are really about fixing yourself
+January here doesn't help. It's dark by five, the wind comes down off the mountains, and a week of single-digit mornings makes a 5 a.m. workout feel like a cruel joke. Your body wants to slow down this time of year. Most resolutions ask it to speed up.
 
-Look at the shape of the resolution. Is it "I want to feel more like myself," or is it "I need to be a better, thinner, calmer, more productive person"?
+Look at the tone of the resolution, too. A lot of them are really a list of things wrong with you: be thinner, calmer, more productive, less of whatever you are now. Those goals are powered by the same inner critic that already wears you out. Even when you follow through, it rarely feels like enough. (If that voice sounds familiar, [perfectionism and anxiety](/journal/perfectionism) tend to show up together.)
 
-Resolutions built on self-criticism tend to backfire. They're powered by the same inner voice that already exhausts you. Even when you follow through, it rarely feels like enough.
+> Change that lasts usually starts from curiosity. Contempt runs out of gas fast.
 
-> Change that lasts usually starts from curiosity, not contempt.
+Some people realize they've been running on empty for much longer than one holiday season. They're the reliable one, the fixer, the one who never needs anything. That role usually started for a good reason, and it's hard to set down alone. Rest can even feel unsafe, as if letting go of one ball means everything will drop. It's the kind of pattern we work on in [individual therapy](/services/individual-therapy), in our Colorado Springs office or online.
 
-## Try a smaller question
+## Smaller than a resolution
 
-Instead of "What should I fix this year?" try one of these:
+Instead of asking what to fix this year, ask what drained you most last year and what gave you even a little energy back. The answers tend to point somewhere smaller and more honest.
 
-- What drained me most last year?
-- What gave me even a little energy back?
-- What am I tired of pretending is fine?
-- What would I do more of if I weren't so worried about doing it right?
+Maybe what drained you was the Tuesday night volunteer shift you took on in 2023 and never let go of. Maybe what helped was the hour at the climbing gym, or the Sunday phone call with your college roommate. Neither one needs a resolution. One needs ending and the other needs protecting.
 
-The answers often point to something smaller and more honest than a resolution. Saying no to one recurring commitment. Going to bed thirty minutes earlier. Admitting that something has been hard for a long time.
+A few places to start:
 
-## When the pattern is older than this year
-
-Some people notice they've been running on empty for as long as they can remember. They're the reliable one, the fixer, the one who doesn't need help. That role usually started for a good reason, often in childhood, and it's hard to put down.
-
-That's the kind of pattern we work with in [individual therapy](/services/individual-therapy). Not by adding more to your to-do list, but by understanding why rest feels so unsafe and what it might take to let some of it go.
-
-If you start one new thing this January, it doesn't have to be a resolution. It could just be a conversation.
+- Drop one recurring commitment instead of adding one
+- Go to bed thirty minutes earlier, two nights a week
+- Walk the same short loop three mornings a week, no tracking app
+- Say out loud to one person that something has been hard
+- Pick a word for the year instead of a goal (rest, enough, slower)
+- Wait until March to decide what you want to change

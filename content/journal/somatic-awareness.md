@@ -1,7 +1,7 @@
 ---
-title: "Your Body Remembers: Somatic Awareness in Trauma Therapy"
+title: "Your Body Remembers: Somatic Therapy for Trauma"
 date: 2026-12-22
-description: "Trauma isn't only stored as a story. It shows up in your body. What somatic awareness means in therapy and why paying attention to your body can help you heal."
+description: "Somatic therapy for trauma pays attention to what your body does, not only the story. What that means in a session, plus a two-minute body scan to try."
 tag: Trauma
 author: katie-fortunato
 image: red-rock-canyon-quarry
@@ -11,47 +11,44 @@ service_name: Trauma therapy in Colorado Springs
 gbp: "Trauma isn't only stored as a story. It shows up in your body: tight shoulders, a jumpy startle, a stomach that knows before you do. Our new Journal post explains somatic awareness in therapy. Trauma therapy in Colorado Springs and online."
 ---
 
-You might know exactly what happened to you. You might have talked about it many times. And still, your shoulders tighten when someone raises their voice. Your stomach drops at a certain smell. You startle at sounds that don't bother anyone else.
+You might know exactly what happened to you. You might have talked about it many times, to friends, to a previous therapist, to yourself at 2 a.m. And still your shoulders climb toward your ears when someone raises their voice. Your stomach drops at a certain smell. A dropped pan in the kitchen sends you halfway out of your chair while everyone else barely looks up.
 
-That's because trauma isn't only stored as a story. It's also stored in the body.
+That's the reason somatic therapy for trauma exists. The story is only part of what gets stored. The rest lives in your body.
 
-## What somatic awareness means
+## What somatic therapy for trauma involves
 
-"Somatic" simply means relating to the body. In therapy, somatic awareness means paying attention to what your body is doing (tension, breath, heart rate, temperature, the urge to move or freeze) and treating that information as part of the work.
+"Somatic" just means relating to the body. In trauma therapy, it means paying attention to what your body is doing (muscle tension, breath, heart rate, temperature, the urge to move or go still) and treating that as real information.
 
-It's not massage, and you don't need to be good at yoga. It's mostly noticing.
+You don't need to be flexible or calm or good at meditation. Mostly, you notice. A lot of people have been told to "just relax" for years. Nobody relaxes on command, least of all a body that learned it had to stay on guard.
 
-## Why the body matters in trauma
+Here's why it matters. When you're in danger, your body reacts faster than your thinking brain. It braces, runs, fights, or freezes before you've formed a single thought. If that response gets cut off or overwhelmed, especially again and again, the body can stay partly stuck in it. Years later that might look like a body that never fully relaxes, a jaw you clench in your sleep, headaches or stomach trouble that doctors can't fully explain, feeling numb from the neck down, or bracing in a packed concert crowd or at the grocery store on a Saturday. Panic attacks are one of the loudest versions of this, and I wrote separately about [what's happening in your body during a panic attack](/journal/panic-attacks-body).
 
-When you're in danger, your body responds faster than your thinking brain. It braces, runs, fights, or freezes. If that response gets interrupted or overwhelmed, the body can stay stuck partly in that state.
+> Talking can help you understand a memory. Your body is how you find out it's over.
 
-Years later, that might look like:
+## Inside a session
 
-- A body that never fully relaxes
-- Chronic tension, headaches, or stomach problems
-- Feeling numb or disconnected from your body
-- Strong physical reactions to reminders
-- Feeling on high alert in crowds or new places
-
-> Talking can help you understand a memory. Your body helps you feel that it's over.
-
-## What it looks like in a session
-
-Somatic awareness is woven into the work rather than being a separate step. Your therapist might ask:
+At Crescita, somatic awareness is woven into the rest of the work instead of being its own separate program. We might be talking about a fight with your sister, and I'll stop and ask:
 
 - "What are you noticing in your body right now?"
 - "Where do you feel that?"
-- "What happens if you let your breath slow down a little?"
-- "Does your body want to move at all?"
+- "What happens if you let the exhale get a little longer?"
+- "Does any part of you want to move?"
 
-These questions help you notice when you're getting activated, find ways to settle, and build trust that your body can feel things without being overwhelmed. Over time, the body learns a new pattern: stress rises and then comes back down.
+Sometimes the honest answer is "nothing, I don't feel anything." That's fine. Numbness is something the body is doing too, and we can start right there.
 
-## How it connects to EMDR and parts work
+Those questions do a few things. They help you catch the early signs that you're getting activated, often minutes before you'd have noticed in your head. They give you ways to come back down. And over time they teach your body a pattern it may never have learned: stress goes up, and then it comes back down, and you're still here.
 
-[EMDR](/services/emdr-therapy) includes a body scan for exactly this reason: a memory isn't fully processed until the body stops reacting to it. [Parts work](/services/parts-work-therapy) also pays close attention to the body, since parts often show up as physical sensations first.
+It also connects to the other tools we use. [EMDR](/services/emdr-therapy) ends with a body scan for exactly this reason, because a memory isn't really processed until your body stops reacting to it. Parts work pays close attention too, since a protective part often shows up as a sensation, like a fist in the stomach, well before it shows up as a thought.
 
-## A small practice to try
+If your body has been carrying something for years, [trauma therapy](/services/trauma-therapy) can help it start setting some of that down.
 
-Right now, notice where your body is touching the chair or the floor. Notice your feet. Take one slower breath out than in. That's it. You just practiced somatic awareness.
+## Try this for two minutes
 
-If your body has been carrying something for a long time, [trauma therapy](/services/trauma-therapy) can help it finally set some of it down.
+Sit somewhere you won't be interrupted. Keep your eyes open if closing them feels uneasy. If anything here makes you feel worse, stop. That's useful to know, too.
+
+1. Notice where your body is touching something solid: the chair under your legs, your back against it, your feet on the floor. Press your feet down a little.
+2. Let your attention move slowly from the top of your head down to your shoulders. Don't fix anything. Just notice tight, loose, warm, cool, or nothing much.
+3. Move down through your chest and belly. Notice your breath without changing it for a few rounds.
+4. Now let one exhale be a bit longer than the inhale. Then another.
+5. Look around the room and name, silently, three things you can see.
+6. Check back in with your shoulders. Did anything shift, even slightly? Whatever you find, that was somatic awareness.

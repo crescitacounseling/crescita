@@ -1,56 +1,54 @@
 ---
 title: "Helping Military Kids Through a PCS Move"
 date: 2027-02-15
-description: "PCS moves ask a lot of military kids: new schools, new friends, new everything. Practical ways to help them through it, before, during, and after the move."
+description: "How to help kids through a PCS move, from the first talk about orders to the hard month after you land. A Colorado Springs therapist's guide for parents."
 tag: Military Families
 author: katie-fortunato
 image: pikes-peak-highway-snow
 image_alt: "The Pikes Peak Highway winding through snow and pine forest."
 service: /services/military-family-therapy
 service_name: Counseling for military families in Colorado Springs
-gbp: "New orders? Our latest Journal post shares practical ways to help military kids through a PCS move, before, during, and after. Whether you're arriving in Colorado Springs or heading out, we're here for military families."
+gbp: "New orders? Our latest Journal post shares practical ways to help military kids through a PCS move, before, during, and after. Counseling for military families in Colorado Springs, in person or online."
 ---
 
-If you're a military family in Colorado Springs, chances are you're either new here or already thinking about the next set of orders. Fort Carson, Peterson, Schriever, the Academy: this city runs on moves.
+Colorado Springs is a PCS town. Between Fort Carson, Peterson Space Force Base, Schriever Space Force Base, and the U.S. Air Force Academy, a big share of the kids in any classroom here either just arrived or are already counting down to the next set of orders.
 
-Military kids get a lot of credit for being resilient. Many are. But resilient doesn't mean it's easy. A permanent change of station asks kids to give up friends, schools, teams, and routines, often every two or three years.
+Military kids get called resilient a lot, and many of them are. They also get very good at looking fine. A PCS move asks a child to give up friends, a school, a team, a bedroom, and sometimes the dog's favorite park, often every two or three years. Here's how to help kids through a PCS move at each stage, and when the hard part tends to show up (it's usually later than parents expect).
 
-Here are some ways to make it a little easier.
+## Before the PCS move
 
-## Before the move
+- **Tell them early.** As soon as the move is reasonably certain. Kids cope with hard news better than with a house full of whispering adults and a vague sense that something's coming.
+- **Say what you don't know.** "We don't know which school yet. We should find out in March, and I'll tell you when I do." Honest uncertainty beats a promise you can't keep.
+- **Let them be upset without fixing it.** "You'll make new friends!" is true, and it doesn't help on the night they find out. Try "You're really going to miss Jayden. Of course you are." Feelings that get some room usually pass faster.
+- **Hand over the choices you can.** They don't get a vote on the move. They can pick what goes in their open-first box, how they want to say goodbye, or what color the new room will be.
+- **Plan real goodbyes.** A last sleepover, a photo book of the old house, friends' contact info written down somewhere a parent can find it later. Kids carry an ending that felt finished more easily than one that just stopped.
+- **Call the new school early.** Ask for the counselor, and for the school liaison officer at the installation you're headed to. The Military Interstate Children's Compact covers things like records, enrollment, and graduation requirements across states, but someone at the school still has to know your kid is coming.
+- **Find one thing to look forward to.** For a kid headed to Colorado Springs, that might be real snow days, a first look at Pikes Peak, or a climbing gym ten minutes from the new house.
 
-**Tell them early, and tell them honestly.** Kids handle news better than uncertainty. Share what you know and admit what you don't.
+## The weeks in between
 
-**Let them be sad or mad.** "But you'll make new friends!" is true and not very comforting in the moment. Try "This is really hard. You're going to miss them." Feelings tend to pass faster when they're allowed.
+This is the stretch nobody photographs. The packers come, the house echoes, and for a week or three your family may be living out of a hotel or a borrowed guest room with a cooler of groceries and one working phone charger.
 
-**Give them some control.** They can't choose the move, but they can choose how to say goodbye, what goes in the first box, or how to decorate their new room.
+Kids get thrown by this more than by the goodbyes. Everything familiar is in a truck somewhere on I-70. So hang on to the small rituals that travel: the same bedtime song, Friday pizza even if it comes from a gas station, the playlist that's been on in the car since Texas. They seem trivial. To a seven-year-old, they're proof that the family is still the family.
 
-**Plan the goodbyes.** A last sleepover, a photo book, contact info for friends. Endings that feel complete are easier to carry.
+Expect some backsliding. A child who's been sleeping alone for years wants your bed again. A potty-trained preschooler has accidents. A teenager spends every waking minute texting the friends they just left, which is fine. That's how they keep the old life alive while the new one hasn't started.
 
-## During the move
+Often one parent has already reported in and the other is running the move solo, sometimes with a toddler on one hip and a work laptop on the other. Your kids are watching you closely here. You don't have to pretend it's easy. "I'm tired and a little stressed. It's not because of anything you did, and we're going to be okay" is honest and steadying at the same time.
 
-Keep small routines going where you can: the same bedtime story, the same Friday pizza, the same playlist in the car. Familiar rituals help kids feel steady when everything else is changing.
+## After you land
 
-## After you arrive
+### When does the hard part usually hit?
 
-**Find one connection quickly.** A sport, a club, a youth group, a neighbor kid. One friend makes a new place feel possible.
+Often a month or two in. The first weeks can feel like an adventure. Then the new house stops being new, the old friends stop texting as often, and it finally sinks in. A kid who seemed fine in September falling apart in late October isn't going backward. The move is just catching up with them.
 
-**Talk to the school.** Most schools near installations have experience with military kids, and many have a military family liaison or counselor. Let them know your child is new.
+### How fast should my kid make friends?
 
-**Watch the timeline.** The first weeks can feel like an adventure. The hard part often hits a month or two in, when the novelty wears off and old friends feel far away.
+Aim for one, not a crowd. A sport, a club, a youth group, the kid three doors down. One real friend makes a new place feel livable. Watch for teens who quietly stop investing in friendships because "we're just going to move again." That's a sign to talk, not to push.
 
-> It's common for kids to seem fine at first and struggle later. That's not a setback. It's the move finally landing.
+### How do I know it's more than adjustment?
 
-## Signs your child might need more support
+Look for withdrawal that lasts more than a few weeks, big changes in sleep, appetite, or grades, stomachaches before school, anger that's out of proportion, or younger kids losing skills they had. We go through more of these in our post on [signs your child needs therapy](/journal/signs-child-needs-therapy).
 
-- Withdrawal that lasts more than a few weeks
-- Big changes in sleep, appetite, or grades
-- Frequent stomachaches or headaches before school
-- Anger or meltdowns that seem bigger than usual
-- Younger kids going back to earlier behaviors
+### Is there help for the parents?
 
-## You're carrying a lot too
-
-Parents often hold it together for everyone and put their own adjustment last, especially when one parent is deploying or working long hours. Your stress matters, and kids read it more than we'd like.
-
-Our [military family counseling](/services/military-family-therapy) supports kids, teens, and parents through moves, deployments, and everything in between. Alissa Brown, LPCC, began her career working with military-connected families in schools, and it's still at the heart of her work.
+Yes, and you're allowed to use it. Our [counseling for military families](/services/military-family-therapy) works with kids, teens, and parents through moves and deployments, off post and outside the chain of command. [Alissa Brown](/team/alissa-brown) began her career working with military-connected families in schools, and she still does a lot of that work with children, teens, and parents, including play-based approaches for younger kids.

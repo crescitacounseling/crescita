@@ -1,7 +1,7 @@
 ---
 title: "What \"Parts Work\" Means, in Plain English"
 date: 2027-01-08
-description: "Part of you wants to change and part of you digs in its heels. Parts work takes that seriously. A plain-language introduction to how it works in therapy."
+description: "Part of you wants to change and part of you digs in. A plain-English guide to parts work therapy, how it relates to IFS, and what a session looks like."
 tag: Parts Work
 author: katie-fortunato
 image: garden-gods-rock-spires
@@ -11,40 +11,52 @@ service_name: Parts work and dissociation therapy in Colorado Springs
 gbp: "\"Part of me wants to change, and part of me won't budge.\" Sound familiar? Our new Journal post explains parts work in plain English: what it is, how it connects to IFS, and how it helps. Crescita Counseling, Colorado Springs and online."
 ---
 
-Listen to how people talk about their inner lives. "Part of me wants to go, but part of me is dreading it." "I know I'm safe, but some part of me doesn't believe it." "I don't know what came over me."
+It's Sunday night. You set the alarm for 5:30 because this is the week you start running before work again. You mean it. You even put your shoes by the door.
 
-That's not just a figure of speech. Parts work is a way of doing therapy that takes this language seriously.
+At 5:30, something in you hits snooze. Twice. By 7:15 you're scrolling in bed, already annoyed with yourself, and a familiar voice is narrating: *this is why nothing ever changes.*
 
-## The basic idea
+Part of you wanted to run. Part of you wanted to stay put. And a third part showed up afterward to tell you what a failure you are. Parts work therapy takes that experience seriously, instead of treating it as a willpower problem.
 
-Most of us aren't one single, consistent self. We have different sides that show up in different situations, each with its own feelings and goals.
+## The basic idea behind parts work therapy
 
-Some parts try to protect us. The inner critic who pushes you to be perfect so no one can criticize you first. The part that shuts everything down when emotions get too big. The part that reaches for your phone, a drink, or a snack when you're overwhelmed.
+Most of us aren't one single, consistent self. We have different sides that show up in different situations, each with its own feelings, its own worries, and its own idea of what would help. Listen to how people talk and you'll hear it constantly. "Part of me knows I'm safe." "I don't know what came over me." "I wasn't myself."
 
-Other parts carry old pain. A younger part that still feels unwanted, scared, or ashamed. Protectors often work hard to keep those parts out of sight.
+Some parts are protectors. The inner critic who pushes you to be perfect so nobody can criticize you first. The part that goes flat and quiet when feelings get too big. The part that reaches for your phone, a glass of wine, or the pantry at 10 p.m. when the day was too much. The part that says yes to everyone (I wrote more about that one in a post on [people-pleasing](/journal/people-pleasing)).
 
-## Why this helps
+Other parts carry older pain. A younger part that still feels unwanted, or scared, or ashamed of needing anything. Protectors tend to work very hard to keep those parts out of sight, and they're often exhausted from doing it.
 
-When you see yourself as a single person who keeps "messing up," change becomes a battle against yourself. Willpower against habit. Logic against feelings.
+The best-known model of this is Internal Family Systems (IFS), developed by Richard Schwartz. Plenty of therapists, me included, draw on its ideas alongside other methods like EMDR and somatic work. You don't need to know any of the terminology to benefit.
 
-Parts work changes the question. Instead of "Why can't I stop doing this?" we ask, "What is this part trying to do for me?" Almost always, the answer makes sense. The critic is trying to keep you safe. The numbness is trying to protect you from pain that once felt unbearable.
+## So what is the critic trying to do?
 
-> Parts don't need to be fought or fired. They need to be understood, and eventually given a different job.
+When you see yourself as one person who keeps "messing up," change becomes a fight with yourself. Willpower against habit. Logic against feelings. You can win a round or two, and then you're back at 7:15 a.m., scrolling.
 
-## Where IFS comes in
+Parts work changes the question. Instead of "Why can't I stop doing this?" we ask, "What is this part trying to do for me?" The answer almost always makes sense once you hear it. The snooze-button part might be the one that knows you've slept five hours a night for a month. The critic might have learned, a long time ago, that if you beat yourself up first, someone else's disapproval hurts less. Numbness might be guarding pain that once felt unbearable.
 
-You may have heard of Internal Family Systems, or IFS. It's the best-known model of parts work, developed by Richard Schwartz. Many therapists draw on IFS ideas within their own approach, alongside other methods like EMDR and somatic work.
+> Parts don't need to be fought or fired. They need to be understood, and eventually offered a different job.
 
-At Crescita, parts work is woven into how we approach trauma and dissociation. It often pairs well with [EMDR](/services/emdr-therapy): when protective parts feel heard, they're more willing to let the processing happen.
+That shift alone takes a lot of pressure off. People often describe a kind of relief at not being at war with themselves for an hour.
 
-## What a session might look like
+## In the room
 
-It's usually more ordinary than people expect. You might notice a reaction, like a tight chest when a certain topic comes up. Your therapist might ask you to get curious about it. What does it want you to know? How old does it feel? What is it worried would happen if it stopped?
+It's usually more ordinary than people expect. Say we're talking about your mom and you notice your chest tighten. I might ask you to stay with that for a second. Where is it, exactly? If that tightness could talk, what would it want you to know? How old does it feel? What is it worried would happen if it stopped?
 
-There's no forcing, no role-play you're not comfortable with, and no need to believe in anything mystical. It's a structured way of listening to yourself.
+Sometimes the answers come as words. Sometimes as an image, a memory, or just a sensation that gets stronger or softer. Your body is often where a part shows up first, which is why I pay close attention to [somatic awareness](/journal/somatic-awareness) in this work.
 
-## Who it's for
+There's no forcing. No empty-chair role-play you're not comfortable with, and no need to believe in anything mystical. It's a structured way of listening to yourself with a bit more patience than you're used to.
 
-Parts work can help with perfectionism, people-pleasing, self-sabotage, and feeling stuck despite a lot of insight. It's especially helpful for complex trauma and [dissociation](/services/parts-work-therapy), where different parts may feel very separate.
+At Crescita, parts work is at the center of how I approach complex trauma and dissociation, and it pairs well with EMDR. When protective parts feel heard, they're a lot more willing to let the processing happen. Our [parts work and dissociation page](/services/parts-work-therapy) explains more about how that fits together.
 
-If you've ever said "I know better, but I still do it," parts work might make a lot of sense to you.
+## A few things people wonder
+
+### Does having "parts" mean something is wrong with me?
+
+No. Everyone has parts. That's simply how minds are organized. For most people they blend together pretty smoothly. For people with a lot of trauma, they can feel more separate, sometimes to the point of losing time or feeling like a different person in certain situations. That's dissociation, and it's something we work with often, gently and slowly.
+
+### What kinds of problems is parts work good for?
+
+Perfectionism, people-pleasing, self-sabotage, harsh self-criticism, procrastination that doesn't respond to planners and apps, and feeling stuck despite a lot of insight. It's especially helpful with complex trauma. If you've ever said "I know better, but I still do it," parts work tends to make sense quickly.
+
+### Can parts work be done online?
+
+Yes. It works well over video, since it's mostly conversation and noticing. I see clients in person on North Weber Street in Colorado Springs and online anywhere in Colorado, and plenty of people do this work from their own couch with a blanket and the dog nearby.

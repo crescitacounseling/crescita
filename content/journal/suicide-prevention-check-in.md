@@ -1,7 +1,7 @@
 ---
-title: "Suicide Prevention Month: How to Check In on Someone You're Worried About"
+title: "Suicide Prevention Month: How to Check In on Someone"
 date: 2027-09-01
-description: "September is Suicide Prevention Month. Warning signs to watch for, what to say (and what not to), and how to connect someone with help, including the 988 Lifeline."
+description: "September is Suicide Prevention Month. Warning signs, what to say to someone you're worried about, and how to help them reach 988 or other support."
 tag: Mental Health
 author: katie-fortunato
 image: garden-gods-evening-light
@@ -11,51 +11,41 @@ service_name: Individual therapy in Colorado Springs
 gbp: "September is Suicide Prevention Month. Our latest Journal post covers warning signs, what to say to someone you're worried about, and how to connect them with help. If you or someone you know is in crisis, call or text 988 any time."
 ---
 
-If you're in crisis right now, call or text **988** (the Suicide and Crisis Lifeline) or call **911**. Crescita Counseling is not a crisis service.
+If you or someone you're with is in immediate danger, call **911**. To reach the 988 Suicide & Crisis Lifeline, call or text **988**, any time. Crescita Counseling is not a crisis service.
 
-September is Suicide Prevention Month. If you're worried about someone, you might feel unsure what to say, afraid of making it worse, or hoping you're wrong. Reaching out matters more than saying it perfectly.
+Maybe a friend stopped answering texts a few weeks ago. Maybe your brother-in-law joked at dinner that everyone would be better off without him, nobody laughed, and you haven't stopped thinking about it. September is Suicide Prevention Month, and this post is for the person who is worried and not sure what to do.
 
-## Warning signs
+The short version: ask directly, listen, and help them connect with support. You don't need perfect words.
 
-Some signs are subtle. Others are more direct. Pay attention if someone:
+## Signs worth taking seriously
 
-- Talks about wanting to die, being a burden, or feeling trapped
-- Searches for ways to hurt themselves or gets access to means
-- Withdraws from friends, family, or activities
-- Shows sudden calm after a long period of depression
-- Gives away belongings or says goodbyes
-- Increases alcohol or drug use
-- Has big mood swings, rage, or reckless behavior
-- Has recently gone through a major loss or crisis
+Pay attention if someone talks about wanting to die, feeling trapped, or being a burden. Quieter signs count too: pulling away from people, drinking more, giving away things that matter to them, goodbyes that feel out of place, or a sudden calm after a long stretch of depression. A recent loss, breakup, or job loss can raise the risk. In a military town like Colorado Springs, a deployment, a move, or leaving the service can be part of the picture.
 
-## Asking directly doesn't plant the idea
+One sign alone doesn't mean someone is suicidal. Several together, or any talk of suicide, is reason enough to check in.
 
-One of the most common fears is that asking about suicide will make someone more likely to act on it. Research consistently shows it doesn't. Asking directly often brings relief.
+## What to say
 
-Try something like:
+Asking about suicide does not put the idea in someone's head. That myth keeps a lot of people quiet. Asking directly often brings relief.
 
-- "I've noticed you've seemed really down lately. Are you thinking about suicide?"
-- "Sometimes when people feel this bad, they think about ending their life. Have you had thoughts like that?"
+1. **Say what you've noticed.** "You haven't seemed like yourself lately, and I've been worried about you."
+2. **Ask plainly.** "Are you thinking about suicide?" Use the word. Hinting makes an honest answer harder.
+3. **Listen more than you talk.** Let there be silence. You don't have to fix anything or argue with how they feel.
+4. **Skip the pep talk.** Instead of "You have so much to live for," try "That sounds incredibly painful. I'm glad you told me."
+5. **Help with the next step.** "Can we call or text 988 together right now?" Or help them book a doctor or therapist, and check back in a day or two.
 
-> The most important thing you can do is ask, then listen.
+If they're in immediate danger, stay with them and call 911. If there are firearms or medications in the home, asking a trusted person to hold onto them for a while is one of the most protective things a family can do.
 
-## What helps in the conversation
-
-- **Listen more than you talk.** You don't have to fix it.
-- **Take it seriously.** Avoid minimizing ("You have so much to live for") or arguing.
-- **Stay with them.** If someone is in immediate danger, don't leave them alone.
-- **Reduce access to means.** Firearms, medications, and other means can be stored safely or removed temporarily. This saves lives.
-- **Connect them with help.** Offer to call or text 988 together, or help them reach a doctor or therapist.
+> You don't need to be a counselor to help. You need to ask, and then stay.
 
 ## Resources
 
-- **988 Suicide and Crisis Lifeline:** call or text 988, or chat at 988lifeline.org
-- **Veterans and service members:** dial 988, then press 1
-- **Colorado Crisis Services:** call 1-844-493-8255 or text TALK to 38255
-- **Emergencies:** call 911
+- **988 Suicide & Crisis Lifeline:** call or text 988, or chat at 988lifeline.org. Free, confidential, 24/7.
+- **Veterans and service members:** dial 988, then press 1.
+- **Colorado Crisis Services:** call 1-844-493-8255 or text TALK to 38255.
+- **Immediate danger:** call 911.
 
-## Take care of yourself too
+Once a crisis has passed, [individual therapy](/services/individual-therapy) can help with depression, grief, and what sits underneath them. Our [FAQ](/faq) covers the practical side of getting started.
 
-Supporting someone through a crisis is heavy. Talk to someone you trust about how you're doing.
+## If you're the one helping
 
-Therapy can help people work through depression, grief, and the hard things underneath them, and it's not only for crisis. If you or someone you love needs ongoing support, [individual therapy](/services/individual-therapy) at Crescita is available in Colorado Springs and online across Colorado.
+Worrying about someone you love is heavy, and it doesn't switch off when the conversation ends. Tell one person you trust what you're carrying. Eat, sleep, get outside for a bit. You can also call 988 yourself, just to talk through what happened and what to do next. That line is there for you too.
