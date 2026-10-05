@@ -17,12 +17,7 @@ The contact and careers forms send through EmailJS (service `service_zrkwriq`; t
 
 - Posts live in `content/journal/*.md`; the schedule is in `content/journal/CALENDAR.md`.
 - `scripts/journal.py` builds each post whose date has arrived, the Journal index, and the sitemap.
-- `.github/workflows/publish-journal.yml` runs that script every morning and pushes any new post to `main`, so publishing is automatic.
 - Photo sources and photographers: `assets/images/CREDITS.md`.
-
-## Ongoing work
-
-`ops/AUTOPILOT.md` describes the publishing job and the monthly report.
 
 ## Making changes
 

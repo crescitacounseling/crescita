@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# SEO crawlers — allow for backlink/rank tracking
+# SEO crawlers: allowed for backlink and rank tracking
 User-agent: AhrefsBot
 Allow: /
 
@@ -21,7 +21,7 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# AI assistants (allow — good for visibility, llms.txt governs behavior)
+# AI assistants (allowed for visibility; llms.txt describes the practice)
 User-agent: GPTBot
 Allow: /
 

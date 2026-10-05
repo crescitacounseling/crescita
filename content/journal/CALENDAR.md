@@ -2,8 +2,6 @@
 
 Four posts a month, on the 1st, 8th, 15th and 22nd, starting October 2026. Every post below is written, has its photo, and is waiting in this folder.
 
-Publishing is automatic. A GitHub Action (`.github/workflows/publish-journal.yml`) runs `scripts/journal.py` every morning at about 7 am Mountain time. Any post dated today or earlier gets its page, the Journal index and sitemap are rebuilt, and the change is committed to `main`, which Cloudflare Pages deploys. You can also run it by hand from the repo's Actions tab (Publish journal posts, then Run workflow).
-
 To change the order, edit the `date:` line at the top of a post. To add one of Katie's own posts, add a new `.md` file with the same header fields and give it a date.
 
 | # | Publish date | Title | Topic | Image | Status |

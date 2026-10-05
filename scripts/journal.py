@@ -11,7 +11,7 @@ Usage:
   python3 scripts/journal.py --next     # print the next unpublished post (date + title)
 
 The script prints the posts it published on this run, plus each one's Google
-Business Profile text, so a scheduled job can pass it along.
+Business Profile text.
 """
 import datetime as dt
 import glob

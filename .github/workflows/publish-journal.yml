@@ -1,9 +1,6 @@
 name: Publish journal posts
 
-# Runs every morning. scripts/journal.py publishes any post in content/journal/
-# whose date is today or earlier, rebuilds journal/index.html and the sitemap.
-# If something new went out, the change is committed to main and Cloudflare
-# Pages deploys it automatically.
+# Builds Journal posts whose publish date has arrived and pushes them to main.
 
 on:
   schedule:
@@ -44,11 +41,11 @@ jobs:
       - name: Commit and push
         if: steps.build.outputs.changed == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Chad Moravec"
+          git config user.email "chad.m.moravec@gmail.com"
           git add journal sitemap.xml
           titles=$(git diff --cached --name-only --diff-filter=A -- 'journal/*.html' | xargs -r -n1 basename | sed 's/\.html$//' | paste -sd ', ' -)
-          git commit -m "Journal: publish ${titles:-index update}"
+          git commit -m "Journal: ${titles:-index update}"
           git push origin HEAD:main
 
       - name: Summary
