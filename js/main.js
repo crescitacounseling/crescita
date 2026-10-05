@@ -176,3 +176,9 @@
       if (!item.contains(e.target)) close(0);
     });
   });
+// Re-settle hash links once fonts and the header height are known
+window.addEventListener('load', function(){
+  if(!location.hash) return;
+  var t = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if(t) setTimeout(function(){ t.scrollIntoView({block:'start'}); }, 80);
+});

@@ -1158,3 +1158,15 @@ details,.faq-item{border-color:var(--line)}
   .page-hero--uniform .page-hero__title{font-size:clamp(1.9rem,4.2vw,2.6rem)}
   .announce__inner{padding-top:.35rem;padding-bottom:.35rem}
 }
+/* in-page anchors land below the sticky header and banner */
+[id]{scroll-margin-top:calc(var(--header-h,150px) + 2rem)}
+/* careers checkboxes: even two-column grid, small round marks */
+.form-checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem 1.5rem}
+.form-check{align-items:center;gap:.65rem;line-height:1.3}
+.form-group .form-check input[type=checkbox]{appearance:none;-webkit-appearance:none;width:18px;height:18px;flex:0 0 18px;margin:0;padding:0;border:1.5px solid var(--taupe);border-radius:50%;background:#fff;display:grid;place-content:center;cursor:pointer;transition:border-color .15s}
+.form-group .form-check input[type=checkbox]::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--rose-d);transform:scale(0);transition:transform .15s}
+.form-group .form-check input[type=checkbox]:checked{border-color:var(--rose-d)}
+.form-group .form-check input[type=checkbox]:checked::before{transform:scale(1)}
+.form-group .form-check input[type=checkbox]:focus{outline:none}.form-group .form-check input[type=checkbox]:focus-visible{outline:2px solid var(--rose-d);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.form-check input,.form-group .form-check input[type=checkbox]::before{transition:none}}
+.form-group .form-check input[type=checkbox],.form-group .form-check input[type=checkbox]::before{border-radius:50% !important}
