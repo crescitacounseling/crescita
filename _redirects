@@ -1,22 +1,17 @@
-# Crescita Counseling — Netlify/Cloudflare _redirects
-# Updated June 2026
-
-# ============================================
-# www canonicalization
-# NOTE: existing rule at bottom was www → non-www (WRONG per canonical tags)
-# Canonical tags say www., so we redirect non-www TO www
-# ============================================
-https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301!
+# Crescita Counseling: Cloudflare Pages _redirects
+# Updated October 2026. Cloudflare supports path rules with 301/302 only:
+# no domain rules, no "!" and no 404 rules (404.html is served automatically).
+# crescitacounseling.com -> www is a Cloudflare Redirect Rule in the dashboard.
 
 # ============================================
 # TEAM PARENT PAGE
-# /team and /team/ serve team/index.html (new file — no redirect needed if file exists)
+# /team and /team/ serve team/index.html (new file: no redirect needed if file exists)
 # But belt-and-suspenders for any edge cases:
 /team  /team/  301
 # ============================================
 
 # ============================================
-# SERVICE PAGES — legacy Squarespace URLs
+# SERVICE PAGES: legacy Squarespace URLs
 # ============================================
 /individual-counseling-colorado-springs  /services/individual-therapy  301
 /individual-counseling-colorado-springs/  /services/individual-therapy  301
@@ -26,7 +21,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /child-therapy-colorado-springs/  /services/child-and-teen-therapy  301
 
 # ============================================
-# MAIN PAGES — trailing slash / clean URL variants
+# MAIN PAGES: trailing slash / clean URL variants
 # ============================================
 /about/  /about  301
 /therapy-investment  /investment  301
@@ -35,7 +30,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /contact/  /contact  301
 
 # ============================================
-# ADDITIONAL ALIASES (new — intuitive URL guards)
+# ADDITIONAL ALIASES (new: intuitive URL guards)
 # ============================================
 /emdr  /services/emdr-therapy  301
 /emdr-therapy  /services/emdr-therapy  301
@@ -56,7 +51,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /ebony  /team/ebony-trotter  301
 
 # ============================================
-# NAVIGATION FOLDERS — Squarespace artifacts
+# NAVIGATION FOLDERS: Squarespace artifacts
 # ============================================
 /specialties  /services/individual-therapy  301
 /specialties/  /services/individual-therapy  301
@@ -64,7 +59,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /info/  /  301
 
 # ============================================
-# BLOG — old Squarespace posts go to the new Journal
+# BLOG: old Squarespace posts go to the new Journal
 # ============================================
 /blog  /journal/  301
 /blog/  /journal/  301
@@ -72,7 +67,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /journal  /journal/  301
 
 # ============================================
-# TEAM — name change redirects
+# TEAM: name change redirects
 # ============================================
 /team/katie-pasqualetto.html  /team/katie-fortunato  301
 /team/katie-pasqualetto  /team/katie-fortunato  301
@@ -80,7 +75,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /team/katie-pasqualleto  /team/katie-fortunato  301
 
 # ============================================
-# CART — Squarespace artifact
+# CART: Squarespace artifact
 # ============================================
 /cart  /  301
 /cart/  /  301
@@ -92,13 +87,13 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /home  /  301
 
 # ============================================
-# SERVICES INDEX — moved above catch-all (were dead after /* rule)
+# SERVICES INDEX: moved above catch-all (were dead after /* rule)
 # ============================================
 /services  /services/  301
 /therapy  /services/  301
 
 # ============================================
-# GSC-FLAGGED 404s — exact old URLs not caught by existing rules
+# GSC-FLAGGED 404s: exact old URLs not caught by existing rules
 # ============================================
 /emdrtherapy                /services/emdr-therapy      301
 /individual-therapy         /services/individual-therapy  301
@@ -108,7 +103,7 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /katie-pasqualetto          /team/katie-fortunato       301
 
 # ============================================
-# NEW SPECIALTY PAGES — short aliases
+# NEW SPECIALTY PAGES: short aliases
 # ============================================
 /trauma  /services/trauma-therapy  301
 /trauma-therapy  /services/trauma-therapy  301
@@ -127,14 +122,3 @@ https://crescitacounseling.com/*  https://www.crescitacounseling.com/:splat  301
 /careers/  /careers  301
 /dissociation  /services/parts-work-therapy  301
 
-# ============================================
-# INTERNAL FOLDERS — not part of the public site
-# ============================================
-/content/*  /404.html  404
-/scripts/*  /404.html  404
-/ops/*  /404.html  404
-
-# ============================================
-# 404 — must be last
-# ============================================
-/*  /404.html  404

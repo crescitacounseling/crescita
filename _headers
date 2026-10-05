@@ -1,46 +1,48 @@
-# Crescita Counseling — Netlify _headers
-# Place at repo root alongside _redirects
+# Crescita Counseling: Cloudflare Pages _headers
+# CSS and JS links carry ?v=YYYYMMDD; bump it in every page when those files change.
+# Cloudflare joins headers from every matching rule, so Cache-Control is set
+# only on the asset folders (pages keep Cloudflare's default: always revalidate).
 
-# Static assets: 1-year cache (content-addressed by filename)
-/assets/images/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/assets/fonts/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/css/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/js/*
-  Cache-Control: public, max-age=31536000, immutable
-
-# HTML: always revalidate
-/*.html
-  Cache-Control: public, max-age=0, must-revalidate
+# Every response
+/*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-/
-  Cache-Control: public, max-age=0, must-revalidate
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
+# Static assets
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
 
-/team/
-  Cache-Control: public, max-age=0, must-revalidate
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
+/assets/images/*
+  Cache-Control: public, max-age=2592000
+
+/css/*
+  Cache-Control: public, max-age=86400
+
+/js/*
+  Cache-Control: public, max-age=86400
 
 # Special files
 /sitemap.xml
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=3600
   Content-Type: application/xml; charset=utf-8
 
 /robots.txt
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=3600
 
 /llms.txt
   Cache-Control: public, max-age=86400
+
+# Internal working files: never index
+/content/*
+  X-Robots-Tag: noindex, nofollow
+
+/scripts/*
+  X-Robots-Tag: noindex, nofollow
+
+/ops/*
+  X-Robots-Tag: noindex, nofollow
+
+/README.md
+  X-Robots-Tag: noindex, nofollow
