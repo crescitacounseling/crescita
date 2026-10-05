@@ -316,7 +316,10 @@
 <script>
 (function () {
   'use strict';
-  var PUBLIC_KEY = 'rA_YM7Iyd1ffURMuy', SERVICE_ID = 'service_zrkwriq', TEMPLATE_ID = 'template_4ho9sxo';
+  var PUBLIC_KEY = 'rA_YM7Iyd1ffURMuy', SERVICE_ID = 'service_zrkwriq';
+  // Dedicated careers template (create it in EmailJS with this ID). If it doesn't exist yet,
+  // the form falls back to the contact-form template so no application is lost.
+  var CAREERS_TEMPLATE = 'template_careers', CONTACT_TEMPLATE = 'template_4ho9sxo';
   var form = document.getElementById('careers-form');
   if (!form) return;
   if (typeof emailjs !== 'undefined') emailjs.init({ publicKey: PUBLIC_KEY });
@@ -346,12 +349,23 @@
       '', 'BIO:', val('bio'), '', 'WHY CRESCITA:', val('why')
     ].join('\n');
     var params = {
-      first_name: val('firstName'), last_name: val('lastName'), email: val('email'),
+      // careers template fields
+      first_name: val('firstName'), last_name: val('lastName'), email: val('email'), reply_to: val('email'),
       phone: val('phone') || '(not provided)',
+      license: val('license'), license_number: val('licenseNumber') || '(not given)',
+      states: val('states'), certifications: val('certifications') || '(none listed)',
+      populations: checked('populations'), format: val('format'), caseload: val('caseload'),
+      availability: checked('availability'), start_date: val('startDate') || '(not given)',
+      panels: val('panels') || '(not given)', resume_link: val('resumeLink') || '(will email)',
+      bio: val('bio'), why: val('why'),
+      // contact template fields, used only if the careers template is missing
       therapy_for: 'Job application (careers page)', preferred_format: val('format'),
       curious_about: 'Careers: ' + val('license'), whats_loud: summary
     };
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, params).then(function () {
+    emailjs.send(SERVICE_ID, CAREERS_TEMPLATE, params).catch(function (err) {
+      console.warn('Careers template unavailable, using contact template', err);
+      return emailjs.send(SERVICE_ID, CONTACT_TEMPLATE, params);
+    }).then(function () {
       status.setAttribute('data-state', 'success');
       status.innerHTML = '<p style="font-weight:600;margin:0 0 .5rem">Thank you. Your application is on its way to Katie.</p><p style="margin:0">If you have a résumé to share, email it to <a href="mailto:info@crescitacounseling.com" class="text-link">info@crescitacounseling.com</a>.</p>';
       form.reset();
