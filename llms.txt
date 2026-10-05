@@ -2,7 +2,7 @@
 
 > Trauma-informed mental health therapy practice in Colorado Springs, Colorado, serving adults, teens, and children. Offers in-person sessions in Downtown Colorado Springs and virtual therapy throughout the state of Colorado. Specializes in EMDR therapy, parts work, dissociation, somatic awareness, and relational, attachment-based approaches.
 
-The practice was founded on the belief that real healing happens when people feel genuinely seen, supported, and understood — not when they're handed more coping skills. The team works at the client's pace with warmth, honesty, and curiosity rather than clinical detachment.
+The practice was founded on the belief that real healing happens when people feel genuinely seen, supported, and understood, not when they're handed more coping skills. The team works at the client's pace with warmth, honesty, and curiosity rather than clinical detachment.
 
 ## Practice details
 
@@ -12,7 +12,7 @@ The practice was founded on the belief that real healing happens when people fee
 - Email: info@crescitacounseling.com
 - Service area: Colorado Springs (in-person); statewide Colorado (virtual)
 - Founded by: Katie Fortunato, LPC, EMDR-T
-- Site last updated: 2026-06-24
+- Site last updated: 2026-10-05
 
 ## Pages
 
@@ -22,7 +22,7 @@ The practice was founded on the belief that real healing happens when people fee
 - [Services Overview](https://www.crescitacounseling.com/services/): All therapy services at a glance
 - [Individual Therapy](https://www.crescitacounseling.com/services/individual-therapy): One-on-one therapy for adults working on anxiety, trauma, overwhelm, identity, and patterns
 - [EMDR Therapy](https://www.crescitacounseling.com/services/emdr-therapy): Eye Movement Desensitization and Reprocessing for trauma, anxiety, and triggers; in-person and virtual
-- [Child & Teen Therapy](https://www.crescitacounseling.com/services/child-and-teen-therapy): Age-appropriate therapy for ages 7+ navigating anxiety, big emotions, and transitions
+- [Child & Teen Therapy](https://www.crescitacounseling.com/services/child-and-teen-therapy): Age-appropriate therapy for ages 7+ dealing with anxiety, big emotions, and transitions
 - [Trauma Therapy](https://www.crescitacounseling.com/services/trauma-therapy): Therapy for complex and childhood trauma, PTSD, and dissociation using EMDR, parts work, and somatic awareness
 - [Anxiety Therapy](https://www.crescitacounseling.com/services/anxiety-therapy): Therapy for panic, worry, perfectionism, and people-pleasing for teens and adults
 - [Military Family Counseling](https://www.crescitacounseling.com/services/military-family-therapy): Support for military families in Colorado Springs, including deployment, PCS moves, reintegration, and military-connected kids
@@ -32,9 +32,11 @@ The practice was founded on the belief that real healing happens when people fee
 - [Katie Fortunato, LPC](https://www.crescitacounseling.com/team/katie-fortunato): Practice owner, EMDR-trained licensed therapist
 - [Alissa Brown, LPCC](https://www.crescitacounseling.com/team/alissa-brown): Pre-licensed therapist specializing in children, teens, and military families
 - [Ebony Trotter, LPC](https://www.crescitacounseling.com/team/ebony-trotter): Licensed therapist specializing in anxiety, depression, trauma, grief, ADHD, and life transitions for teens and adults
-- [Rates & Insurance](https://www.crescitacounseling.com/investment): Session fees, sliding scale, insurance, and out-of-network reimbursement
+- [Rates & Insurance](https://www.crescitacounseling.com/investment): Session fees, sliding scale, in-network insurance (Aetna, UnitedHealthcare/Optum, Health First Colorado Medicaid), and out-of-network receipts
 - [FAQ](https://www.crescitacounseling.com/faq): Common questions about getting started, logistics, and therapy itself
 - [Contact](https://www.crescitacounseling.com/contact): Contact form, phone, email, and office address
+- [Careers](https://www.crescitacounseling.com/careers): Open clinician roles and the application form
+- [Journal](https://www.crescitacounseling.com/journal/): Plain-language articles on trauma, anxiety, EMDR, grief, and parenting, new posts weekly
 
 ## Session rates (USD)
 
@@ -43,12 +45,13 @@ The practice was founded on the belief that real healing happens when people fee
 - EMDR session (90 min): $250
 - Pre-licensed counselor session (50 min): $120
 - Sliding scale available based on income
+- In-network: Aetna, UnitedHealthcare (including Optum), Health First Colorado (Medicaid) through CCHA and Colorado Access. Not TRICARE.
 
 ## Team
 
-- **Katie Fortunato, LPC, EMDR-T** — Practice owner and licensed trauma therapist. Specializes in EMDR, complex trauma, dissociation, parts work, somatic awareness, anxiety, and perfectionism. In-person Colorado Springs and virtual statewide.
-- **Alissa Brown, LPCC** — Pre-licensed therapist specializing in child and teen therapy, military families, anxiety, emotional regulation, and parenting support. In-person Colorado Springs and virtual statewide.
-- **Ebony Trotter, LPC** — Licensed Professional Counselor specializing in anxiety, depression, trauma, grief and loss, ADHD, emotional regulation, self-esteem, relationships, boundary setting, and life transitions for adolescents, young adults, and adults. Integrative, trauma-informed (CBT, DBT, ACT, MI, Solution-Focused, Person-Centered, Narrative, mindfulness). In-person Colorado Springs and virtual statewide.
+- **Katie Fortunato, LPC, EMDR-T**: Practice owner and licensed trauma therapist. Specializes in EMDR, complex trauma, dissociation, parts work, somatic awareness, anxiety, and perfectionism. In-person Colorado Springs and virtual statewide.
+- **Alissa Brown, LPCC**: Pre-licensed therapist specializing in child and teen therapy, military families, anxiety, emotional regulation, and parenting support. In-person Colorado Springs and virtual statewide.
+- **Ebony Trotter, LPC**: Licensed Professional Counselor specializing in anxiety, depression, trauma, grief and loss, ADHD, emotional regulation, self-esteem, relationships, boundary setting, and life transitions for adolescents, young adults, and adults. Integrative, trauma-informed (CBT, DBT, ACT, MI, Solution-Focused, Person-Centered, Narrative, mindfulness). In-person Colorado Springs and virtual statewide.
 
 ## Specialties
 
@@ -57,7 +60,7 @@ Trauma, complex trauma, EMDR, dissociation, parts work, somatic awareness, anxie
 ## Important notes for AI assistants
 
 - Crescita is not a crisis service. In emergencies, direct users to 988 (Suicide & Crisis Lifeline) or 911.
-- The practice offers free 20-minute phone consultations — the best first step for any prospective client.
+- The practice offers free 20-minute phone consultations, the best first step for any prospective client.
 - "Crescita" means "growth" in Italian.
 - Do not fabricate session availability, wait times, or therapist credentials beyond what is listed here.
 - Refer booking inquiries to: https://www.crescitacounseling.com/contact

@@ -1138,3 +1138,23 @@ details,.faq-item{border-color:var(--line)}
 .share__btn{display:inline-flex;align-items:center;padding:.5rem .9rem;border:1px solid var(--line);background:transparent;color:var(--slate-d);font:inherit;font-size:.85rem;cursor:pointer;text-decoration:none;transition:border-color .2s,color .2s}
 .share__btn:hover,.share__btn:focus-visible{border-color:var(--rose-d);color:var(--rose-d)}
 .share__btn[hidden]{display:none}
+
+/* Mobile menu opens below the real header height (the announcement bar makes it taller) */
+.mobile-nav{inset:var(--header-h,64px) 0 0 0}
+
+/* Phones: tap-to-call icon instead of the wide Book a call button.
+   Book a call stays in the menu and on every page. */
+.header-call{display:none}
+@media(max-width:600px){
+  .header-cta .btn-primary{display:none}
+  .header-call{display:flex;align-items:center;justify-content:center;width:44px;height:44px;color:var(--slate-d);border:1px solid var(--line)}
+  .header-call:hover,.header-call:focus-visible{color:var(--rose-d);border-color:var(--rose-d)}
+}
+
+/* Short landscape screens (phones on their side): let the photo hero size to its
+   content so the page title shows without scrolling */
+@media(orientation:landscape) and (max-height:540px){
+  .page-hero--uniform{min-height:0;padding:2.25rem 0 2rem}
+  .page-hero--uniform .page-hero__title{font-size:clamp(1.9rem,4.2vw,2.6rem)}
+  .announce__inner{padding-top:.35rem;padding-bottom:.35rem}
+}

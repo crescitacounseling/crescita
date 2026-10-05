@@ -5,8 +5,20 @@
   /* ----- Mobile nav toggle ----- */
   const navToggle = document.querySelector('[data-nav-toggle]');
   const mobileNav = document.querySelector('[data-mobile-nav]');
+
+  /* Keep the mobile menu just below the header, whatever its height
+     (the dismissible announcement bar changes it) */
+  const siteHeader = document.querySelector('.site-header');
+  const setHeaderH = () => {
+    if(siteHeader) document.documentElement.style.setProperty('--header-h', Math.round(siteHeader.getBoundingClientRect().bottom) + 'px');
+  };
+  setHeaderH();
+  window.addEventListener('resize', setHeaderH);
+  window.addEventListener('orientationchange', setHeaderH);
+  if(siteHeader && 'ResizeObserver' in window) new ResizeObserver(setHeaderH).observe(siteHeader);
   if(navToggle && mobileNav){
     navToggle.addEventListener('click', () => {
+      setHeaderH();
       const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
       navToggle.setAttribute('aria-expanded', String(!isOpen));
       mobileNav.setAttribute('data-open', String(!isOpen));
