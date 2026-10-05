@@ -18,7 +18,7 @@
 <link rel="apple-touch-icon" href="../assets/images/crescita-logo-md.png">
 <link rel="preload" href="/assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/newsreader-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/styles.css?v=20261005">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JX8Z7JHLS"></script>
@@ -86,17 +86,34 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="/" class="nav-link">Home</a>
-        <a href="/about" class="nav-link">About</a>
         <div class="nav-item">
-          <button class="nav-link" aria-haspopup="true">Services <span class="nav-link__caret">▾</span></button>
+          <a href="/about" class="nav-link" aria-haspopup="true">About <span class="nav-link__caret" aria-hidden="true">▾</span></a>
           <div class="nav-dropdown">
+            <a href="/about" class="nav-dropdown__link">The practice</a>
+            <a href="/team/" class="nav-dropdown__link">Meet the team</a>
+            <a href="/team/katie-fortunato" class="nav-dropdown__link">Katie Fortunato, LPC</a>
+            <a href="/team/alissa-brown" class="nav-dropdown__link">Alissa Brown, LPCC</a>
+            <a href="/team/ebony-trotter" class="nav-dropdown__link">Ebony Trotter, LPC</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/services/" class="nav-link" aria-haspopup="true">Services <span class="nav-link__caret" aria-hidden="true">▾</span></a>
+          <div class="nav-dropdown">
+            <a href="/services/" class="nav-dropdown__link nav-dropdown__link--all">All services</a>
             <a href="/services/individual-therapy" class="nav-dropdown__link">Individual Therapy</a>
             <a href="/services/emdr-therapy" class="nav-dropdown__link">EMDR Therapy</a>
             <a href="/services/child-and-teen-therapy" class="nav-dropdown__link">Child &amp; Teen Therapy</a>
+            <a href="/services/trauma-therapy" class="nav-dropdown__link">Trauma Therapy</a>
+            <a href="/services/anxiety-therapy" class="nav-dropdown__link">Anxiety Therapy</a>
+            <a href="/services/military-family-therapy" class="nav-dropdown__link">Military Families</a>
+            <a href="/services/online-therapy-colorado" class="nav-dropdown__link">Online Therapy</a>
+            <a href="/services/grief-counseling" class="nav-dropdown__link">Grief Counseling</a>
+            <a href="/services/parts-work-therapy" class="nav-dropdown__link">Parts Work &amp; Dissociation</a>
           </div>
         </div>
         <a href="/investment" class="nav-link">Rates</a>
         <a href="/faq" class="nav-link">FAQ</a>
+        <a href="/journal/" class="nav-link">Journal</a>
         <a href="/contact" class="nav-link">Contact</a>
       </nav>
       <div class="header-cta">
@@ -116,6 +133,7 @@
     <a href="../team/" class="mobile-nav__link">Team</a>
     <a href="/investment" class="mobile-nav__link">Rates &amp; Insurance</a>
     <a href="/faq" class="mobile-nav__link">FAQ</a>
+    <a href="/journal/" class="mobile-nav__link">Journal</a>
     <a href="/contact" class="mobile-nav__link">Contact</a>
   </div>
   <div class="mobile-nav__group">
@@ -124,19 +142,29 @@
     <a href="/services/individual-therapy" class="mobile-nav__link">Individual Therapy</a>
     <a href="/services/emdr-therapy" class="mobile-nav__link">EMDR Therapy</a>
     <a href="/services/child-and-teen-therapy" class="mobile-nav__link">Child &amp; Teen Therapy</a>
+    <a href="/services/trauma-therapy" class="mobile-nav__link">Trauma Therapy</a>
+    <a href="/services/anxiety-therapy" class="mobile-nav__link">Anxiety Therapy</a>
+    <a href="/services/military-family-therapy" class="mobile-nav__link">Military Families</a>
+    <a href="/services/online-therapy-colorado" class="mobile-nav__link">Online Therapy</a>
+    <a href="/services/grief-counseling" class="mobile-nav__link">Grief Counseling</a>
+    <a href="/services/parts-work-therapy" class="mobile-nav__link">Parts Work &amp; Dissociation</a>
   </div>
   <a href="/contact" class="btn btn-primary mobile-nav__cta">Book a free call</a>
 </div>
 <main id="main">
 
-  <section class="page-hero page-hero--dark" style="min-height:440px;display:flex;align-items:flex-end">
-    <div class="page-hero__img"><img src="../assets/images/clouds-pink.jpg" alt="" loading="eager"></div>
+  <section class="page-hero page-hero--dark page-hero--uniform">
+    <div class="page-hero__img"><img src="../assets/images/garden-gods-window.jpg" alt="" loading="eager"></div>
     <div class="container" style="padding-bottom:3rem">
       <div class="page-hero__content">
         <nav class="breadcrumbs reveal"><a href="/">Home</a><span>/</span><a href="../services/">Services</a><span>/</span><strong>EMDR therapy</strong></nav>
         <span class="eyebrow eyebrow--light reveal">EMDR therapy · in person + virtual</span>
-        <h1 class="page-hero__title reveal">When the past keeps showing up in the <em>present.</em></h1>
-        <p class="page-hero__lead reveal" style="color:rgba(244,238,229,.82)">EMDR helps your brain finish processing the experiences that still steer today's reactions — gently, at your pace.</p>
+        <h1 class="page-hero__title reveal">EMDR therapy in Colorado Springs, for when the past keeps showing up in the <em>present.</em></h1>
+        <p class="page-hero__lead reveal" style="color:rgba(244,238,229,.82)">EMDR helps your brain finish processing the experiences that still steer today's reactions. Gently, at your pace.</p>
+        <div class="page-hero__actions reveal">
+          <a href="/contact" class="btn btn-rose">Book a free 20-min call</a>
+          <p class="page-hero__trust">Licensed counselors &middot; In person on N Weber St &middot; Virtual across Colorado &middot; Sliding scale</p>
+        </div>
       </div>
     </div>
   </section>
@@ -145,7 +173,8 @@
     <div class="container-t prose reveal">
       <p>You probably already know which moments we're talking about. The ones that come up in your body before your brain catches up. The reactions that feel three sizes too big for what's actually happening. The way certain people, places, or tones still hijack you, even when you <em>know</em> you're safe.</p>
       <p>EMDR is one of the few approaches built specifically for that. Not for processing your week. For helping the nervous system finally complete something it didn't get to complete the first time.</p>
-      <p>It's structured. It's well-researched. And it works with how the brain actually stores hard experiences — not just how you talk about them.</p>
+      <p>It's structured. It's well-researched. And it works with how the brain actually stores hard experiences, not just how you talk about them.</p>
+      <p>We offer EMDR in person at our office just north of downtown Colorado Springs, and online anywhere in Colorado. It's one of several tools we use in <a href="/services/trauma-therapy">trauma therapy</a>.</p>
     </div>
   </section>
 
@@ -155,7 +184,7 @@
         <div class="reveal">
           <span class="eyebrow eyebrow--rose">What it is</span>
           <h2 style="margin:1rem 0 1.25rem">Not talk therapy. <em>Nervous system therapy.</em></h2>
-          <p class="lead" style="font-size:1.15rem;margin-bottom:1.25rem">Using guided eye movements or bilateral stimulation, EMDR activates the brain's natural processing system — the one that runs while you sleep.</p>
+          <p class="lead" style="font-size:1.15rem;margin-bottom:1.25rem">Using guided eye movements or bilateral stimulation, EMDR activates the brain's natural processing system, the one that runs while you sleep.</p>
           <p style="color:var(--slate)">Old experiences get filed away properly instead of looping unresolved in the background. You don't have to retell every detail. You don't have to convince yourself you're over it. The work happens at a level underneath the story.</p>
         </div>
         <div class="two-col__media reveal">
@@ -173,8 +202,8 @@
       </div>
       <div class="card-grid card-grid--3">
         <div class="card card--blush reveal"><span class="roman--lg">i.</span><h3 class="h4">It respects your pace</h3><p>You're never pushed past what your system can hold. If we hit a wall, we slow down. That's part of the protocol, not a setback.</p></div>
-        <div class="card card--blush reveal"><span class="roman--lg">ii.</span><h3 class="h4">It works with the body</h3><p>Talk therapy circles the issue. EMDR goes underneath it — to where trauma actually lives, which is rarely just in language.</p></div>
-        <div class="card card--blush reveal"><span class="roman--lg">iii.</span><h3 class="h4">The shifts tend to hold</h3><p>Folks often describe relief that feels structural, not temporary. The memory doesn't disappear — but it stops driving the bus.</p></div>
+        <div class="card card--blush reveal"><span class="roman--lg">ii.</span><h3 class="h4">It works with the body</h3><p>Talk therapy circles the issue. EMDR goes underneath it, to where trauma actually lives, which is rarely just in language.</p></div>
+        <div class="card card--blush reveal"><span class="roman--lg">iii.</span><h3 class="h4">The shifts tend to hold</h3><p>Folks often describe relief that feels structural, not temporary. The memory doesn't disappear. It just stops driving the bus.</p></div>
       </div>
     </div>
   </section>
@@ -184,14 +213,14 @@
       <span class="eyebrow eyebrow--light">The eight phases</span>
       <h2 style="color:var(--cream);margin:1rem 0 1.25rem">How EMDR <em>actually</em> goes.</h2>
       <ol class="emdr-phases">
-        <li><strong style="color:var(--cream)">History &amp; planning</strong> — getting clear on what you've been carrying.</li>
-        <li><strong style="color:var(--cream)">Preparation</strong> — building grounding skills and trust before we go anywhere heavy.</li>
-        <li><strong style="color:var(--cream)">Assessment</strong> — identifying a memory or pattern to work on.</li>
-        <li><strong style="color:var(--cream)">Desensitization</strong> — bilateral stimulation takes the emotional charge down.</li>
-        <li><strong style="color:var(--cream)">Installation</strong> — reinforcing the more accurate belief that wants to take its place.</li>
-        <li><strong style="color:var(--cream)">Body scan</strong> — checking where your body is still holding it.</li>
-        <li><strong style="color:var(--cream)">Closure</strong> — making sure you leave grounded, not raw.</li>
-        <li><strong style="color:var(--cream)">Reevaluation</strong> — checking progress and naming what's next.</li>
+        <li><strong style="color:var(--cream)">History &amp; planning</strong>: getting clear on what you've been carrying.</li>
+        <li><strong style="color:var(--cream)">Preparation</strong>: building grounding skills and trust before we go anywhere heavy.</li>
+        <li><strong style="color:var(--cream)">Assessment</strong>: identifying a memory or pattern to work on.</li>
+        <li><strong style="color:var(--cream)">Desensitization</strong>: bilateral stimulation takes the emotional charge down.</li>
+        <li><strong style="color:var(--cream)">Installation</strong>: reinforcing the more accurate belief that wants to take its place.</li>
+        <li><strong style="color:var(--cream)">Body scan</strong>: checking where your body is still holding it.</li>
+        <li><strong style="color:var(--cream)">Closure</strong>: making sure you leave grounded, not raw.</li>
+        <li><strong style="color:var(--cream)">Reevaluation</strong>: checking progress and naming what's next.</li>
       </ol>
     </div>
   </section>
@@ -207,7 +236,7 @@
             <li>Childhood trauma</li><li>Triggers</li><li>Dissociation</li>
             <li>Low self-worth</li><li>Performance anxiety</li>
           </ul>
-          <p style="margin-top:1.5rem;color:var(--slate);font-size:1rem">Many folks who've felt stuck through other therapies find real movement here. Not because it's magic — because it's the right tool for what's actually in the way.</p>
+          <p style="margin-top:1.5rem;color:var(--slate);font-size:1rem">Many folks who've felt stuck through other therapies find real movement here. Not because it's magic. Because it's the right tool for what's actually in the way.</p>
         </div>
         <div class="two-col__media reveal">
           <img src="../assets/images/garden-gods-pine.jpg" alt="Pine tree growing from red rock in the Garden of the Gods, Colorado Springs" loading="lazy">
@@ -255,6 +284,12 @@
           <li><a href="/services/individual-therapy">Individual Therapy</a></li>
           <li><a href="/services/emdr-therapy">EMDR Therapy</a></li>
           <li><a href="/services/child-and-teen-therapy">Child &amp; Teen Therapy</a></li>
+          <li><a href="/services/trauma-therapy">Trauma Therapy</a></li>
+          <li><a href="/services/anxiety-therapy">Anxiety Therapy</a></li>
+          <li><a href="/services/military-family-therapy">Military Families</a></li>
+          <li><a href="/services/online-therapy-colorado">Online Therapy</a></li>
+          <li><a href="/services/grief-counseling">Grief Counseling</a></li>
+          <li><a href="/services/parts-work-therapy">Parts Work &amp; Dissociation</a></li>
         </ul>
       </div>
       <div>
@@ -267,6 +302,8 @@
           <li><a href="/team/ebony-trotter">Ebony Trotter</a></li>
           <li><a href="/investment">Rates &amp; insurance</a></li>
           <li><a href="/faq">FAQ</a></li>
+          <li><a href="/journal/">Journal</a></li>
+          <li><a href="/careers">Careers</a></li>
         </ul>
       </div>
       <div>
@@ -298,6 +335,6 @@
     </div>
   </div>
 </footer>
-<script src="../js/main.js"></script>
+<script src="../js/main.js?v=20261005"></script>
 </body>
 </html>
