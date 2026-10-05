@@ -1,6 +1,6 @@
 ---
 title: "EMDR vs. Talk Therapy: How to Choose"
-date: 2027-04-01
+date: 2027-01-15
 description: "EMDR and talk therapy work differently and help with different things. A clear comparison to help you decide what might fit, and why many people use both."
 tag: EMDR
 author: katie-fortunato

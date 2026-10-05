@@ -1,6 +1,6 @@
 ---
 title: "Signs Your Child Might Benefit From Therapy"
-date: 2027-03-01
+date: 2027-02-08
 description: "How do you know when a hard phase is more than a phase? Signs that your child or teen might benefit from talking to a therapist, and what to expect if they do."
 tag: Child & Teen
 author: katie-fortunato

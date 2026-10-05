@@ -1,6 +1,6 @@
 ---
 title: "Panic Attacks: What's Happening in Your Body"
-date: 2027-04-15
+date: 2026-12-08
 description: "A racing heart, shortness of breath, the sense you might die. What's actually happening in your body during a panic attack, and what helps in the moment and long term."
 tag: Anxiety
 author: katie-fortunato

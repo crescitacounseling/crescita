@@ -1,6 +1,6 @@
 ---
 title: "What \"Parts Work\" Means, in Plain English"
-date: 2027-02-01
+date: 2027-01-08
 description: "Part of you wants to change and part of you digs in its heels. Parts work takes that seriously. A plain-language introduction to how it works in therapy."
 tag: Parts Work
 author: katie-fortunato

@@ -1,6 +1,6 @@
 ---
 title: "Complex Trauma: When It Wasn't One Big Thing"
-date: 2027-05-15
+date: 2027-02-01
 description: "Not all trauma comes from a single event. Complex trauma builds over time, often in childhood. What it is, how it shows up in adult life, and how healing works."
 tag: Trauma
 author: katie-fortunato

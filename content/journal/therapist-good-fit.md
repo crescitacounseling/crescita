@@ -1,6 +1,6 @@
 ---
 title: "How to Know If a Therapist Is a Good Fit"
-date: 2027-07-15
+date: 2027-03-08
 description: "The relationship with your therapist matters more than almost anything else. What a good fit feels like, questions to ask, and when it's okay to switch."
 tag: Individual Therapy
 author: katie-fortunato

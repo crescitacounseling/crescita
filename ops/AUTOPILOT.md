@@ -5,21 +5,17 @@ Two scheduled jobs run against this repo. Each run starts fresh, so everything a
 Site: https://www.crescitacounseling.com (static HTML, deployed from `main`).
 Owner of the work: Chad (web designer). Client: Katie Fortunato, LPC, Crescita Counseling.
 
-## Job 1: Journal publisher (1st and 15th of each month)
+## Job 1: Journal publisher (automatic, no Claude run needed)
 
-1. `git fetch origin main` and check out `main`. If `main` does not contain `scripts/journal.py` yet, the site redesign hasn't been merged: run the same steps on branch `claude/crested-counseling-seo-wk5lhr` instead, and say so in the summary.
-2. Run `python3 scripts/journal.py`. It publishes every post in `content/journal/` dated today or earlier, rebuilds `journal/index.html`, and refreshes the journal block in `sitemap.xml`. It prints each newly published post's URL and its Google Business Profile text.
-3. If nothing new was published, stop and report "no post due".
-4. Sanity check: the new page exists in `journal/`, has one `<h1>`, and no `—` in its `<main>`.
-5. Commit with a message like `Journal: publish "<title>"` and push to the branch from step 1.
-6. Summary (this is emailed to Chad), in this order:
-   - Post title and live URL (live a minute or two after the push)
-   - The Google Business Profile post text, ready to paste, plus the image to attach: `https://www.crescitacounseling.com/assets/images/<image>.jpg`
-   - Next post in the queue: run `python3 scripts/journal.py --next`
-   - If fewer than 4 posts remain, say "Queue is running low: add more posts."
-   - Any blocker (push refused, script error), stated plainly with the fix.
+Publishing is handled by GitHub Actions, not by a scheduled Claude job. `.github/workflows/publish-journal.yml` runs every morning at 13:05 UTC (about 7 am Mountain). It runs `python3 scripts/journal.py` for today's date in America/Denver, and if a post was due it commits the new page, `journal/index.html` and `sitemap.xml` to `main` as github-actions[bot]. Cloudflare Pages deploys the push in a minute or two.
 
-Never edit post wording during this job. If a post has an obvious problem (broken link, typo in the title), fix only that and mention it.
+Schedule: four posts a month, on the 1st, 8th, 15th and 22nd. See `content/journal/CALENDAR.md`.
+
+To check a run: GitHub, then the repo's Actions tab, then "Publish journal posts". Each run's summary shows what was published and the Google Business Profile text for it. To publish by hand: same page, "Run workflow".
+
+If a run fails, the usual causes are a malformed post header (fix the `.md` file) or Actions write permission turned off (repo Settings, Actions, General, Workflow permissions: "Read and write").
+
+Google Business Profile posts still need to be posted by hand (or by a scheduled Claude job if Chad sets one up). The text for each post is the `gbp:` line in its `.md` file and in the Action's run summary; attach `https://www.crescitacounseling.com/assets/images/<image>.jpg`.
 
 ## Job 2: Monthly report (3rd of each month)
 

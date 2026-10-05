@@ -1,6 +1,6 @@
 ---
 title: "Grieving Someone Who's Still Here"
-date: 2027-07-01
+date: 2027-02-22
 description: "You can grieve someone who hasn't died: a parent with dementia, an estranged sibling, a partner who changed. What anticipatory and ambiguous grief feel like, and how to care for yourself."
 tag: Grief
 author: katie-fortunato

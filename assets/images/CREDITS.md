@@ -28,6 +28,8 @@ Credit is recorded here for our own records.
 | garden-gods-snow-sun | journal: teens-winter-break | Garden of the Gods, Colorado Springs | Joe Dudeck (@joetography) | https://unsplash.com/photos/AazQv4bzBGo |
 | manitou-incline-boulder | journal: therapist-good-fit | Manitou Incline, Manitou Springs | Luis Olmos (@lolmos_01) | https://unsplash.com/photos/YUWWyQXgMzo |
 | garden-gods-rock-spires | journal: what-is-parts-work | Garden of the Gods, Colorado Springs | Alexis Gethin (@alexis_g) | https://unsplash.com/photos/CDSRWM0i8Qs |
+| pikes-peak-forest-lake | journal: what-to-expect-first-therapy-session | Pikes Peak | Andrew Seaman (@amseaman) | https://unsplash.com/photos/z8g_zZovFhc |
+| foothills-pine-ridge | journal: questions-to-ask-therapist-consultation | Colorado Springs | Austin Wehrwein (@awhstin) | https://unsplash.com/photos/Z9NQIiESupU |
 
 ## Needs Katie's own photo or written permission
 

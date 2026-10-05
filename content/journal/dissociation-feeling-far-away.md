@@ -1,6 +1,6 @@
 ---
 title: "Dissociation: When You Feel Far Away From Your Own Life"
-date: 2027-03-15
+date: 2027-01-22
 description: "Losing time, feeling unreal, watching yourself from outside. What dissociation is, why it happens after trauma, and how therapy helps you come back gently."
 tag: Dissociation
 author: katie-fortunato

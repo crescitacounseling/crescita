@@ -1,6 +1,6 @@
 ---
 title: "Perfectionism and the Fear of Getting It Wrong"
-date: 2027-09-15
+date: 2026-11-22
 description: "Perfectionism often looks like high standards, but underneath it is usually fear. Where it comes from, what it costs, and how to loosen its grip without losing your drive."
 tag: Anxiety
 author: katie-fortunato

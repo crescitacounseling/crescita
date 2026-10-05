@@ -1,6 +1,6 @@
 ---
 title: "People-Pleasing Isn't a Personality Trait"
-date: 2027-01-15
+date: 2026-11-08
 description: "If you say yes when you mean no and feel responsible for everyone's mood, people-pleasing may be a survival strategy, not a personality. Here's where it comes from."
 tag: Anxiety
 author: katie-fortunato

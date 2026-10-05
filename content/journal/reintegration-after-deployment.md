@@ -1,6 +1,6 @@
 ---
 title: "Coming Home: The Hidden Adjustment After Deployment"
-date: 2027-06-01
+date: 2027-03-01
 description: "Homecoming is joyful, and it can also be surprisingly hard. What reintegration after deployment often looks like for service members, spouses, and kids, and what helps."
 tag: Military Families
 author: katie-fortunato

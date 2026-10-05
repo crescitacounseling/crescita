@@ -1,6 +1,6 @@
 ---
 title: "Your Body Remembers: Somatic Awareness in Trauma Therapy"
-date: 2027-08-15
+date: 2026-12-22
 description: "Trauma isn't only stored as a story. It shows up in your body. What somatic awareness means in therapy and why paying attention to your body can help you heal."
 tag: Trauma
 author: katie-fortunato
