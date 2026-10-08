@@ -161,9 +161,16 @@
   <!-- journal:start -->
   <url>
     <loc>https://www.crescitacounseling.com/journal/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.crescitacounseling.com/journal/what-to-expect-first-therapy-session</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
