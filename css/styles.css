@@ -1170,3 +1170,6 @@ details,.faq-item{border-color:var(--line)}
 .form-group .form-check input[type=checkbox]:focus{outline:none}.form-group .form-check input[type=checkbox]:focus-visible{outline:2px solid var(--rose-d);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){.form-check input,.form-group .form-check input[type=checkbox]::before{transition:none}}
 .form-group .form-check input[type=checkbox],.form-group .form-check input[type=checkbox]::before{border-radius:50% !important}
+
+/* hero portrait: clean image, matching the rest of the site */
+.hero__img-wrap picture::before{content:none}
