@@ -4,8 +4,8 @@ date: 2027-02-08
 description: "Signs your child needs therapy, from sleep changes to school refusal, and what a child therapist in Colorado Springs actually does in the first few sessions."
 tag: Child & Teen
 author: katie-fortunato
-image: garden-gods-window
-image_alt: "Red rock formations at Garden of the Gods framed by a stone window"
+image: child-drawing
+image_alt: "A child in a yellow shirt drawing with a colored pencil."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "How do you know when a hard phase is more than a phase? Our latest Journal post covers signs your child or teen might benefit from therapy, and what to expect if they start. Child and teen therapy for ages 7 and up in Colorado Springs."

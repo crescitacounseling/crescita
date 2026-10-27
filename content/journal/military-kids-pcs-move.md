@@ -4,8 +4,8 @@ date: 2027-02-15
 description: "How to help kids through a PCS move, from the first talk about orders to the hard month after you land. A Colorado Springs therapist's guide for parents."
 tag: Military Families
 author: katie-fortunato
-image: pikes-peak-highway-snow
-image_alt: "The Pikes Peak Highway winding through snow and pine forest."
+image: moving-boxes-window
+image_alt: "Moving boxes stacked by a window in a half-packed home."
 service: /services/military-family-therapy
 service_name: Counseling for military families in Colorado Springs
 gbp: "New orders? Our latest Journal post shares practical ways to help military kids through a PCS move, before, during, and after. Counseling for military families in Colorado Springs, in person or online."

@@ -4,8 +4,8 @@ date: 2027-03-01
 description: "Reintegration after deployment is often harder than families expect. What changes at home for service members, spouses, and kids in the first months back."
 tag: Military Families
 author: katie-fortunato
-image: pikes-peak-reservoir
-image_alt: "A quiet reservoir in a valley on Pikes Peak under gathering storm clouds."
+image: boots-and-pack
+image_alt: "Worn combat boots and a camouflage pack next to someone standing in jeans."
 service: /services/military-family-therapy
 service_name: Counseling for military families in Colorado Springs
 gbp: "Homecoming is joyful, and the weeks after can be surprisingly hard for the whole family. Our latest Journal post covers what reintegration after deployment often looks like and what helps. Military family counseling in Colorado Springs."

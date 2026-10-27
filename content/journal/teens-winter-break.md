@@ -4,8 +4,8 @@ date: 2026-12-01
 description: "Teen stress often peaks over winter break, not before it. What it looks like by day four, what parents can do, and when teen therapy in Colorado Springs helps."
 tag: Child & Teen
 author: katie-fortunato
-image: garden-gods-snow-sun
-image_alt: "Red rock walls and frosted shrubs at Garden of the Gods on a bright winter day."
+image: teen-headphones-gray-sky
+image_alt: "A teenager in headphones, seen from behind, looking out at a gray winter sky."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "Winter break is supposed to be restful, but plenty of teens come into it running on empty. Our latest Journal post covers signs your teen is struggling and simple ways to help over the break. Child and teen therapy in Colorado Springs and online."

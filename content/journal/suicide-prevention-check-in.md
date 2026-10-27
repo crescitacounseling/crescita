@@ -4,8 +4,8 @@ date: 2027-09-01
 description: "September is Suicide Prevention Month. Warning signs, what to say to someone you're worried about, and how to help them reach 988 or other support."
 tag: Mental Health
 author: katie-fortunato
-image: garden-gods-evening-light
-image_alt: "Warm evening light on the red rock fins of Garden of the Gods."
+image: friends-on-bench
+image_alt: "Two friends sitting close together on a park bench, seen from behind."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
 gbp: "September is Suicide Prevention Month. Our latest Journal post covers warning signs, what to say to someone you're worried about, and how to connect them with help. If you or someone you know is in crisis, call or text 988 any time."

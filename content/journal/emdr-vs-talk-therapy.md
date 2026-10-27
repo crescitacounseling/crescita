@@ -4,8 +4,8 @@ date: 2027-01-15
 description: "EMDR vs talk therapy: how each one works, what each is good at, and six questions to help you decide which fits, from a Colorado Springs EMDR therapist."
 tag: EMDR
 author: katie-fortunato
-image: garden-gods-formation
-image_alt: "A tall red sandstone formation at Garden of the Gods above juniper and scrub."
+image: two-armchairs
+image_alt: "Two gray armchairs facing each other in a quiet room."
 service: /services/emdr-therapy
 service_name: EMDR therapy in Colorado Springs
 gbp: "EMDR or talk therapy? They work differently and help with different things. Our latest Journal post compares them side by side to help you decide what might fit. EMDR available in person in Colorado Springs and online across Colorado."

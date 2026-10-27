@@ -4,8 +4,8 @@ date: 2026-11-01
 description: "Holiday family stress can turn a capable adult into a nervous fifteen-year-old in minutes. Why old family roles come back, and how to get through the visit."
 tag: Trauma
 author: katie-fortunato
-image: pikes-peak-moonrise-city
-image_alt: "Lights of Colorado Springs homes at dusk below a snowy Pikes Peak."
+image: holiday-table-candles
+image_alt: "A holiday table set with red and green candles, pine cones and a plaid tablecloth."
 service: /services/trauma-therapy
 service_name: Trauma therapy in Colorado Springs
 gbp: "Ever notice you turn 15 again the minute you walk into your parents' house? Our latest Journal post explains why the holidays stir up old family patterns, and offers a few ways to protect your peace this season. Crescita Counseling, Colorado Springs."

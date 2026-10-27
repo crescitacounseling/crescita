@@ -4,8 +4,8 @@ date: 2026-12-08
 description: "Racing heart, tight chest, tingling hands. Panic attack symptoms explained in the order they happen, why they keep coming back, and what to do in the moment."
 tag: Anxiety
 author: katie-fortunato
-image: manitou-creek-bridge
-image_alt: "Fast water rushing past mossy rocks under a stone bridge in Manitou Springs."
+image: glass-of-water
+image_alt: "A glass of water in soft morning light."
 service: /services/anxiety-therapy
 service_name: Anxiety therapy in Colorado Springs
 gbp: "A racing heart, shaky hands, the sense that something terrible is about to happen. Our new Journal post explains what's actually happening in your body during a panic attack and what helps. Anxiety therapy in Colorado Springs and online."

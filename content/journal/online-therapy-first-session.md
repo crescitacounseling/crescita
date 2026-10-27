@@ -4,8 +4,8 @@ date: 2027-01-01
 description: "Starting online therapy in Colorado? What your first video session covers, a simple setup checklist for your space, and what to do if the tech acts up."
 tag: Online Therapy
 author: katie-fortunato
-image: mountains-wide
-image_alt: "Wide view of the Front Range mountains under a clear sky"
+image: laptop-coffee-window
+image_alt: "A laptop and a cup of coffee on a wooden table by a window."
 service: /services/online-therapy-colorado
 service_name: Online therapy anywhere in Colorado
 gbp: "Starting therapy over video? Our latest Journal post walks through your first online session, from setting up your space to what we actually talk about. Online therapy available anywhere in Colorado from Crescita Counseling."

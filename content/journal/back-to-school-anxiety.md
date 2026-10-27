@@ -4,8 +4,8 @@ date: 2027-08-01
 description: "Back to school anxiety often looks like stomachaches and bedtime stalling. A step-by-step plan for the last two weeks of summer, and when it's more."
 tag: Child & Teen
 author: katie-fortunato
-image: downtown-colorado-springs
-image_alt: "Downtown Colorado Springs from above, with Pikes Peak on the horizon."
+image: kids-with-backpacks
+image_alt: "Young kids with backpacks walking into school."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "Stomachaches, sleepless nights, endless what-ifs. Our latest Journal post is a parent's guide to back-to-school anxiety, including signs it might be more than first-day nerves. Child and teen therapy for ages 7 and up in Colorado Springs."

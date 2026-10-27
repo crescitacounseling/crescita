@@ -4,8 +4,8 @@ date: 2027-02-01
 description: "Complex trauma builds over years, often in childhood. How it shows up in adult life and what complex trauma therapy looks like in Colorado Springs."
 tag: Trauma
 author: katie-fortunato
-image: garden-gods-panoramic
-image_alt: "Red rock formations at Garden of the Gods under a wide Colorado sky"
+image: tangled-rope
+image_alt: "A tangle of old rope, looped and knotted over itself."
 service: /services/trauma-therapy
 service_name: Trauma therapy in Colorado Springs
 gbp: "Not all trauma comes from one big event. Complex trauma builds over time, often in childhood, and shapes how you relate to everyone, including yourself. Our new Journal post explains what it is and how healing works. Trauma therapy in Colorado Springs."

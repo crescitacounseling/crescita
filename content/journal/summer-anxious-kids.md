@@ -4,8 +4,8 @@ date: 2027-06-15
 description: "Anxious kids often struggle in summer once the school day disappears. How to build a loose daily rhythm without overscheduling, from a Colorado therapist."
 tag: Child & Teen
 author: katie-fortunato
-image: manitou-deer-crossing
-image_alt: "Two young mule deer crossing a quiet road in Manitou Springs."
+image: kids-on-bikes
+image_alt: "Two young kids in helmets riding bikes on a tree-lined path."
 service: /services/child-and-teen-therapy
 service_name: Child and teen therapy in Colorado Springs
 gbp: "Summer break can be surprisingly hard for anxious kids who rely on routine. Our new Journal post shares simple ways to keep them steady through the long, unstructured weeks. Child and teen therapy in Colorado Springs and online."

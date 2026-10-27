@@ -10,28 +10,28 @@ To change the order, edit the `date:` line at the top of a post. To add one of K
 | 2 | 2026-10-08 | What to Expect at Your First Therapy Session in Colorado Springs | Individual Therapy | `pikes-peak-forest-lake` | scheduled |
 | 3 | 2026-10-15 | Is It Anxiety or Is It Burnout? | Anxiety | `creek-stream` | scheduled |
 | 4 | 2026-10-22 | Questions to Ask on a Therapist Consultation Call: A Simple Checklist | Individual Therapy | `foothills-pine-ridge` | scheduled |
-| 5 | 2026-11-01 | Why the Holidays Can Stir Up Old Family Stuff | Trauma | `pikes-peak-moonrise-city` | scheduled |
-| 6 | 2026-11-08 | People-Pleasing Isn't a Personality Trait | Anxiety | `pikes-peak-overlook` | scheduled |
+| 5 | 2026-11-01 | Why the Holidays Can Stir Up Old Family Stuff | Trauma | `holiday-table-candles` | scheduled |
+| 6 | 2026-11-08 | People-Pleasing Isn't a Personality Trait | Anxiety | `planner-coffee-november` | scheduled |
 | 7 | 2026-11-15 | Grief in the First Holiday Season After a Loss | Grief | `garden-gods-winter-fence` | scheduled |
-| 8 | 2026-11-22 | Perfectionism and the Fear of Getting It Wrong | Anxiety | `balanced-rock-snow` | scheduled |
-| 9 | 2026-12-01 | When Winter Break Isn't a Break: Supporting Stressed Teens | Child & Teen | `garden-gods-snow-sun` | scheduled |
-| 10 | 2026-12-08 | Panic Attacks: What's Happening in Your Body | Anxiety | `manitou-creek-bridge` | scheduled |
-| 11 | 2026-12-15 | Why New Year's Resolutions Fail When You're Running on Empty | Individual Therapy | `garden-gods-first-snow` | scheduled |
+| 8 | 2026-11-22 | Perfectionism and the Fear of Getting It Wrong | Anxiety | `pencils-in-a-row` | scheduled |
+| 9 | 2026-12-01 | When Winter Break Isn't a Break: Supporting Stressed Teens | Child & Teen | `teen-headphones-gray-sky` | scheduled |
+| 10 | 2026-12-08 | Panic Attacks: What's Happening in Your Body | Anxiety | `glass-of-water` | scheduled |
+| 11 | 2026-12-15 | Why New Year's Resolutions Fail When You're Running on Empty | Individual Therapy | `blank-notebook` | scheduled |
 | 12 | 2026-12-22 | Your Body Remembers: Somatic Awareness in Trauma Therapy | Trauma | `red-rock-canyon-quarry` | scheduled |
-| 13 | 2027-01-01 | Online Therapy in Colorado: What to Expect From Your First Video Session | Online Therapy | `mountains-wide` | scheduled |
+| 13 | 2027-01-01 | Online Therapy in Colorado: What to Expect From Your First Video Session | Online Therapy | `laptop-coffee-window` | scheduled |
 | 14 | 2027-01-08 | What "Parts Work" Means, in Plain English | Parts Work | `garden-gods-rock-spires` | scheduled |
-| 15 | 2027-01-15 | EMDR vs. Talk Therapy: How to Choose | EMDR | `garden-gods-formation` | scheduled |
+| 15 | 2027-01-15 | EMDR vs. Talk Therapy: How to Choose | EMDR | `two-armchairs` | scheduled |
 | 16 | 2027-01-22 | Dissociation: When You Feel Far Away From Your Own Life | Dissociation | `pikes-peak-haze` | scheduled |
-| 17 | 2027-02-01 | Complex Trauma: When It Wasn't One Big Thing | Trauma | `garden-gods-panoramic` | scheduled |
-| 18 | 2027-02-08 | Signs Your Child Might Benefit From Therapy | Child & Teen | `garden-gods-window` | scheduled |
-| 19 | 2027-02-15 | Helping Military Kids Through a PCS Move | Military Families | `pikes-peak-highway-snow` | scheduled |
+| 17 | 2027-02-01 | Complex Trauma: When It Wasn't One Big Thing | Trauma | `tangled-rope` | scheduled |
+| 18 | 2027-02-08 | Signs Your Child Might Benefit From Therapy | Child & Teen | `child-drawing` | scheduled |
+| 19 | 2027-02-15 | Helping Military Kids Through a PCS Move | Military Families | `moving-boxes-window` | scheduled |
 | 20 | 2027-02-22 | Grieving Someone Who's Still Here | Grief | `red-rock-canyon-sunrise` | scheduled |
-| 21 | 2027-03-01 | Coming Home: The Hidden Adjustment After Deployment | Military Families | `pikes-peak-reservoir` | scheduled |
-| 22 | 2027-03-08 | How to Know If a Therapist Is a Good Fit | Individual Therapy | `manitou-incline-boulder` | scheduled |
+| 21 | 2027-03-01 | Coming Home: The Hidden Adjustment After Deployment | Military Families | `boots-and-pack` | scheduled |
+| 22 | 2027-03-08 | How to Know If a Therapist Is a Good Fit | Individual Therapy | `two-mugs-conversation` | scheduled |
 | 23 | 2027-05-01 | Mental Health Awareness Month: Small Steps That Count | Individual Therapy | `pikes-peak-meadow` | scheduled |
-| 24 | 2027-06-15 | Summer Without Structure: Supporting Anxious Kids | Child & Teen | `manitou-deer-crossing` | scheduled |
-| 25 | 2027-08-01 | Back-to-School Anxiety: A Parent's Guide | Child & Teen | `downtown-colorado-springs` | scheduled |
-| 26 | 2027-09-01 | Suicide Prevention Month: How to Check In on Someone You're Worried About | Mental Health | `garden-gods-evening-light` | scheduled |
+| 24 | 2027-06-15 | Summer Without Structure: Supporting Anxious Kids | Child & Teen | `kids-on-bikes` | scheduled |
+| 25 | 2027-08-01 | Back-to-School Anxiety: A Parent's Guide | Child & Teen | `kids-with-backpacks` | scheduled |
+| 26 | 2027-09-01 | Suicide Prevention Month: How to Check In on Someone You're Worried About | Mental Health | `friends-on-bench` | scheduled |
 
 ## Gaps to fill
 

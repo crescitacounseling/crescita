@@ -4,8 +4,8 @@ date: 2026-11-08
 description: "If you say yes when you mean no and feel responsible for everyone's mood, people pleasing may be an old survival strategy. Where it starts and how it changes."
 tag: Anxiety
 author: katie-fortunato
-image: pikes-peak-overlook
-image_alt: "A view over pine-covered foothills from a granite ledge on Pikes Peak."
+image: planner-coffee-november
+image_alt: "A cup of black coffee on an open planner with a full November calendar."
 service: /services/anxiety-therapy
 service_name: Anxiety therapy in Colorado Springs
 gbp: "Saying yes when you mean no? Feeling responsible for everyone's mood? Our newest Journal post looks at where people-pleasing usually starts and how to begin saying no without the guilt spiral. Crescita Counseling, Colorado Springs."

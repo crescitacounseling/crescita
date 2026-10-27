@@ -4,8 +4,8 @@ date: 2026-11-22
 description: "Perfectionism and anxiety often travel together. Why high standards can turn into fear, where the pattern starts, and how to practice good enough on purpose."
 tag: Anxiety
 author: katie-fortunato
-image: balanced-rock-snow
-image_alt: "Balanced Rock at Garden of the Gods with snow on the red sandstone."
+image: pencils-in-a-row
+image_alt: "A row of freshly sharpened pencils lined up on a wooden table."
 service: /services/anxiety-therapy
 service_name: Anxiety therapy in Colorado Springs
 gbp: "Perfectionism often looks like high standards. Underneath, it's usually fear. Our new Journal post explores where perfectionism comes from, what it costs, and how to loosen its grip without losing your drive. Crescita Counseling, Colorado Springs."

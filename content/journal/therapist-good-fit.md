@@ -4,8 +4,8 @@ date: 2027-03-08
 description: "How to find a therapist who's a good fit: seven signs the relationship is working, signs it isn't, and why switching therapists is normal and not rude."
 tag: Individual Therapy
 author: katie-fortunato
-image: manitou-incline-boulder
-image_alt: "A trail passing big granite boulders and pines near the Manitou Incline."
+image: two-mugs-conversation
+image_alt: "Two people talking across a table, each holding a coffee mug."
 service: /services/individual-therapy
 service_name: Individual therapy in Colorado Springs
 gbp: "How do you know a therapist is the right fit? Our new Journal post covers what a good fit feels like, questions to ask, and when it's okay to switch. Free 20-minute consults at Crescita Counseling."
