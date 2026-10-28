@@ -970,6 +970,9 @@ nav.breadcrumbs:not(.page-hero--dark *) a {
 /* Form fields: square with a visible edge */
 .form-group input,.form-group select,.form-group textarea{border:1px solid var(--line);background:#fff}
 
+/* Drop-downs: our own chevron, inset to match the text padding */
+.form-group select,.form-group select:focus{-webkit-appearance:none;appearance:none;padding-right:2.75rem;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%232A2724' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;background-size:12px 8px}
+
 /* FAQ rows and dividers get the same hairline */
 details,.faq-item{border-color:var(--line)}
 
