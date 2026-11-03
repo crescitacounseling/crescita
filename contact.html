@@ -359,6 +359,10 @@
       const response = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
 
       if (response.status === 200) {
+        // Count the sent form as a lead in Google Analytics (no form contents are sent)
+        if (typeof gtag === 'function') {
+          gtag('event', 'generate_lead', { form_name: 'contact' });
+        }
         if (status) {
           status.setAttribute('data-state', 'success');
           status.innerHTML = `
