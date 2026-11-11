@@ -316,21 +316,19 @@
   </div>
 </footer>
 <script src="js/main.js?v=20261013a"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
 (function () {
   'use strict';
-  var PUBLIC_KEY = 'rA_YM7Iyd1ffURMuy', SERVICE_ID = 'service_zrkwriq';
-  // Dedicated careers template (create it in EmailJS with this ID). If it doesn't exist yet,
-  // the form falls back to the contact-form template so no application is lost.
-  var CAREERS_TEMPLATE = 'template_careers', CONTACT_TEMPLATE = 'template_4ho9sxo';
+  // Applications post to /api/contact (functions/api/contact.js) with
+  // form_type "careers", which sends them through Resend.
+  var ENDPOINT = '/api/contact';
+  var FALLBACK = '<p style="margin:0">Something went wrong sending the form. Please call <a href="tel:+17192860011" class="text-link">(719) 286-0011</a> or email your details to <a href="mailto:info@crescitacounseling.com" class="text-link">info@crescitacounseling.com</a>.</p>';
   var form = document.getElementById('careers-form');
   if (!form) return;
-  if (typeof emailjs !== 'undefined') emailjs.init({ publicKey: PUBLIC_KEY });
   var status = form.querySelector('[data-form-status]');
   var btn = form.querySelector('[type="submit"]');
   function val(n) { var el = form.elements[n]; return el && el.value ? el.value.trim() : ''; }
-  function checked(n) { return Array.prototype.map.call(form.querySelectorAll('[name="' + n + '"]:checked'), function (c) { return c.value; }).join(', ') || '(none selected)'; }
+  function checked(n) { return Array.prototype.map.call(form.querySelectorAll('[name="' + n + '"]:checked'), function (c) { return c.value; }); }
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     if (val('_gotcha')) return;
@@ -338,44 +336,38 @@
     btn.disabled = true;
     status.setAttribute('data-state', 'loading');
     status.textContent = 'Sending your application...';
-    var summary = [
-      'CAREERS APPLICATION',
-      'License: ' + val('license') + (val('licenseNumber') ? ' #' + val('licenseNumber') : ''),
-      'States licensed: ' + val('states'),
-      'Certifications and trainings: ' + (val('certifications') || '(none listed)'),
-      'Populations: ' + checked('populations'),
-      'Format: ' + val('format'),
-      'Caseload: ' + val('caseload'),
-      'Availability: ' + checked('availability'),
-      'Earliest start: ' + (val('startDate') || '(not given)'),
-      'Insurance panels: ' + (val('panels') || '(not given)'),
-      'Resume / LinkedIn: ' + (val('resumeLink') || '(will email)'),
-      '', 'BIO:', val('bio'), '', 'WHY CRESCITA:', val('why')
-    ].join('\n');
-    var params = {
-      // careers template fields
-      first_name: val('firstName'), last_name: val('lastName'), email: val('email'), reply_to: val('email'),
-      phone: val('phone') || '(not provided)',
-      license: val('license'), license_number: val('licenseNumber') || '(not given)',
-      states: val('states'), certifications: val('certifications') || '(none listed)',
-      populations: checked('populations'), format: val('format'), caseload: val('caseload'),
-      availability: checked('availability'), start_date: val('startDate') || '(not given)',
-      panels: val('panels') || '(not given)', resume_link: val('resumeLink') || '(will email)',
-      bio: val('bio'), why: val('why'),
-      // contact template fields, used only if the careers template is missing
-      therapy_for: 'Job application (careers page)', preferred_format: val('format'),
-      curious_about: 'Careers: ' + val('license'), whats_loud: summary
+    var payload = {
+      form_type: 'careers',
+      firstName: val('firstName'), lastName: val('lastName'), email: val('email'), phone: val('phone'),
+      license: val('license'), licenseNumber: val('licenseNumber'), states: val('states'),
+      certifications: val('certifications'), populations: checked('populations'),
+      format: val('format'), caseload: val('caseload'), availability: checked('availability'),
+      startDate: val('startDate'), panels: val('panels'), resumeLink: val('resumeLink'),
+      bio: val('bio'), why: val('why'), _gotcha: val('_gotcha'),
+      'cf-turnstile-response': val('cf-turnstile-response')
     };
-    emailjs.send(SERVICE_ID, CAREERS_TEMPLATE, params).catch(function (err) {
-      console.warn('Careers template unavailable, using contact template', err);
-      return emailjs.send(SERVICE_ID, CONTACT_TEMPLATE, params);
+    fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function (res) {
+      return res.json().catch(function () { return {}; }).then(function (out) {
+        if (!res.ok || !out.ok) {
+          // A 400 with a message means something in the form needs fixing.
+          // Anything else means delivery failed, so show the phone and email.
+          var err = new Error(out.error || 'Request failed');
+          err.fixable = res.status === 400 && Boolean(out.error);
+          throw err;
+        }
+      });
     }).then(function () {
       status.setAttribute('data-state', 'success');
-      status.innerHTML = '<p style="font-weight:600;margin:0 0 .5rem">Thank you. Your application is on its way to Katie, and she&rsquo;ll review it for the next round in mid-December.</p><p style="margin:0">If you have a résumé to share, email it to <a href="mailto:info@crescitacounseling.com" class="text-link">info@crescitacounseling.com</a>.</p>';
+      status.innerHTML = '<p style="font-weight:600;margin:0 0 .5rem">Thank you. Your application is on its way to Katie, and she&rsquo;ll review it for the next round in mid-December.</p><p style="margin:0 0 .5rem">If you have a résumé to share, email it to <a href="mailto:info@crescitacounseling.com" class="text-link">info@crescitacounseling.com</a>.</p><p style="margin:0">A confirmation email is on its way to you. If it doesn&rsquo;t show up (check spam too), please call <a href="tel:+17192860011" class="text-link">(719) 286-0011</a> or email <a href="mailto:info@crescitacounseling.com" class="text-link">info@crescitacounseling.com</a> so we can make sure your application arrived.</p>';
       form.reset();
     }).catch(function (err) {
       status.setAttribute('data-state', 'error');
-      status.innerHTML = '<p style="margin:0">Something went wrong sending the form. Please email your details to <a href="mailto:info@crescitacounseling.com" class="text-link">info@crescitacounseling.com</a>.</p>';
+      if (err.fixable) status.textContent = err.message;
+      else status.innerHTML = FALLBACK;
       console.error(err);
     }).then(function () { btn.disabled = false; });
   });

@@ -312,19 +312,23 @@
 
 
 <script src="js/main.js?v=20261013a"></script>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
 <script>
 (function () {
   'use strict';
 
-  const EMAILJS_PUBLIC_KEY = 'rA_YM7Iyd1ffURMuy';
-  const EMAILJS_SERVICE_ID = 'service_zrkwriq';
-  const EMAILJS_TEMPLATE_ID = 'template_4ho9sxo';
-
-  if (typeof emailjs !== 'undefined' && EMAILJS_PUBLIC_KEY) {
-    emailjs.init(EMAILJS_PUBLIC_KEY);
-  }
+  // The form posts to /api/contact (functions/api/contact.js), which sends
+  // it through Resend.
+  const ENDPOINT = '/api/contact';
+  const FALLBACK = `
+    <div style="line-height: 1.6;">
+      <strong>Oops, something hiccupped.</strong>
+      <p style="margin-top: 0.75rem;">Please try again, or reach out directly:</p>
+      <p style="margin: 0.5rem 0;">
+        Email: <a href="mailto:info@crescitacounseling.com" style="color: var(--rose); text-decoration: none; font-weight: 600;">info@crescitacounseling.com</a><br>
+        Phone: <a href="tel:+17192860011" style="color: var(--rose); text-decoration: none; font-weight: 600;">(719) 286-0011</a>
+      </p>
+    </div>
+  `;
 
   const form = document.querySelector('#contact-form');
   if (!form) return;
@@ -338,6 +342,11 @@
     const hp = form.querySelector('[name="_gotcha"]');
     if (hp && hp.value) return;
 
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
     if (status) {
       status.setAttribute('data-state', 'loading');
       status.textContent = 'Sending your message…';
@@ -345,51 +354,58 @@
     if (submitBtn) submitBtn.disabled = true;
 
     try {
-      const params = {
-        first_name: form.firstName.value,
-        last_name: form.lastName.value,
-        email: form.email.value,
-        phone: form.phone.value || '(not provided)',
-        therapy_for: form.who.value,
-        preferred_format: form.format.value,
-        curious_about: form.interest.value,
-        whats_loud: form.message.value
+      const turnstile = form.querySelector('[name="cf-turnstile-response"]');
+      const payload = {
+        form_type: 'contact',
+        firstName: form.firstName.value.trim(),
+        lastName: form.lastName.value.trim(),
+        email: form.email.value.trim(),
+        phone: form.phone.value.trim(),
+        who: form.who.value,
+        format: form.format.value,
+        interest: form.interest.value,
+        message: form.message.value.trim(),
+        consent: form.consent.checked,
+        _gotcha: hp ? hp.value : '',
+        'cf-turnstile-response': turnstile ? turnstile.value : ''
       };
 
-      const response = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-
-      if (response.status === 200) {
-        // Count the sent form as a lead in Google Analytics (no form contents are sent)
-        if (typeof gtag === 'function') {
-          gtag('event', 'generate_lead', { form_name: 'contact' });
-        }
-        if (status) {
-          status.setAttribute('data-state', 'success');
-          status.innerHTML = `
-            <div style="line-height: 1.6;">
-              
-              <p style="margin-top: 0.75rem; margin-bottom: 0.5rem; font-weight:600;">Your message is on its way to us! We'll be in touch within one business day, usually sooner.</p>
-              <p style="margin: 0.5rem 0;">If you don&#8217;t hear back within 24 hours, please reach out directly at <a href="mailto:info@crescitacounseling.com" style="color:var(--petal-dark);font-weight:600;">info@crescitacounseling.com</a> or <a href="tel:+17192860011" style="color: var(--petal-dark); text-decoration: none; font-weight: 600;">(719) 286-0011</a>. Sometimes technology has other plans, and we&#8217;d hate to miss you!</p>
-            </div>
-          `;
-        }
-        form.reset();
-      } else {
-        throw new Error('EmailJS submission failed');
+      const res = await fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const out = await res.json().catch(() => ({}));
+      if (!res.ok || !out.ok) {
+        // A 400 with a message means something in the form needs fixing.
+        // Anything else means delivery failed, so show the phone and email.
+        const err = new Error(out.error || 'Request failed');
+        err.fixable = res.status === 400 && Boolean(out.error);
+        throw err;
       }
+
+      // Count the sent form as a lead in Google Analytics (no form contents are sent)
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', { form_name: 'contact' });
+      }
+      if (status) {
+        status.setAttribute('data-state', 'success');
+        status.innerHTML = `
+          <div style="line-height: 1.6;">
+            <p style="margin-top: 0.75rem; margin-bottom: 0.5rem; font-weight:600;">Your message is on its way to us! We'll be in touch within one business day, usually sooner.</p>
+            <p style="margin: 0.5rem 0;">If you don&#8217;t hear back within one business day, please call <a href="tel:+17192860011" style="color: var(--petal-dark); text-decoration: none; font-weight: 600;">(719) 286-0011</a> or email <a href="mailto:info@crescitacounseling.com" style="color:var(--petal-dark);font-weight:600;">info@crescitacounseling.com</a>. Sometimes technology has other plans, and we&#8217;d hate to miss you!</p>
+          </div>
+        `;
+      }
+      form.reset();
     } catch (err) {
       if (status) {
         status.setAttribute('data-state', 'error');
-        status.innerHTML = `
-          <div style="line-height: 1.6;">
-            <strong>Oops, something hiccupped.</strong>
-            <p style="margin-top: 0.75rem;">Please try again, or reach out directly:</p>
-            <p style="margin: 0.5rem 0;">
-              Email: <a href="mailto:info@crescitacounseling.com" style="color: var(--rose); text-decoration: none; font-weight: 600;">info@crescitacounseling.com</a><br>
-              Phone: <a href="tel:+17192860011" style="color: var(--rose); text-decoration: none; font-weight: 600;">(719) 286-0011</a>
-            </p>
-          </div>
-        `;
+        if (err.fixable) {
+          status.textContent = err.message;
+        } else {
+          status.innerHTML = FALLBACK;
+        }
       }
       console.error('Form submission error:', err);
     } finally {
