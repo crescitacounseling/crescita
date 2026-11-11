@@ -32,6 +32,8 @@ AUTHORS = {
                       'Ebony works with teens and adults on anxiety, depression, trauma, grief, and ADHD.'),
     'alissa-brown': ('Alissa Brown, LPCC', '/team/alissa-brown', 'alissa-brown.webp',
                      'Alissa works with children, teens, and military-connected families.'),
+    'cameron-bice': ('Cameron Bice, LPCC', '/team/cameron-bice', 'cameron-bice.webp',
+                     'Cameron works online with teens and adults on complex trauma, substance use, and neurodivergence.'),
 }
 
 
