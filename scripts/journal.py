@@ -34,6 +34,8 @@ AUTHORS = {
                      'Alissa works with children, teens, and military-connected families.'),
     'cameron-bice': ('Cameron Bice, LPCC', '/team/cameron-bice', 'cameron-bice.webp',
                      'Cameron works online with teens and adults on complex trauma, substance use, and neurodivergence.'),
+    'adriana-falls': ('Adriana Falls', '/team/adriana-falls', 'adriana-falls.webp',
+                      'Adriana works with women, teen girls, and nonbinary clients on trauma, anxiety, and addiction recovery.'),
 }
 
 

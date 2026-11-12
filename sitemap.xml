@@ -250,4 +250,31 @@
   </url>
   <!-- journal:end -->
 
+  <url>
+    <loc>https://www.crescitacounseling.com/services/therapy-for-women</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.crescitacounseling.com/services/dbt-therapy</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.crescitacounseling.com/services/cpt-therapy</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.crescitacounseling.com/team/adriana-falls</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.crescitacounseling.com/assets/images/adriana-falls.jpg</image:loc>
+    </image:image>
+  </url>
 </urlset>
